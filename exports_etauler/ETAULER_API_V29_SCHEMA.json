@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-12T20:05:36.026533+00:00",
-  "endpoint": "https://tauler.seu-e.cat/api/edictes",
+  "at": "2026-10-12T20:06:15.257926+00:00",
+  "endpoint": "https://tauler.seu-e.cat/api/edictes?idEns=1",
   "queries": [
     {
       "query": "personal docent",
