@@ -1,0 +1,13 @@
+territori,cens_ids_2025nov_2026feb,tipus_evidencia,estat_indagacio,cobertura_certificada
+Barcelonès,17,text_pdf_indexat,11 llistats nominals 2025-11..2026-02; 17 ID corroborats,NO
+Baix Llobregat,9,oferta_o_resultat_indexats,"PDF mutable; evidència dispersa, sense enumeració completa",NO
+Vallès Occidental,2,oferta_indexada_i_resultat_indexat,"627-19/11 oferta+resultat, 507-25/11 (1) oferta; pàgines originals indexades",NO
+Lleida,3,resultats_indexats,"Convocatòries originals no recuperades, resultats curs 2025-26 indexats",NO
+Penedès,1,resultat_indexat,Guinovarda 507; anunci original pendent,NO
+Maresme - Vallès Oriental,0,cap_id_verificat,No confondre 0 troballes amb 0 ofertes,NO
+Catalunya Central,0,cap_id_verificat,No confondre 0 troballes amb 0 ofertes,NO
+Girona,0,cap_id_verificat,No confondre 0 troballes amb 0 ofertes,NO
+Tarragona,0,cap_id_verificat,No confondre 0 troballes amb 0 ofertes,NO
+Terres de l'Ebre,0,cap_id_verificat,No confondre 0 troballes amb 0 ofertes,NO
+Alt Pirineu i Aran,0,cap_id_verificat,No confondre 0 troballes amb 0 ofertes,NO
+Consorci d'Educació de Barcelona,0,cap_id_verificat,"API /pdc_rest/convocatories/ca només consulta actual, no històric exhaustiu",NO
