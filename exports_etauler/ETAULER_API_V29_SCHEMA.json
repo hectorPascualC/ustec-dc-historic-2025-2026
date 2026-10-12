@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-12T20:05:36.026533+00:00",
+  "endpoint": "https://tauler.seu-e.cat/api/edictes",
+  "queries": [
+    {
+      "query": "personal docent",
+      "state": "2",
+      "http": 400,
+      "bytes": 198
+    },
+    {
+      "query": "nomenaments",
+      "state": "2",
+      "http": 400,
+      "bytes": 198
+    },
+    {
+      "query": "informàtica",
+      "state": "2",
+      "http": 400,
+      "bytes": 198
+    },
+    {
+      "query": "difícil cobertura",
+      "state": "2",
+      "http": 400,
+      "bytes": 198
+    },
+    {
+      "query": "professorat",
+      "state": "2",
+      "http": 400,
+      "bytes": 198
+    },
+    {
+      "query": "substitucions",
+      "state": "2",
+      "http": 400,
+      "bytes": 198
+    },
+    {
+      "query": "vacants",
+      "state": "2",
+      "http": 400,
+      "bytes": 198
+    },
+    {
+      "query": "borsa docent",
+      "state": "2",
+      "http": 400,
+      "bytes": 198
+    }
+  ],
+  "warning": "Search API schemas only; never original notice content; not a historical census"
+}
