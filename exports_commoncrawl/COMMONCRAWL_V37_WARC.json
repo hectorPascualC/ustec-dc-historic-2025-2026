@@ -1,0 +1,136 @@
+{
+  "checked_utc": "2026-10-12T20:40:09.948117+00:00",
+  "collections": [
+    "CC-MAIN-2025-47",
+    "CC-MAIN-2025-51",
+    "CC-MAIN-2026-04",
+    "CC-MAIN-2026-08"
+  ],
+  "queries": [
+    {
+      "collection": "CC-MAIN-2025-47",
+      "territory": "Barcelonès",
+      "match": "exact",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "status": 502,
+      "records": [],
+      "bytes": 157,
+      "error": "non-success CDX HTTP 502"
+    },
+    {
+      "collection": "CC-MAIN-2025-47",
+      "territory": "Girona",
+      "match": "prefix",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "status": 404,
+      "records": [],
+      "bytes": 181
+    },
+    {
+      "collection": "CC-MAIN-2025-47",
+      "territory": "Catalunya Central",
+      "match": "prefix",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "status": 404,
+      "records": [],
+      "bytes": 192
+    },
+    {
+      "collection": "CC-MAIN-2025-51",
+      "territory": "Barcelonès",
+      "match": "exact",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "status": 404,
+      "records": [],
+      "bytes": 256
+    },
+    {
+      "collection": "CC-MAIN-2025-51",
+      "territory": "Girona",
+      "match": "prefix",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "status": 404,
+      "records": [],
+      "bytes": 181
+    },
+    {
+      "collection": "CC-MAIN-2025-51",
+      "territory": "Catalunya Central",
+      "match": "prefix",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "status": 404,
+      "records": [],
+      "bytes": 192
+    },
+    {
+      "collection": "CC-MAIN-2026-04",
+      "territory": "Barcelonès",
+      "match": "exact",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "status": 502,
+      "records": [],
+      "bytes": 157,
+      "error": "non-success CDX HTTP 502"
+    },
+    {
+      "collection": "CC-MAIN-2026-04",
+      "territory": "Girona",
+      "match": "prefix",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "status": 502,
+      "records": [],
+      "bytes": 157,
+      "error": "non-success CDX HTTP 502"
+    },
+    {
+      "collection": "CC-MAIN-2026-04",
+      "territory": "Catalunya Central",
+      "match": "prefix",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "status": 404,
+      "records": [],
+      "bytes": 192
+    },
+    {
+      "collection": "CC-MAIN-2026-08",
+      "territory": "Barcelonès",
+      "match": "exact",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "status": 404,
+      "records": [],
+      "bytes": 256
+    },
+    {
+      "collection": "CC-MAIN-2026-08",
+      "territory": "Girona",
+      "match": "prefix",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "status": 502,
+      "records": [],
+      "bytes": 157,
+      "error": "non-success CDX HTTP 502"
+    },
+    {
+      "collection": "CC-MAIN-2026-08",
+      "territory": "Catalunya Central",
+      "match": "prefix",
+      "target": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "status": 404,
+      "records": [],
+      "bytes": 192
+    }
+  ],
+  "queries_executed": 12,
+  "stopped_due_to_503": false,
+  "total_index_records": 0,
+  "unique_pdf_index_records": 0,
+  "warc_download_attempts": 0,
+  "verified_pdfs": 0,
+  "warc_pdfs": [],
+  "warnings": [
+    "Index CDX failures do not demonstrate no original DC offers existed.",
+    "A WARC capture timestamp is not the original publication date.",
+    "PDF specialty code mentioned somewhere in a document needs row-level verification.",
+    "Only anonymized metadata and SHA256, never PDF contents or personnel, are exported."
+  ]
+}
