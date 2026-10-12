@@ -42,6 +42,7 @@ def run(path):
     data["menu_visible_choices"]=page.evaluate("""() => [...document.querySelectorAll('button,[role=option]')].filter(e=>e.getClientRects().length).map(e=>(e.innerText||e.getAttribute('aria-label')||'').trim()).filter(t=>/actius|històric|històrics|retirats|tots/i.test(t)&&t.length<90).slice(0,16)""")
     historic=page.get_by_text("Històric",exact=True)
     data["historic_choice_found"]=historic.count()
+    data["historic_dom"]=page.evaluate("""() => [...document.querySelectorAll('body *')].filter(x=>x.childElementCount===0 && (x.textContent||'').trim()==='Històric').slice(0,4).map(x=>({self:x.outerHTML.slice(0,600),parent:x.parentElement?.outerHTML.slice(0,1250),grandparent:x.parentElement?.parentElement?.outerHTML.slice(0,1650),visible:!!x.getClientRects().length}))""")
     try:
      if historic.count():
       historic.first.click(timeout=4500)
@@ -49,6 +50,9 @@ def run(path):
       data["historic_mode_selected"]=True
      else:data["historic_mode_selected"]=False
     except Exception as ex:data["historic_mode_error"]=str(ex)[:130]
+   data["status_after_menu"]=page.locator('button[aria-label^="Estat:"]').first.get_attribute("aria-label") if page.locator('button[aria-label^="Estat:"]').count() else None
+   data["search_area_dom"]=page.locator("#search-input").evaluate("(x)=>x.parentElement?.parentElement?.outerHTML.slice(0,1800)")
+   page.keyboard.press("Escape")
    queries=["difícil cobertura","dificil cobertura","nomenaments interí","GENSEC_2526","2025/SEC","507","627","F57","F87"]
    data["searches"]=[]
    for q in queries:
@@ -57,7 +61,7 @@ def run(path):
      if q==queries[0]:
       data["search_button_disabled"]=page.locator('button[aria-label="Cercar"]').evaluate("(e)=>e.disabled")
       data["status_label_after_historic"]=page.evaluate("""() => [...document.querySelectorAll("button")].map(x=>x.getAttribute("aria-label")||"").find(x=>x.startsWith("Estat:"))||null""")
-     page.locator("#search-input").press("Enter")
+     page.locator('button[aria-label="Cercar"]').click(force=True,timeout=3000)
      page.wait_for_timeout(1700)
      d=page.evaluate("""() => {
        const text=document.body.innerText||'';
