@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-12T19:46:16.750995+00:00",
+  "run_at": "2026-10-12T19:48:13.501231+00:00",
   "target": "https://tauler.seu-e.cat/inici?idEns=1",
   "network": [
     {
@@ -240,39 +240,113 @@
   "searches": [
     {
       "query": "difícil cobertura",
-      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+      "counts": [
+        "238 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 18133
     },
     {
       "query": "dificil cobertura",
-      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+      "counts": [
+        "238 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 18133
     },
     {
       "query": "nomenaments interí",
-      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+      "counts": [
+        "238 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 18133
     },
     {
       "query": "GENSEC_2526",
-      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+      "counts": [
+        "238 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 18133
     },
     {
       "query": "2025/SEC",
-      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+      "counts": [
+        "238 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 18133
     },
     {
       "query": "507",
-      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+      "counts": [
+        "238 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 18133
     },
     {
       "query": "627",
-      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+      "counts": [
+        "238 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 18133
     },
     {
       "query": "F57",
-      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+      "counts": [
+        "238 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 18175
     },
     {
       "query": "F87",
-      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+      "counts": [
+        "238 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 18175
     }
-  ]
+  ],
+  "search_button_disabled": false,
+  "status_label_after_historic": "Estat:Actius"
 }
