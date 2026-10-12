@@ -1,0 +1,32 @@
+name: PADICAT EDUBCN — API i PDF DC V40
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/padicat_edubcn_api_files_v40.py','.github/workflows/padicat-edubcn-api-files-v40.yml']
+permissions:
+  contents: write
+jobs:
+  cdx:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'requests>=2.31,<3'
+      - name: Find archived historical EDUBCN DC API responses and PDF URL metadata
+        run: python src/padicat_edubcn_api_files_v40.py --output exports_padicat/PADICAT_EDUBCN_V40_API_PDFS.json
+      - name: Publish source metadata only
+        if: always()
+        run: |
+          if [ ! -s exports_padicat/PADICAT_EDUBCN_V40_API_PDFS.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/PADICAT_EDUBCN_V40_API_PDFS.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: PADICAT search archived EDUBCN API and PDF sources'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
