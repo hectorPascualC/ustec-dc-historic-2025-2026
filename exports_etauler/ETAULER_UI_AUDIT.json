@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-12T19:55:27.048636+00:00",
+  "run_at": "2026-10-12T19:57:49.741716+00:00",
   "target": "https://tauler.seu-e.cat/inici?idEns=1",
   "network": [
     {
@@ -53,6 +53,22 @@
     {
       "method": "POST",
       "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "GET",
+      "path": "/api/edictes/574245"
+    },
+    {
+      "method": "GET",
+      "path": "/api/classificacions"
+    },
+    {
+      "method": "GET",
+      "path": "/api/documents/c62f19fc-5592-4719-a964-88f7f3282dac/info"
     }
   ],
   "http": 200,
@@ -153,6 +169,15 @@
         "first": null
       },
       "cerca": "F87",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "difícil cobertura",
       "destacat": null,
       "state": "2"
     }
@@ -488,5 +513,23 @@
     }
   ],
   "search_button_disabled": false,
-  "status_label_after_historic": "Estat:Històric"
+  "status_label_after_historic": "Estat:Històric",
+  "candidate_meta": {
+    "article_found": true,
+    "article_count": 1,
+    "dates": [
+      "27/6/2025",
+      "31/8/2025"
+    ],
+    "contains_education": true,
+    "contains_507_627": false,
+    "length": 461,
+    "link_buttons": 1
+  },
+  "candidate_public_link": {
+    "origin": "https://tauler.seu-e.cat",
+    "path": "/detall",
+    "idEns": "1",
+    "idEdicte": "574245"
+  }
 }
