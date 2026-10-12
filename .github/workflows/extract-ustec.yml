@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/extract-ustec.yml'
       - 'src/recuperar_ustec_dc.py'
+      - 'src/diagnosticar_ustec.py'
       - 'README.md'
 
 permissions:
