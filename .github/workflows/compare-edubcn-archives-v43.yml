@@ -1,0 +1,33 @@
+name: EDUBCN — comparar JSON arxivats V43
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/compare_edubcn_archives_v43.py','.github/workflows/compare-edubcn-archives-v43.yml']
+permissions:
+  contents: write
+jobs:
+  compare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install archived JSON and PDF readers
+        run: python -m pip install 'requests>=2.31,<3' 'pymupdf>=1.24,<2'
+      - name: Compare Jan and Oct archive JSON for Nov-Feb DC and verify recovered PDFs
+        run: python src/compare_edubcn_archives_v43.py --output exports_padicat/EDUBCN_V43_ARCHIVE_COMPARISON.json
+      - name: Publish sanitized historical reconciliation
+        if: always()
+        run: |
+          if [ ! -s exports_padicat/EDUBCN_V43_ARCHIVE_COMPARISON.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/EDUBCN_V43_ARCHIVE_COMPARISON.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: compare Jan and Oct official EDUBCN captured JSON records'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
