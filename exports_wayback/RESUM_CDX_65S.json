@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-12T19:22:18.768019+00:00",
+  "reason": "Retest with 65sec CDX timeout rather than previous 18sec; 3 representative original source URLs",
+  "cases": [
+    {
+      "territori": "Barcelonès",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "checked_at": "2026-10-12T19:21:59.161000+00:00",
+      "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F.content%2Fhome%2Fdepartament%2Fserveis-territorials%2Fbarcelones%2Fpersonal-docent%2Fnomenaments-telematics%2Fdificil-cobertura%2Fsecundaria%2FBarcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Clength&from=20251101&to=20260301&collapse=digest&limit=8",
+      "status": 503,
+      "elapsed_sec": 5.2,
+      "response_bytes": 11832,
+      "message": "HTTP non-200. Not evidence of absence."
+    },
+    {
+      "territori": "Vallès Occidental",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "checked_at": "2026-10-12T19:22:06.393605+00:00",
+      "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F.content%2Fhome%2Fdepartament%2Fserveis-territorials%2Fvalles-occidental%2Fpersonal-docent%2Fnomenaments-telematics%2Fdificil-cobertura%2Fsecundaria%2FVOC-SEC-dificil-cobertura-oferta-vacants.pdf&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Clength&from=20251101&to=20260301&collapse=digest&limit=8",
+      "status": 503,
+      "elapsed_sec": 5.2,
+      "response_bytes": 11832,
+      "message": "HTTP non-200. Not evidence of absence."
+    },
+    {
+      "territori": "Maresme–Vallès Oriental",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/maresme-valles-oriental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/MVO-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "checked_at": "2026-10-12T19:22:13.565050+00:00",
+      "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F.content%2Fhome%2Fdepartament%2Fserveis-territorials%2Fmaresme-valles-oriental%2Fpersonal-docent%2Fnomenaments-telematics%2Fdificil-cobertura%2Fsecundaria%2FMVO-SEC-dificil-cobertura-oferta-vacants.pdf&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Clength&from=20251101&to=20260301&collapse=digest&limit=8",
+      "status": 503,
+      "elapsed_sec": 5.2,
+      "response_bytes": 11832,
+      "message": "HTTP non-200. Not evidence of absence."
+    }
+  ],
+  "found_capture_count": 0,
+  "verdict": "CAPTURES_ONLY_IF_VERIFIED; absence and HTTP errors are INCONCLUSIVE"
+}
