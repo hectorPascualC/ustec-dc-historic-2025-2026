@@ -26,6 +26,17 @@ def run(path):
    page=browser.new_page(viewport={"width":1365,"height":940})
    def request(q):
     u=urllib.parse.urlsplit(q.url)
+    if u.path=="/api/edictes" and q.method=="POST" and len(data.get("payloads",[]))<15:
+     try:
+      body=q.post_data_json
+      def safe(x,depth=0):
+       if depth>3:return "<deep>"
+       if isinstance(x,dict):return {str(k)[:50]:safe(v,depth+1) for k,v in list(x.items())[:20]}
+       if isinstance(x,list):return {"list_length":len(x),"first":safe(x[0],depth+1) if x else None}
+       if isinstance(x,(int,float,bool)) or x is None:return x
+       return str(x)[:45] if str(x) in ("0","1","2","3","ACTIU","HISTORIC","HITORIC","true","false","507","627","F57","F87","difícil cobertura","dificil cobertura","GENSEC_2526","2025/SEC","nomenaments interí") else "<string_redacted>"
+      data.setdefault("payloads",[]).append(safe(body))
+     except Exception as ex:data.setdefault("payloads",[]).append({"error_type":type(ex).__name__})
     if u.hostname and (u.hostname.endswith("seu-e.cat") or u.hostname.endswith("aoc.cat")):
      if len(data["network"])<70 and ("/api/" in u.path or "/rest/" in u.path or "/search" in u.path or "/anunci" in u.path or "/edicte" in u.path):
       data["network"].append({"method":q.method,"path":u.path[:180]})  # no query/body/personal data
@@ -62,6 +73,7 @@ def run(path):
     except Exception as ex:data["historic_radio_error"]=str(ex)[:190]
    page.wait_for_timeout(800)
    data["status_after_menu"]=page.locator('button[aria-label^="Estat:"]').first.get_attribute("aria-label") if page.locator('button[aria-label^="Estat:"]').count() else None
+   data["radio_current"]=page.evaluate("""() => [...document.querySelectorAll('input[name=state]')].map(x=>({value:x.value,checked:x.checked}))""")
    all_button=page.get_by_role("button",name="Veure'ls tots")
    data["show_all_button_count"]=all_button.count()
    if all_button.count():
