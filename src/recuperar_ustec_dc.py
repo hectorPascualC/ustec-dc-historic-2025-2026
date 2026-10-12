@@ -167,16 +167,11 @@ NEXT_DRAW = r"""async ({pageNum,timeout}) => {
 
 
 CHECK_UNASSIGNED = r"""() => {
- const inputs=Array.from(document.querySelectorAll('input[type=checkbox]'));
- for(const i of inputs){
-   const label=i.closest('label') || document.querySelector(`label[for="${i.id}"]`) || i.parentElement;
-   const text=(label?.textContent || '').toLowerCase();
-   if(/no\s*adjudicad/.test(text)){
-     if(!i.checked){i.click();return {found:true,changed:true,text}}
-     return {found:true,changed:false,text};
-   }
- }
- return {found:false,changed:false};
+ const button=document.querySelector('#btn-filter');
+ const label=(button?.textContent||'').trim();
+ return {found:!!button,changed:false,control_type:button?.tagName||'',
+         text:label,
+         meaning:'The button applies search value 0 to column 2, restricting to unassigned rows; no filter returns all rows'};
 }"""
 
 
