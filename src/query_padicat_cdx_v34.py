@@ -34,11 +34,12 @@ def query(name,url):
    except ValueError:
     # CDXJ lines with capture metadata are also common in PyWb archives.
     for line in r.text.splitlines():
-     if " {" not in line:continue
      try:
-      j=json.loads(line.split(" {",1)[1].join(["{",""]))
-      if isinstance(j,dict):out["captures"].append({k:j.get(k) for k in ("url","timestamp","status","mime","digest","length")})
-     except (ValueError,TypeError):pass
+      # PADICAT may serve newline-delimited JSON objects or CDXJ.
+      j=json.loads(line) if line.lstrip().startswith("{") else json.loads("{"+line.split(" {",1)[1]) if " {" in line else None
+      if isinstance(j,dict):
+       out["captures"].append({k:j.get(k) for k in ("url","original","timestamp","status","statuscode","mime","mimetype","digest","length","filename","offset")})
+     except (ValueError,TypeError,IndexError):pass
    out["capture_count"]=len(out["captures"])
  except Exception as e:out["error"]=type(e).__name__+": "+str(e)[:140]
  return out
