@@ -115,6 +115,32 @@ def run(path):
      }""")
      data["searches"].append({"query":q,**d})
     except Exception as ex:data["searches"].append({"query":q,"error":str(ex)[:130]})
+   # Resolve the sole search hit as a public edict ID; do not store names or edict prose.
+   try:
+    page.locator("#search-input").fill("difícil cobertura")
+    page.locator('button[aria-label="Cercar"]').click(force=True,timeout=3000)
+    page.wait_for_timeout(1600)
+    data["candidate_meta"]=page.evaluate("""() => {
+      const a=document.querySelector('article');
+      if(!a)return {article_found:false};
+      const text=a.innerText||'';
+      const dates=[...text.matchAll(/(?:\\b[0-3]?\\d[\\/.-][01]?\\d[\\/.-]20[0-9]{2}\\b)/g)].map(x=>x[0]);
+      return {article_found:true,article_count:document.querySelectorAll('article').length,
+              dates:dates.slice(0,8),
+              contains_education:/Educaci[oó]|Formaci[oó] Professional|professorat|nomenaments|inter[ií]ns?/i.test(text),
+              contains_507_627:/\\b(?:507|627|F57|F87)\\b/.test(text),
+              length:text.length,
+              link_buttons:a.querySelectorAll('button[role=link]').length};
+    }""")
+    links=page.locator('article button[role="link"]')
+    if links.count():
+     links.first.click(force=True,timeout=4500)
+     page.wait_for_timeout(1100)
+     u=urllib.parse.urlsplit(page.url)
+     params=urllib.parse.parse_qs(u.query)
+     data["candidate_public_link"]={"origin":"https://tauler.seu-e.cat","path":u.path,
+       "idEns":params.get("idEns",[None])[0],"idEdicte":params.get("idEdicte",[None])[0]}
+   except Exception as ex:data["candidate_meta_error"]=str(ex)[:175]
    browser.close()
  except Exception as ex:data["error"]=str(ex)[:250]
  o=Path(path);o.parent.mkdir(parents=True,exist_ok=True)
