@@ -11,7 +11,7 @@ JS="""() => ({
  title:document.title,
  url_path:location.pathname,
  inputs:[...document.querySelectorAll('input')].map(x=>({tag:x.tagName,type:x.type,placeholder:x.placeholder,name:x.name,aria:x.getAttribute('aria-label'),id:x.id})).slice(0,55),
- buttons:[...document.querySelectorAll('button,[role=button]')].map(x=>({text:(x.innerText||x.getAttribute('aria-label')||'').trim().slice(0,70),aria:x.getAttribute('aria-label'),type:x.type})).slice(0,60),
+ buttons:[...document.querySelectorAll('button,[role=button]')].filter(x=>!x.closest('article')).map(x=>({text:(x.innerText||x.getAttribute('aria-label')||'').trim().slice(0,70),aria:x.getAttribute('aria-label'),type:x.type})).slice(0,60),
  selects:[...document.querySelectorAll('select')].map(x=>({id:x.id,options:[...x.options].map(y=>({label:y.textContent.trim().slice(0,65),value:y.value})).slice(0,40)})).slice(0,20),
  scripts:[...document.scripts].map(x=>x.getAttribute('src')).filter(Boolean).map(x=>new URL(x,location.href).pathname).slice(0,20),
  filters:[...document.querySelectorAll('a')].map(x=>({label:(x.innerText||'').trim().slice(0,60),path:(()=>{try{return new URL(x.href,location.href).pathname}catch(e){return ''}})()})).filter(x=>/cerca|filtr|hist|anunc|educaci/i.test(x.label)).slice(0,40),
