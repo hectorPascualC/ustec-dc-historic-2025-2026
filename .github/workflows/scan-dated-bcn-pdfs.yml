@@ -1,0 +1,47 @@
+name: Recuperar PDF originals DC Barcelones 2025-26
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/scan_fixed_bcn_pdfs.py'
+      - '.github/workflows/scan-dated-bcn-pdfs.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: official-bco-history
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF text extraction
+        run: python -m pip install 'pymupdf>=1.24,<2'
+      - name: Validate extraction logic
+        run: python src/scan_fixed_bcn_pdfs.py --test
+      - name: Extract 17 dated historical official PDF batches
+        run: python src/scan_fixed_bcn_pdfs.py --output exports_bco
+      - name: Publish evidence and completeness audit
+        if: always()
+        run: |
+          if [ ! -s exports_bco/BCO_AUDITORIA.json ]; then
+            echo "Audit absent; nothing published"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_bco/*.json exports_bco/*.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "data: audit dated official BCO DC PDFs (no applicant data)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
