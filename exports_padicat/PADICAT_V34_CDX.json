@@ -1,5 +1,5 @@
 {
-  "at_utc": "2026-10-12T20:26:40.387351+00:00",
+  "at_utc": "2026-10-12T20:27:54.245768+00:00",
   "source": "PADICAT public CDX (endpoint externally documented; not invented)",
   "cases": [
     {
@@ -37,8 +37,61 @@
       "original_url": "https://efes.cat",
       "endpoint": "https://wayback.padicat.cat/cdx",
       "http": 200,
-      "capture_count": 0,
-      "captures": [],
+      "capture_count": 4,
+      "captures": [
+        {
+          "url": null,
+          "original": null,
+          "timestamp": "20251123074854",
+          "status": null,
+          "statuscode": null,
+          "mime": null,
+          "mimetype": null,
+          "digest": "SHA25673E7B77AD25B2A4E6E7F27D65CC3DBB5DDEA7E5FECADEC2A53",
+          "length": "7353",
+          "filename": null,
+          "offset": null
+        },
+        {
+          "url": null,
+          "original": null,
+          "timestamp": "20260220030151",
+          "status": null,
+          "statuscode": null,
+          "mime": null,
+          "mimetype": null,
+          "digest": "SHA256C5EA73DB75BF35DBEFB722BEAFFDF6DC23A42B64475E6B52YA",
+          "length": "7121",
+          "filename": null,
+          "offset": null
+        },
+        {
+          "url": null,
+          "original": null,
+          "timestamp": "20260220030444",
+          "status": null,
+          "statuscode": null,
+          "mime": null,
+          "mimetype": null,
+          "digest": "SHA256E3BC442FCC4AFBF4C6FB2427AE4E464B34CA45B752B4AAAAAA",
+          "length": "530",
+          "filename": null,
+          "offset": null
+        },
+        {
+          "url": null,
+          "original": null,
+          "timestamp": "20261005012352",
+          "status": null,
+          "statuscode": null,
+          "mime": null,
+          "mimetype": null,
+          "digest": "SHA256EEABD674735365F3B232A77EC3FBC7B5EAEA3DFB3DBC77E3BC75BAAAAA",
+          "length": "7351",
+          "filename": null,
+          "offset": null
+        }
+      ],
       "content_type": "text/x-ndjson",
       "bytes": 487
     },
