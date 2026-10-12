@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-12T19:57:49.741716+00:00",
+  "run_at": "2026-10-12T20:00:47.111856+00:00",
   "target": "https://tauler.seu-e.cat/inici?idEns=1",
   "network": [
     {
@@ -252,131 +252,6 @@
         "type": "button"
       },
       {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Acord de la 2a reunió de la Junta de Mèrits i Capacitats del concurs e",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "ANUNCI d'informació pública de l'estudi d’avaluació de la mobilitat ge",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "ANUNCI de notificació de la resolució dels ajuts destinats a pescadors",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "ANUNCI de notificació de la resolució dels ajuts destinats a armadors ",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Resolució de concessió de subvencions per a la revitalització comercia",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Acord de la 2a reunió de la Junta de Mèrits i Capacitats del concurs e",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Resolució d’inadmissió de les sol·licituds de subvencions per a la rev",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Modificació de la Resolució de 20 de juliol de 2026, per la qual es de",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Resolució per la qual s’assignen dotacions de suport intensiu a l’esco",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "RESOLUCIÓ de concessió de subvencions per a l'adquisició, la instal·la",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Resolució CLT/3409/2026, de 18 de setembre, de convocatòria per a la p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Resolució provisional de concessió de l'ajut mínimis a l'adquisició de",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Resolució provisional de concessió de l'ajut en règim d'exempció a l'a",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Resolució d’inadmissió i desistiment de l'ajut en règim d'exempció a l",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Resolució d’inadmissió i desistiment de l'ajut de mínimis a l'adquisic",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
-        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
-        "aria": null,
-        "type": "submit"
-      },
-      {
         "text": "close",
         "aria": "Tancar",
         "type": "button"
@@ -489,7 +364,7 @@
       "hits_education": 0,
       "hits_difficult": 0,
       "page_url_path": "/inici",
-      "text_chars": 314
+      "text_chars": 356
     },
     {
       "query": "F57",
