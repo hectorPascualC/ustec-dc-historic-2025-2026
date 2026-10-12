@@ -1,0 +1,156 @@
+{
+  "as_of": "2026-10-12T19:09:19.266010+00:00",
+  "scope": "2025-11-01..2026-02-28; public DC offers 507 627 F57 F87",
+  "territorial_areas": 12,
+  "pages_consulted": 28,
+  "pages_http_200": 28,
+  "pdf_links_discovered": 32,
+  "pdf_requested": 32,
+  "pdf_accessible": 32,
+  "pdf_potential_old_relevance": 0,
+  "area_results": [
+    {
+      "territori": "Alt Pirineu i Aran",
+      "pagines_consultades": 5,
+      "pagines_http_200": 5,
+      "pdf_enllacos_trobats": 6,
+      "pdf_consultats": 6,
+      "pdf_accessibles": 6,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Baix Llobregat",
+      "pagines_consultades": 2,
+      "pagines_http_200": 2,
+      "pdf_enllacos_trobats": 2,
+      "pdf_consultats": 2,
+      "pdf_accessibles": 2,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Barcelonès",
+      "pagines_consultades": 3,
+      "pagines_http_200": 3,
+      "pdf_enllacos_trobats": 4,
+      "pdf_consultats": 4,
+      "pdf_accessibles": 4,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Catalunya Central",
+      "pagines_consultades": 2,
+      "pagines_http_200": 2,
+      "pdf_enllacos_trobats": 2,
+      "pdf_consultats": 2,
+      "pdf_accessibles": 2,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Girona",
+      "pagines_consultades": 2,
+      "pagines_http_200": 2,
+      "pdf_enllacos_trobats": 2,
+      "pdf_consultats": 2,
+      "pdf_accessibles": 2,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Lleida",
+      "pagines_consultades": 3,
+      "pagines_http_200": 3,
+      "pdf_enllacos_trobats": 4,
+      "pdf_consultats": 4,
+      "pdf_accessibles": 4,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Maresme–Vallès Oriental",
+      "pagines_consultades": 2,
+      "pagines_http_200": 2,
+      "pdf_enllacos_trobats": 2,
+      "pdf_consultats": 2,
+      "pdf_accessibles": 2,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Penedès",
+      "pagines_consultades": 2,
+      "pagines_http_200": 2,
+      "pdf_enllacos_trobats": 2,
+      "pdf_consultats": 2,
+      "pdf_accessibles": 2,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Tarragona",
+      "pagines_consultades": 2,
+      "pagines_http_200": 2,
+      "pdf_enllacos_trobats": 4,
+      "pdf_consultats": 4,
+      "pdf_accessibles": 4,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Terres de l'Ebre",
+      "pagines_consultades": 2,
+      "pagines_http_200": 2,
+      "pdf_enllacos_trobats": 2,
+      "pdf_consultats": 2,
+      "pdf_accessibles": 2,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Vallès Occidental",
+      "pagines_consultades": 2,
+      "pagines_http_200": 2,
+      "pdf_enllacos_trobats": 2,
+      "pdf_consultats": 2,
+      "pdf_accessibles": 2,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    },
+    {
+      "territori": "Consorci d'Educació de Barcelona",
+      "pagines_consultades": 1,
+      "pagines_http_200": 1,
+      "pdf_enllacos_trobats": 0,
+      "pdf_consultats": 0,
+      "pdf_accessibles": 0,
+      "pdf_indicis_2526": 0,
+      "pdf_indicis_507_627_F57_F87_amb_dates": 0,
+      "exhaustiu": "NO"
+    }
+  ],
+  "old_publications_certified": 0,
+  "new_unique_ids_certified": 0,
+  "warnings": [
+    "This is a public-source inventory, not a historic census.",
+    "Most live PDF documents may have changed to course 2026-2027.",
+    "Co-occurrence of code and target-period date in same PDF does not prove same job posting.",
+    "A missing current offer does not imply historical zero.",
+    "Only vacancy metadata/keyword counts were saved; applicant identities suppressed.",
+    "PFI sources are included only when linked/discoverable; not exhaustive."
+  ],
+  "verdict": "PASS 12-area live source coverage / FAIL historical completeness"
+}
