@@ -1,0 +1,1098 @@
+{
+  "run_at": "2026-10-12T20:03:13.887908+00:00",
+  "target": "https://tauler.seu-e.cat/inici?idEns=1",
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/ens/1"
+    },
+    {
+      "method": "GET",
+      "path": "/api/classificacions"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    }
+  ],
+  "http": 200,
+  "payloads": [
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": true,
+      "state": "1"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": true,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": null,
+      "state": "2"
+    }
+  ],
+  "ui": {
+    "title": "e-TAULER - Generalitat de Catalunya",
+    "url_path": "/inici",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "Buscar edictes i anuncis per paraula clau o expedient",
+        "name": "search-bar",
+        "aria": "Buscar edictes i anuncis per paraula clau o expedient",
+        "id": "search-input"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "CA",
+        "aria": "Català (Selecció d'idioma)",
+        "type": "button"
+      },
+      {
+        "text": "Subscripció RSS",
+        "aria": null,
+        "type": "button"
+      },
+      {
+        "text": "Cercar",
+        "aria": "Cercar",
+        "type": "submit"
+      },
+      {
+        "text": "Actius",
+        "aria": "Estat:Actius",
+        "type": "button"
+      },
+      {
+        "text": "Categoria:",
+        "aria": "Categoria: ",
+        "type": "button"
+      },
+      {
+        "text": "buttons.toggle",
+        "aria": "buttons.toggle",
+        "type": "button"
+      },
+      {
+        "text": "Organisme publicador:",
+        "aria": "Organisme publicador: ",
+        "type": "button"
+      },
+      {
+        "text": "buttons.toggle",
+        "aria": "buttons.toggle",
+        "type": "button"
+      },
+      {
+        "text": "Destacats",
+        "aria": null,
+        "type": "button"
+      },
+      {
+        "text": "Data publicació",
+        "aria": "Data publicació",
+        "type": "button"
+      },
+      {
+        "text": "Veure'ls tots",
+        "aria": null,
+        "type": "button"
+      },
+      {
+        "text": "close",
+        "aria": "Tancar",
+        "type": "button"
+      }
+    ],
+    "selects": [],
+    "scripts": [
+      "/c/hotjar-227224.js",
+      "/gtag/js",
+      "/gtm.js",
+      "/ruxitagentjs_ICA15789NPRTUVXfqrux_10345260810170330.js",
+      "/assets/index-58a92dde.js"
+    ],
+    "filters": [],
+    "hasOld": false,
+    "countMatches": [
+      "238 anuncis"
+    ]
+  },
+  "status_filter_found": 1,
+  "menu_visible_choices": [
+    "Actius",
+    "Veure'ls tots"
+  ],
+  "historic_choice_found": 1,
+  "historic_dom": [
+    {
+      "self": "<span class=\"MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ytvf2y\">Històric</span>",
+      "parent": "<label class=\"MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-1tuw01h\"><span class=\"MuiButtonBase-root MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-root MuiRadio-root MuiRadio-colorPrimary MuiRadio-root MuiRadio-colorPrimary css-1xapck7\"><input class=\"PrivateSwitchBase-input css-1m9pwf3\" name=\"state\" type=\"radio\" value=\"2\"><span class=\"css-hyxlzm\"><svg class=\"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q8lw68\" focusable=\"false\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" data-testid=\"RadioButtonUncheckedIcon\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z\"></path></svg><svg class=\"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1c4tzn\" focusable=\"false\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" data-testid=\"RadioButtonCheckedIcon\"><path d=\"M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z\"></path></svg></span></span><span class=\"MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ytvf2y\">Històric</span></label>",
+      "grandparent": "<div class=\"MuiFormGroup-root css-jqsi4b\" role=\"radiogroup\" aria-label=\"Estat\" id=\"state\"><label class=\"MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-1tuw01h\"><span class=\"MuiButtonBase-root MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-root MuiRadio-root MuiRadio-colorPrimary MuiRadio-root MuiRadio-colorPrimary css-1xapck7\"><input class=\"PrivateSwitchBase-input css-1m9pwf3\" name=\"state\" type=\"radio\" value=\"0\"><span class=\"css-hyxlzm\"><svg class=\"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q8lw68\" focusable=\"false\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" data-testid=\"RadioButtonUncheckedIcon\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z\"></path></svg><svg class=\"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1c4tzn\" focusable=\"false\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" data-testid=\"RadioButtonCheckedIcon\"><path d=\"M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z\"></path></svg></span></span><span class=\"MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ytvf2y\">Tots</span></label><label class=\"MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-1tuw01h\"><span class=\"MuiButtonBase-root MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-root MuiRadio-root MuiRadio-colorPrimary Mui-checked MuiRadio-root MuiRadio-colorPrimary css-1xapck7\"><input class=\"PrivateSwitchBase-input css-1m9pwf3\" name=\"state\" type=\"radio\" value=\"1\" checked=\"\"><span class=\"css-h",
+      "visible": true
+    }
+  ],
+  "historic_mode_selected": true,
+  "historic_radio_checked": true,
+  "apply_buttons_found": 1,
+  "historic_applied_via_dialog": true,
+  "status_after_menu": "Estat:Històric",
+  "radio_current": [],
+  "show_all_button_count": 0,
+  "search_area_dom": "<div class=\"MuiFormControl-root MuiTextField-root css-i44wyl\"><div class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-9t0go7\"><input aria-invalid=\"false\" id=\"search-input\" name=\"search-bar\" placeholder=\"Buscar edictes i anuncis per paraula clau o expedient\" type=\"text\" aria-label=\"Buscar edictes i anuncis per paraula clau o expedient\" class=\"MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-7ip6co\" value=\"\"><button class=\"MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1w4scp2\" tabindex=\"0\" type=\"submit\" aria-label=\"Cercar\"><svg class=\"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-1ql5b8g\" focusable=\"false\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" data-testid=\"SearchIcon\"><path d=\"M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></button><fieldset aria-hidden=\"true\" class=\"MuiOutlinedInput-notchedOutline css-igs3ac\"><legend class=\"css-ihdtdm\"><span class=\"notranslate\">​</span></legend></fieldset></div></div>",
+  "searches": [
+    {
+      "query": "professorat",
+      "counts": [],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 17977,
+      "article_count": 25,
+      "article_metadata": [
+        {
+          "dates": [
+            "9/10/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "8/10/2026",
+            "16/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "8/10/2026",
+            "6/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "7/10/2026",
+            "30/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "7/10/2026",
+            "30/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "6/10/2026",
+            "6/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "5/10/2026",
+            "14/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "2/10/2026",
+            "3/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        }
+      ]
+    },
+    {
+      "query": "professorat interí",
+      "counts": [],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 6,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 17977,
+      "article_count": 25,
+      "article_metadata": [
+        {
+          "dates": [
+            "9/10/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "8/10/2026",
+            "16/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "8/10/2026",
+            "6/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "7/10/2026",
+            "30/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "7/10/2026",
+            "30/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "6/10/2026",
+            "6/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "5/10/2026",
+            "14/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "2/10/2026",
+            "3/11/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        }
+      ]
+    },
+    {
+      "query": "personal docent",
+      "counts": [
+        "20 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 39,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 14847,
+      "article_count": 20,
+      "article_metadata": [
+        {
+          "dates": [
+            "16/2/2026",
+            "13/3/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "10/2/2026",
+            "9/3/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "9/12/2025",
+            "9/1/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "2/10/2024",
+            "13/11/2024"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "23/9/2024",
+            "4/11/2024"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "2/7/2024",
+            "2/7/2025"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "6/6/2024",
+            "1/8/2024"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "6/5/2024",
+            "31/5/2024"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        }
+      ]
+    },
+    {
+      "query": "borsa docent",
+      "counts": [],
+      "has2025": false,
+      "has2026": true,
+      "hits_education": 0,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 334,
+      "article_count": 0,
+      "article_metadata": []
+    },
+    {
+      "query": "borsa de treball docent",
+      "counts": [],
+      "has2025": false,
+      "has2026": true,
+      "hits_education": 0,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 334,
+      "article_count": 0,
+      "article_metadata": []
+    },
+    {
+      "query": "substitucions",
+      "counts": [],
+      "has2025": false,
+      "has2026": true,
+      "hits_education": 0,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 314,
+      "article_count": 0,
+      "article_metadata": []
+    },
+    {
+      "query": "vacants",
+      "counts": [],
+      "has2025": false,
+      "has2026": true,
+      "hits_education": 0,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 314,
+      "article_count": 0,
+      "article_metadata": []
+    },
+    {
+      "query": "formació professional",
+      "counts": [],
+      "has2025": false,
+      "has2026": true,
+      "hits_education": 0,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 356,
+      "article_count": 0,
+      "article_metadata": []
+    },
+    {
+      "query": "sistemes informàtics",
+      "counts": [],
+      "has2025": false,
+      "has2026": true,
+      "hits_education": 0,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 376,
+      "article_count": 0,
+      "article_metadata": []
+    },
+    {
+      "query": "informàtica",
+      "counts": [
+        "14 anuncis"
+      ],
+      "has2025": false,
+      "has2026": true,
+      "hits_education": 1,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 6498,
+      "article_count": 14,
+      "article_metadata": [
+        {
+          "dates": [
+            "14/7/2026",
+            "10/8/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "11/6/2026",
+            "9/7/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "2/11/2021",
+            "16/11/2021"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "9/12/2020",
+            "8/1/2021"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "17/12/2019",
+            "17/1/2020"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "17/12/2019",
+            "17/1/2020"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "17/12/2019",
+            "17/1/2020"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "3/12/2019",
+            "3/1/2020"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        }
+      ]
+    },
+    {
+      "query": "cobertura",
+      "counts": [],
+      "has2025": false,
+      "has2026": true,
+      "hits_education": 1,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 6486,
+      "article_count": 14,
+      "article_metadata": [
+        {
+          "dates": [
+            "14/7/2026",
+            "10/8/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "11/6/2026",
+            "9/7/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "2/11/2021",
+            "16/11/2021"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "9/12/2020",
+            "8/1/2021"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "17/12/2019",
+            "17/1/2020"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "17/12/2019",
+            "17/1/2020"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "17/12/2019",
+            "17/1/2020"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "3/12/2019",
+            "3/1/2020"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        }
+      ]
+    },
+    {
+      "query": "dificil",
+      "counts": [],
+      "has2025": false,
+      "has2026": true,
+      "hits_education": 0,
+      "hits_difficult": 0,
+      "page_url_path": "/inici",
+      "text_chars": 376,
+      "article_count": 0,
+      "article_metadata": []
+    },
+    {
+      "query": "difícil",
+      "counts": [
+        "1 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 4,
+      "hits_difficult": 2,
+      "page_url_path": "/inici",
+      "text_chars": 842,
+      "article_count": 1,
+      "article_metadata": [
+        {
+          "dates": [
+            "27/6/2025",
+            "31/8/2025"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": true
+        }
+      ]
+    },
+    {
+      "query": "interinitat",
+      "counts": [],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 4,
+      "hits_difficult": 2,
+      "page_url_path": "/inici",
+      "text_chars": 831,
+      "article_count": 1,
+      "article_metadata": [
+        {
+          "dates": [
+            "27/6/2025",
+            "31/8/2025"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": true
+        }
+      ]
+    },
+    {
+      "query": "nomenaments",
+      "counts": [
+        "16 anuncis"
+      ],
+      "has2025": true,
+      "has2026": true,
+      "hits_education": 4,
+      "hits_difficult": 2,
+      "page_url_path": "/inici",
+      "text_chars": 7370,
+      "article_count": 16,
+      "article_metadata": [
+        {
+          "dates": [
+            "8/10/2025",
+            "8/4/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "6/10/2025",
+            "6/4/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "16/9/2025",
+            "16/3/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "1/8/2025",
+            "1/2/2026"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "27/6/2025",
+            "31/8/2025"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": true
+        },
+        {
+          "dates": [
+            "27/5/2025",
+            "27/11/2025"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "27.02.2025",
+            "22/5/2025",
+            "22/11/2025"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        },
+        {
+          "dates": [
+            "19/5/2025",
+            "19/11/2025"
+          ],
+          "has_507": false,
+          "has_627": false,
+          "has_F57": false,
+          "has_F87": false,
+          "has_DC": false
+        }
+      ]
+    }
+  ],
+  "search_button_disabled": false,
+  "status_label_after_historic": "Estat:Històric"
+}
