@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-12T18:38:03.589869+00:00",
+  "search": "Barcelones official, 17 Fridays 2025-11-07..2026-02-27, 4 spelling variants",
+  "baseline_file": "cens/HISTORIC_DC_507_627_F57_F87_NOV2025_FEB2026_V20_31IDS.csv",
+  "baseline_ids": 31,
+  "attempts": 68,
+  "downloaded_official_pdfs": 0,
+  "documents": [],
+  "sightings": 0,
+  "distinct_target_ids": 0,
+  "new_ids": [],
+  "distinct_new_ids": 0,
+  "current_coverage_certified": false,
+  "cautions": [
+    "Only dated nominal PDFs directly downloaded from an official web host were counted.",
+    "Date in PDF filename does NOT certify timestamp of web publication.",
+    "The PDF archive can lack all vacancies for a week; 404 does not mean none.",
+    "Other territories require independent audit.",
+    "No applicant details are retained."
+  ]
+}
