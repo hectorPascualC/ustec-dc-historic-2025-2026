@@ -101,7 +101,7 @@ def run(outdir):
  todo=[]
  for place,slug in TERRITORIES:
   base=ROOT+"/"+slug+URL_SUFFIX
-  todo.extend([(place,slug,"secundaria",base+"/secundaria/"),(place,slug,"arrel_dc",base+"/")])
+  todo.extend([(place,slug,"secundaria",base+"/secundaria/"),(place,slug,"arrel_dc",base+"/"),(place,slug,"menu_nomenaments",ROOT+"/"+slug+"/personal-docent/nomenaments-telematics/")])
  for place,slug,url in EXTRA:todo.append((place,slug,"EDUBCN",url))
  with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
   pages=list(pool.map(task,todo))
@@ -109,9 +109,9 @@ def run(outdir):
  pfi=[]
  slugs=dict(TERRITORIES)
  for p in pages:
-  if p["tipus_pagina"] not in ("arrel_dc",):continue
+  if p["tipus_pagina"] not in ("arrel_dc","menu_nomenaments"):continue
   for l in p.get("links",[]):
-   if any(k in (l["text"]+" "+l["url"]).lower() for k in ["pfi","ptt","ife"]):
+   if "/nomenaments-telematics/dificil-cobertura/" in l["url"].lower() and any(k in (l["text"]+" "+l["url"]).lower() for k in ["pfi","ptt","ife"]):
     u=l["url"]
     if any(u.lower().endswith(x) for x in [".pdf",".docx"]):continue
     if u not in [x[3] for x in pfi]:pfi.append((p["territori"],slugs.get(p["territori"],""),"pfi_discover",u))
@@ -121,12 +121,12 @@ def run(outdir):
  for p in pages:
   for l in p.get("links",[]):
    u=l["url"]
-   if (".pdf" in u.lower()) and u not in candidates:
+   if (".pdf" in u.lower()) and ("/dificil-cobertura/" in u.lower() or "/pfi-" in u.lower()) and u not in candidates:
     candidates[u]=(p["territori"],p["tipus_pagina"],l["text"],u)
  # Cap to 7 PDFs per jurisdiction for a low-impact probe. Split into target territory groups.
  pgroup={}
  for x in candidates.values():pgroup.setdefault(x[0],[]).append(x)
- jobs=[x for group in pgroup.values() for x in group[:7]]
+ jobs=[x for group in pgroup.values() for x in group[:12]]
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:documents=list(pool.map(pdf_task,jobs))
  def wr(name,cols,records):
   with (out/name).open("w",newline="",encoding="utf-8") as f:
