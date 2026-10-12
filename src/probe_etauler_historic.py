@@ -34,6 +34,40 @@ def run(path):
    data["http"]=resp.status if resp else None
    page.wait_for_timeout(3500)
    data["ui"]=page.evaluate(JS)
+   menu=page.locator('button[aria-label="Estat:Actius"]')
+   data["status_filter_found"]=menu.count()
+   if menu.count():
+    menu.click()
+    page.wait_for_timeout(350)
+    data["menu_visible_choices"]=page.evaluate("""() => [...document.querySelectorAll('button,[role=option]')].filter(e=>e.getClientRects().length).map(e=>(e.innerText||e.getAttribute('aria-label')||'').trim()).filter(t=>/actius|històric|històrics|retirats|tots/i.test(t)&&t.length<90).slice(0,16)""")
+    historic=page.get_by_text("Històric",exact=True)
+    data["historic_choice_found"]=historic.count()
+    try:
+     if historic.count():
+      historic.first.click(timeout=4500)
+      page.wait_for_timeout(1200)
+      data["historic_mode_selected"]=True
+     else:data["historic_mode_selected"]=False
+    except Exception as ex:data["historic_mode_error"]=str(ex)[:130]
+   queries=["difícil cobertura","dificil cobertura","nomenaments interí","GENSEC_2526","2025/SEC","507","627","F57","F87"]
+   data["searches"]=[]
+   for q in queries:
+    try:
+     page.locator("#search-input").fill(q)
+     page.locator('button[aria-label="Cercar"]').click(timeout=3500)
+     page.wait_for_timeout(1100)
+     d=page.evaluate("""() => {
+       const text=document.body.innerText||'';
+       return {counts:[...text.matchAll(/(?:\\d[\\d.,]*\\s+anuncis)/gi)].map(x=>x[0]).slice(0,5),
+       has2025:/2025/.test(text),has2026:/2026/.test(text),
+       hits_education:(text.match(/Educació|Formació Professional/gi)||[]).length,
+       hits_difficult:(text.match(/dif[ií]cil cobertura/gi)||[]).length,
+       page_url_path:location.pathname,
+       text_chars:text.length
+       }
+     }""")
+     data["searches"].append({"query":q,**d})
+    except Exception as ex:data["searches"].append({"query":q,"error":str(ex)[:130]})
    browser.close()
  except Exception as ex:data["error"]=str(ex)[:250]
  o=Path(path);o.parent.mkdir(parents=True,exist_ok=True)
