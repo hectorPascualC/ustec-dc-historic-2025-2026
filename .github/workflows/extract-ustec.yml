@@ -62,5 +62,6 @@ jobs:
           git add exports/
           if ! git diff --cached --quiet; then
             git commit -m "data: publish anonymized USTEC historical extraction"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
