@@ -1,0 +1,127 @@
+{
+  "checked_utc": "2026-10-12T20:41:56.933879+00:00",
+  "capture_at": "2026-01-29T22:46:29Z",
+  "capture_date_is_not_publication_date": true,
+  "original": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+  "attempts": [
+    {
+      "type": "documented_rewritten",
+      "url": "https://wayback.padicat.cat/wayback/20260129224629/https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "http": 404,
+      "content_type": "text/html",
+      "redirects": 0,
+      "final_host": "wayback.padicat.cat",
+      "bytes": 1451,
+      "pdf_magic": false,
+      "is_html": true,
+      "source_flags": {
+        "mentions_507": false,
+        "mentions_627": false,
+        "mentions_F57": false,
+        "mentions_F87": false,
+        "mentions_GENSEC2526": false,
+        "mentions_DC": false,
+        "mentions_Angular": false,
+        "mentions_2025_26": false,
+        "script_count": 4
+      }
+    },
+    {
+      "type": "documented_raw",
+      "url": "https://wayback.padicat.cat/wayback/20260129224629id_/https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "http": 404,
+      "content_type": "text/html",
+      "redirects": 0,
+      "final_host": "wayback.padicat.cat",
+      "bytes": 1454,
+      "pdf_magic": false,
+      "is_html": true,
+      "source_flags": {
+        "mentions_507": false,
+        "mentions_627": false,
+        "mentions_F57": false,
+        "mentions_F87": false,
+        "mentions_GENSEC2526": false,
+        "mentions_DC": false,
+        "mentions_Angular": false,
+        "mentions_2025_26": false,
+        "script_count": 4
+      }
+    },
+    {
+      "type": "historic_external_raw",
+      "url": "https://wayback.padicat.cat/20260129224629id_/https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "redirects": 0,
+      "final_host": "wayback.padicat.cat",
+      "bytes": 117758,
+      "sha256": "7238f2109786ba37bcb16c6adb57fa1f79e54f18f5a7a07910c43922b485c4e7",
+      "pdf_magic": false,
+      "is_html": true,
+      "source_flags": {
+        "mentions_507": false,
+        "mentions_627": false,
+        "mentions_F57": false,
+        "mentions_F87": false,
+        "mentions_GENSEC2526": false,
+        "mentions_DC": true,
+        "mentions_Angular": true,
+        "mentions_2025_26": true,
+        "script_count": 14
+      }
+    },
+    {
+      "type": "localized_rewritten",
+      "url": "https://wayback.padicat.cat/ca/wayback/20260129224629/https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "http": 404,
+      "content_type": "text/html",
+      "redirects": 0,
+      "final_host": "wayback.padicat.cat",
+      "bytes": 1451,
+      "pdf_magic": false,
+      "is_html": true,
+      "source_flags": {
+        "mentions_507": false,
+        "mentions_627": false,
+        "mentions_F57": false,
+        "mentions_F87": false,
+        "mentions_GENSEC2526": false,
+        "mentions_DC": false,
+        "mentions_Angular": false,
+        "mentions_2025_26": false,
+        "script_count": 4
+      }
+    },
+    {
+      "type": "localized_raw",
+      "url": "https://wayback.padicat.cat/ca/wayback/20260129224629id_/https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "http": 404,
+      "content_type": "text/html",
+      "redirects": 0,
+      "final_host": "wayback.padicat.cat",
+      "bytes": 1454,
+      "pdf_magic": false,
+      "is_html": true,
+      "source_flags": {
+        "mentions_507": false,
+        "mentions_627": false,
+        "mentions_F57": false,
+        "mentions_F87": false,
+        "mentions_GENSEC2526": false,
+        "mentions_DC": false,
+        "mentions_Angular": false,
+        "mentions_2025_26": false,
+        "script_count": 4
+      }
+    }
+  ],
+  "genuine_historic_html_copies": 1,
+  "archive_metadata_is_not_offer": true,
+  "technical_reference": "https://github.com/webrecorder/public-web-archives/blob/main/webarchives/cat_wa.yaml",
+  "warnings": [
+    "A 404 replay may indicate archive access limitations, not absent capture.",
+    "Even if the 2026-01-29 HTML is recovered, the JavaScript frontend may fetch 2026 current API data.",
+    "No applicant names, PDF bodies or personal data are stored."
+  ]
+}
