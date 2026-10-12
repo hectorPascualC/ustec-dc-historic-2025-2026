@@ -1,0 +1,32 @@
+name: PADICAT EDUBCN — replay 29 gener 2026 V39
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/padicat_edubcn_playback_v39.py','.github/workflows/padicat-edubcn-playback-v39.yml']
+permissions:
+  contents: write
+jobs:
+  playback:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'requests>=2.31,<3'
+      - name: Try five documented/public variants of January archived HTML URL
+        run: python src/padicat_edubcn_playback_v39.py --output exports_padicat/PADICAT_EDUBCN_V39_PLAYBACK.json
+      - name: Publish validated archival response metadata
+        if: always()
+        run: |
+          if [ ! -s exports_padicat/PADICAT_EDUBCN_V39_PLAYBACK.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/PADICAT_EDUBCN_V39_PLAYBACK.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: attempt original 2026-01 PADICAT HTML replay methods'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
