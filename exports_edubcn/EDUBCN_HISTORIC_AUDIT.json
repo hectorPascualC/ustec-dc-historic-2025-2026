@@ -1,0 +1,643 @@
+{
+  "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+  "run_at": "2026-10-12T18:15:00.748638+00:00",
+  "mode": "read-only; no personal names",
+  "dom_initial": {
+    "title": "Convocatòries de difícil cobertura",
+    "final_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#!/cerca",
+    "body_text_chars": 21597,
+    "links_count": 539,
+    "gensec_visible": [
+      "GENSEC_2627_185",
+      "GENSEC_2627_184",
+      "GENSEC_2627_182",
+      "GENSEC_2627_183",
+      "GENSEC_2627_181",
+      "GENSEC_2627_180",
+      "GENSEC_2627_179",
+      "GENSEC_2627_160",
+      "GENSEC_2627_177",
+      "GENSEC_2627_178",
+      "GENSEC_2627_173",
+      "GENSEC_2627_176",
+      "GENSEC_2627_171",
+      "GENSEC_2627_175",
+      "GENSEC_2627_174",
+      "GENSEC_2627_172",
+      "GENSEC_2627_170",
+      "GENSEC_2627_169",
+      "GENSEC_2627_168",
+      "GENSEC_2627_167",
+      "GENSEC_2627_166",
+      "GENSEC_2627_165",
+      "GENSEC_2627_164",
+      "GENSEC_2627_162",
+      "GENSEC_2627_163",
+      "GENSEC_2627_152",
+      "GENSEC_2627_158",
+      "GENSEC_2627_157",
+      "GENSEC_2627_156",
+      "GENSEC_2627_155",
+      "GENSEC_2627_154",
+      "GENSEC_2627_153",
+      "GENSEC_2627_147",
+      "GENSEC_2627_146",
+      "GENSEC_2627_143",
+      "GENSEC_2627_142",
+      "GENSEC_2627_141",
+      "GENSEC_2627_140",
+      "GENSEC_2627_139",
+      "GENSEC_2627_135",
+      "GENSEC_2627_134",
+      "GENSEC_2627_133",
+      "GENSEC_2627_124",
+      "GENSEC_2627_109",
+      "GENSEC_2627_018",
+      "GENSEC_2627_108",
+      "GENSEC_2627_015",
+      "GENSEC_2627_010",
+      "GENSEC_2627_006",
+      "GENSEC_2627_107",
+      "GENSEC_2627_095",
+      "GENSEC_2627_094",
+      "GENSEC_2526_093",
+      "GENSEC_2627_064",
+      "GENSEC_2627_056",
+      "GENSEC_2627_036",
+      "GENSEC_2627_034"
+    ],
+    "gensec_2526_count": 1,
+    "gensec_2627_count": 56,
+    "inputs": [
+      {
+        "tag": "SELECT",
+        "id": "",
+        "cls": "goog-te-combo",
+        "placeholder": "",
+        "type": "select-one",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "id": "camp-cerca",
+        "cls": "form-control input-xs",
+        "placeholder": "Text cerca",
+        "type": "text",
+        "name": "q"
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "cls": "ico",
+        "placeholder": "",
+        "type": "image",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "id": "search",
+        "cls": "form-control search ng-pristine ng-untouched ng-valid ng-empty",
+        "placeholder": "",
+        "type": "search",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "id": "titularitat3188",
+        "cls": "ng-pristine ng-untouched ng-valid ng-not-empty",
+        "placeholder": "",
+        "type": "checkbox",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "id": "titularitat3189",
+        "cls": "ng-pristine ng-untouched ng-valid ng-not-empty",
+        "placeholder": "",
+        "type": "checkbox",
+        "name": ""
+      }
+    ],
+    "embedded_urls": [],
+    "first_party_scripts": [
+      "https://www.edubcn.cat/js/ang/1.8.3/main.min.js",
+      "https://www.edubcn.cat/js/ang/1.8.3/resource.min.js",
+      "https://www.edubcn.cat/js/ang/1.8.3/animate.min.js",
+      "https://www.edubcn.cat/js/ang/1.8.3/locale_ca.min.js",
+      "https://www.edubcn.cat/pdc/js/app.bundle-v05.js",
+      "https://www.edubcn.cat/js/cookieconsent_init.min.js?1683138555730",
+      "https://www.edubcn.cat/js/jquery.min.js",
+      "https://www.edubcn.cat/js/jPages.min.js",
+      "https://www.edubcn.cat/js/jquery.tablesorter.min.js",
+      "https://www.edubcn.cat/js/jquery.tablesorter-metadata.min.js",
+      "https://www.edubcn.cat/js/front.min.js?20230523"
+    ],
+    "offer_links": [
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#maincontent",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#desktop-menu",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#desktop-submenu",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#lang-menu",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/es/profesorado_y_pas/seleccion_rrhh/dificil_cobertura",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#mobile-menu",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1261",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7611",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1344",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-12017",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7623",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7634",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7645",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-6896",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-6912",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-6901",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-6922",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7033",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7051",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7763",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7074",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7095",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7104",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7145",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7187",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-19681",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7428",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-7959",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-52",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1421",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-14811",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-14317",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1532",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1541",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1572",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1603",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1634",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1755",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1666",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1697",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1818",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1849",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-19012",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-5663",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-64",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-8205",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1913",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1921",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1962",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-2022",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-6042",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-4463",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-13733",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-2034",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-9321",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-134",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1471",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-203",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-8543",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-1042",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-943",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-11236",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-938",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-499",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-116010",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-23252",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-35",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-591",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-682",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-13511",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-704",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-725",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-12447",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-768",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-219510",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-mobile-994",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/es/profesorado_y_pas/seleccion_rrhh/dificil_cobertura",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-1921",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-1962",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-2022",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-6042",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-4463",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-13733",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-2034",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#menu-9321",
+        "offer_codes": []
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_57_CFA_El_Carmel_Pri_Competic.pdf",
+        "offer_codes": [
+          "GENSEC_2627_57"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_57_CFA_El_Carmel_Pri_Competic_resultat.pdf",
+        "offer_codes": [
+          "GENSEC_2627_57"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_185_Inst_Esport_EF.pdf",
+        "offer_codes": [
+          "GENSEC_2627_185"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_184_Inst_Esport_EF.pdf",
+        "offer_codes": [
+          "GENSEC_2627_184"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_182__INS_TIC_PFI_F57_INFORMATICA.pdf",
+        "offer_codes": [
+          "GENSEC_2627_182"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_183_CFA_LES_CORTS_SCO.pdf",
+        "offer_codes": [
+          "GENSEC_2627_183"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_181_503_Assessoria_i_procediments_d_imatge_personal.pdf",
+        "offer_codes": [
+          "GENSEC_2627_181"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_180_INS_TIC_507_INFORMATICA.pdf",
+        "offer_codes": [
+          "GENSEC_2627_180"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_179_EA_Llotja_707.pdf",
+        "offer_codes": [
+          "GENSEC_2627_179"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_160_CFA_MARIA_RUBIES_SCO.pdf",
+        "offer_codes": [
+          "GENSEC_2627_160"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_160_CFA_MARIA_RUBIES_SCO-resultat.pdf",
+        "offer_codes": [
+          "GENSEC_2627_160"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_177_CEE_LEXIA_PSI_SUBS_RJ.pdf",
+        "offer_codes": [
+          "GENSEC_2627_177"
+        ]
+      },
+      {
+        "href": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_178__IE_Escola_del_Treball__604_FUSTERIA.pdf",
+        "offer_codes": [
+          "GENSEC_2627_178"
+        ]
+      }
+    ],
+    "specialties_mentions": {
+      "507": 3,
+      "627": 3,
+      "F57": 1,
+      "F87": 3
+    },
+    "has_pdf_link": true
+  },
+  "dom_search_507": {
+    "title": "Cercador",
+    "final_url": "https://www.edubcn.cat/ca/cercador?q=507&x=0&y=0",
+    "body_text_chars": 2412,
+    "links_count": 405,
+    "gensec_visible": [],
+    "gensec_2526_count": 0,
+    "gensec_2627_count": 0,
+    "inputs": [
+      {
+        "tag": "SELECT",
+        "id": "",
+        "cls": "goog-te-combo",
+        "placeholder": "",
+        "type": "select-one",
+        "name": ""
+      },
+      {
+        "tag": "INPUT",
+        "id": "camp-cerca",
+        "cls": "form-control input-xs",
+        "placeholder": "Text cerca",
+        "type": "text",
+        "name": "q"
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "cls": "ico",
+        "placeholder": "",
+        "type": "image",
+        "name": ""
+      }
+    ],
+    "embedded_urls": [],
+    "first_party_scripts": [
+      "https://www.edubcn.cat/js/cookieconsent_init.min.js?1683138555730",
+      "https://www.edubcn.cat/js/jquery.min.js",
+      "https://www.edubcn.cat/js/jPages.min.js",
+      "https://www.edubcn.cat/js/jquery.tablesorter.min.js",
+      "https://www.edubcn.cat/js/jquery.tablesorter-metadata.min.js",
+      "https://www.edubcn.cat/js/front.min.js?20230523"
+    ],
+    "offer_links": [
+      {
+        "href": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+        "offer_codes": []
+      }
+    ],
+    "specialties_mentions": {
+      "507": 15,
+      "627": 0,
+      "F57": 0,
+      "F87": 0
+    },
+    "has_pdf_link": false
+  },
+  "public_http_responses": [
+    {
+      "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "status": 200,
+      "resource_type": "document"
+    },
+    {
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "status": 200,
+      "resource_type": "xhr"
+    }
+  ],
+  "historic_rows_verified": 0,
+  "historic_2025_26_complete": false,
+  "note": "Only a 2025-2026 date+offer-ID source proves historic record; current 2026-27 GENSEC entries are not evidence of earlier dates."
+}
