@@ -3,7 +3,7 @@
 import argparse,datetime,json,time
 from pathlib import Path
 import requests
-API="https://tauler.seu-e.cat/api/edictes"
+API="https://tauler.seu-e.cat/api/edictes?idEns=1"
 TERMS=["personal docent","nomenaments","informàtica","difícil cobertura","professorat","substitucions","vacants","borsa docent"]
 def get(q):
   result={"query":q,"state":"2"}
