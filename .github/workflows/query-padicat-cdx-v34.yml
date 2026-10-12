@@ -1,0 +1,34 @@
+name: PADICAT CDX consultes historiques V34
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/query_padicat_cdx_v34.py'
+      - '.github/workflows/query-padicat-cdx-v34.yml'
+permissions:
+  contents: write
+jobs:
+  cdx:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'requests>=2.31,<3'
+      - name: Check five public PADICAT historical PDF and control targets
+        run: python src/query_padicat_cdx_v34.py --output exports_padicat/PADICAT_V34_CDX.json
+      - name: Publish only capture index metadata
+        if: always()
+        run: |
+          if [ ! -s exports_padicat/PADICAT_V34_CDX.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/PADICAT_V34_CDX.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: record PADICAT CDX availability of historical official PDF URLs'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
