@@ -1,0 +1,59 @@
+{
+  "at_utc": "2026-10-12T20:26:40.387351+00:00",
+  "source": "PADICAT public CDX (endpoint externally documented; not invented)",
+  "cases": [
+    {
+      "name": "BARCELONES_2025_11",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "endpoint": "https://wayback.padicat.cat/cdx",
+      "http": 200,
+      "capture_count": 0,
+      "captures": [],
+      "content_type": "text/x-ndjson",
+      "bytes": 0
+    },
+    {
+      "name": "VOC_2025_11",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "endpoint": "https://wayback.padicat.cat/cdx",
+      "http": 200,
+      "capture_count": 0,
+      "captures": [],
+      "content_type": "text/x-ndjson",
+      "bytes": 0
+    },
+    {
+      "name": "GIR_2025",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/GIR-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "endpoint": "https://wayback.padicat.cat/cdx",
+      "http": 200,
+      "capture_count": 0,
+      "captures": [],
+      "content_type": "text/x-ndjson",
+      "bytes": 0
+    },
+    {
+      "name": "PADICAT_CONTROL",
+      "original_url": "https://efes.cat",
+      "endpoint": "https://wayback.padicat.cat/cdx",
+      "http": 200,
+      "capture_count": 0,
+      "captures": [],
+      "content_type": "text/x-ndjson",
+      "bytes": 487
+    },
+    {
+      "name": "EDUCACIO_DOMAIN",
+      "original_url": "https://educacio.gencat.cat",
+      "endpoint": "https://wayback.padicat.cat/cdx",
+      "http": 200,
+      "capture_count": 0,
+      "captures": [],
+      "content_type": "text/x-ndjson",
+      "bytes": 0
+    }
+  ],
+  "num_cases": 5,
+  "verified_historical_pdf_payloads": 0,
+  "warning": "CDX metadata is not the PDF body; no result or error is not proof that there were no teacher vacancy postings."
+}
