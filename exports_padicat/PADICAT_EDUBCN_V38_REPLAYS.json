@@ -1,11 +1,13 @@
 {
-  "checked_utc": "2026-10-12T20:39:15.199997+00:00",
+  "checked_utc": "2026-10-12T20:40:04.280613+00:00",
   "original_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
   "metadata_http": 200,
   "metadata_records": 3,
   "record_schemas": [
     {
       "keys": [
+        "urlkey",
+        "timestamp",
         "url",
         "mime",
         "status",
@@ -19,13 +21,15 @@
         "source",
         "source-coll"
       ],
-      "capture_timestamp": null,
+      "capture_timestamp": "20260129224629",
       "datetime": null,
       "date": null,
       "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura"
     },
     {
       "keys": [
+        "urlkey",
+        "timestamp",
         "url",
         "mime",
         "status",
@@ -39,13 +43,15 @@
         "source",
         "source-coll"
       ],
-      "capture_timestamp": null,
+      "capture_timestamp": "20260912222659",
       "datetime": null,
       "date": null,
       "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#!/cerca"
     },
     {
       "keys": [
+        "urlkey",
+        "timestamp",
         "url",
         "mime",
         "status",
@@ -59,7 +65,7 @@
         "source",
         "source-coll"
       ],
-      "capture_timestamp": null,
+      "capture_timestamp": "20261004093513",
       "datetime": null,
       "date": null,
       "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura"
@@ -68,8 +74,10 @@
   "replays": [
     {
       "original": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
-      "capture_timestamp": "",
+      "capture_timestamp": "20260129224629",
       "metadata_keys": [
+        "urlkey",
+        "timestamp",
         "url",
         "mime",
         "status",
@@ -83,12 +91,29 @@
         "source",
         "source-coll"
       ],
-      "reason": "No exact 14-digit timestamp in parsed CDX record"
+      "replay": {
+        "http": 404,
+        "bytes": 1454,
+        "mime": "text/html",
+        "sha256": "",
+        "gensec_2526_literal_in_archived_html": false,
+        "has_507": false,
+        "has_627": false,
+        "has_F57": false,
+        "has_F87": false,
+        "has_2025_2026_course": false,
+        "has_angular": false,
+        "script_tags": 4,
+        "contains_dynamic_api_endpoint": false,
+        "redirect_same_host": true
+      }
     },
     {
       "original": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#!/cerca",
-      "capture_timestamp": "",
+      "capture_timestamp": "20260912222659",
       "metadata_keys": [
+        "urlkey",
+        "timestamp",
         "url",
         "mime",
         "status",
@@ -102,12 +127,29 @@
         "source",
         "source-coll"
       ],
-      "reason": "No exact 14-digit timestamp in parsed CDX record"
+      "replay": {
+        "http": 404,
+        "bytes": 1454,
+        "mime": "text/html",
+        "sha256": "",
+        "gensec_2526_literal_in_archived_html": false,
+        "has_507": false,
+        "has_627": false,
+        "has_F57": false,
+        "has_F87": false,
+        "has_2025_2026_course": false,
+        "has_angular": false,
+        "script_tags": 4,
+        "contains_dynamic_api_endpoint": false,
+        "redirect_same_host": true
+      }
     },
     {
       "original": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
-      "capture_timestamp": "",
+      "capture_timestamp": "20261004093513",
       "metadata_keys": [
+        "urlkey",
+        "timestamp",
         "url",
         "mime",
         "status",
@@ -121,7 +163,22 @@
         "source",
         "source-coll"
       ],
-      "reason": "No exact 14-digit timestamp in parsed CDX record"
+      "replay": {
+        "http": 404,
+        "bytes": 1454,
+        "mime": "text/html",
+        "sha256": "",
+        "gensec_2526_literal_in_archived_html": false,
+        "has_507": false,
+        "has_627": false,
+        "has_F57": false,
+        "has_F87": false,
+        "has_2025_2026_course": false,
+        "has_angular": false,
+        "script_tags": 4,
+        "contains_dynamic_api_endpoint": false,
+        "redirect_same_host": true
+      }
     }
   ],
   "limitations": [
