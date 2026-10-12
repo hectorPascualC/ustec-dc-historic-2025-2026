@@ -1,0 +1,91 @@
+{
+  "checked_utc": "2026-10-12T20:49:45.280477+00:00",
+  "original_json_sha256": "683930ffad9024801119443a92dd6d05e5e3cae7e54ac0d2887f6f54c2d8c148",
+  "docs": [
+    {
+      "type": "oferta",
+      "code": "GENSEC_2526_149",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "page_count": 3,
+      "pdf_sha256": "476f51b8091ccc4390699813badb467e267dc805d26f685b657a99b2ec59a325",
+      "has_code": true,
+      "has_2025_26": true,
+      "jornada_detectada": "No determinada"
+    },
+    {
+      "type": "oferta",
+      "code": "GENSEC_2526_145",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "page_count": 2,
+      "pdf_sha256": "36b740c5ae79725d3cfa2fb30a037214047d855cdb63bb01bc9a0c50fa069573",
+      "has_code": true,
+      "has_2025_26": true,
+      "jornada_detectada": "Sencera"
+    },
+    {
+      "type": "resultat",
+      "code": "GENSEC_2526_145",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "page_count": 1,
+      "pdf_sha256": "c0c01a84a8a212169d03bf26e527ccc8df820448ac0a5d6bd352ba28bf8de80b",
+      "has_code": true,
+      "has_2025_26": true,
+      "jornada_detectada": "Sencera",
+      "conté_resultat": true,
+      "conté_deserta": false
+    },
+    {
+      "type": "oferta",
+      "code": "GENSEC2526_167",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "page_count": 3,
+      "pdf_sha256": "75e4daa41bb335b5c69bab2bf1a8f7721d090a03552678f03f112b53d17e82af",
+      "has_code": true,
+      "has_2025_26": true,
+      "jornada_detectada": "Sencera"
+    },
+    {
+      "type": "oferta",
+      "code": "GENSEC_147",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "page_count": 3,
+      "pdf_sha256": "8a9c68a960446d7cbe84332b293a29452e6b915124a79ee17425f52e5495abb3",
+      "has_code": true,
+      "has_2025_26": true,
+      "jornada_detectada": "Sencera"
+    },
+    {
+      "type": "resultat",
+      "code": "GENSEC_147",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "page_count": 1,
+      "pdf_sha256": "83cd099a75e2698c38e7fbe79b58140f56041542d20d4652b6b5c77736ab4c67",
+      "has_code": true,
+      "has_2025_26": true,
+      "jornada_detectada": "Sencera",
+      "conté_resultat": true,
+      "conté_deserta": false
+    }
+  ],
+  "checked": 6,
+  "original_offers_verified": 4,
+  "official_results_verified": 2,
+  "warnings": [
+    "Result existence does not independently prove that a job was filled or when.",
+    "Jornada is only used when explicitly extracted close to the jornada header.",
+    "No PDF content or personal identity is retained.",
+    "API DATA is an archived listing date; no exact publication timestamp claimed."
+  ]
+}
