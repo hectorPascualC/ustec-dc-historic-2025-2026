@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-12T19:44:18.158219+00:00",
+  "run_at": "2026-10-12T19:46:16.750995+00:00",
   "target": "https://tauler.seu-e.cat/inici?idEns=1",
   "network": [
     {
@@ -229,5 +229,50 @@
     "countMatches": [
       "238 anuncis"
     ]
-  }
+  },
+  "status_filter_found": 1,
+  "menu_visible_choices": [
+    "Actius",
+    "Veure'ls tots"
+  ],
+  "historic_choice_found": 1,
+  "historic_mode_selected": true,
+  "searches": [
+    {
+      "query": "difícil cobertura",
+      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+    },
+    {
+      "query": "dificil cobertura",
+      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+    },
+    {
+      "query": "nomenaments interí",
+      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+    },
+    {
+      "query": "GENSEC_2526",
+      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+    },
+    {
+      "query": "2025/SEC",
+      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+    },
+    {
+      "query": "507",
+      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+    },
+    {
+      "query": "627",
+      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+    },
+    {
+      "query": "F57",
+      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+    },
+    {
+      "query": "F87",
+      "error": "Locator.click: Timeout 3500ms exceeded.\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Cercar\\\"]\")\n    - locator resolved "
+    }
+  ]
 }
