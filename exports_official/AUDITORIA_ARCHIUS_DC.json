@@ -1,0 +1,55 @@
+{
+  "as_of": "2026-10-12T18:10:59.256234+00:00",
+  "range": {
+    "start": "2025-11-01",
+    "end": "2026-02-28"
+  },
+  "codes": [
+    "507",
+    "627",
+    "F57",
+    "F87"
+  ],
+  "territorial_scopes": [
+    "Barcelonès",
+    "Baix Llobregat",
+    "Vallès Occidental",
+    "Maresme–Vallès Oriental",
+    "Catalunya Central",
+    "Girona",
+    "Lleida",
+    "Tarragona",
+    "Terres de l’Ebre",
+    "Penedès",
+    "Alt Pirineu i Aran",
+    "Consorci Educació Barcelona"
+  ],
+  "archive_queries": 49,
+  "query_result_counts": {
+    "Arquivo.pt / error": 1,
+    "Arquivo.pt / ok": 12,
+    "Common Crawl / error": 12,
+    "Wayback / error": 24
+  },
+  "archive_hits": 0,
+  "by_source": {},
+  "verified_pdf_copies": 0,
+  "unique_pdf_sha256": 0,
+  "candidate_offer_ids_from_verified_pdfs": 0,
+  "previous_28_matched": 0,
+  "new_candidate_ids": [],
+  "offer_identifiers_with_certified_actual_publication_dates": 0,
+  "completeness": "NOT CERTIFIED",
+  "territory_month_certified": 0,
+  "territory_month_total": 48,
+  "limitations": [
+    "Archive captures are incomplete samples; lack of a capture does NOT demonstrate zero offers.",
+    "PDF captures after date range do not prove historic publication date.",
+    "Offer document type and page-code-ID matching are heuristic and require human validation.",
+    "A PDF result document is not an offer publication; no result-only case is counted as publication.",
+    "EDUBCN dynamic historical listings have not been exhaustively enumerated.",
+    "Common Crawl and Arquivo.pt coverage can be sparse; a timeout is not an absence.",
+    "The 28-case preexisting list includes result-only cases with unknown publication dates."
+  ],
+  "final_audit": "FAIL: incomplete original publication/republication record, not a total census"
+}
