@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-12T17:56:57.872226+00:00",
+  "checked_at": "2026-10-12T17:58:34.340173+00:00",
   "url": "https://www.sindicat.net/eines/nomenaments/nomenaments2.php",
   "dom": {
-    "time": "2026-10-12T17:57:00.419Z",
+    "time": "2026-10-12T17:58:36.867Z",
     "tableIndex": 8,
     "procedureHeader": "<th class=\"big-col dt-body-center sorting\" tabindex=\"0\" aria-controls=\"example\" rowspan=\"1\" colspan=\"1\" style=\"width: 124.391px;\" aria-label=\"ProcedimentFiltrar per ProcedimentNomenaments telemàticsAdjudicacions estiuDifícil coberturaProcediment urgènciaSelecció direcció&amp;nbsp;: activate to sort column ascending\">Procediment<br><br><select><option value=\"\">Filtrar per Procediment</option><option value=\"nt\">Nomenaments telemàtics</option><option value=\"ae\">Adjudicacions estiu</option><option value=\"dif\">Difícil cobertura</option><option value=\"urg\">Procediment urgència</option><option value=\"dir\">Selecció direcció</option></select><br>&nbsp;</th>",
     "selects": [
@@ -119,5 +119,24 @@
       "recordsDisplay": 27336,
       "serverSide": true
     }
-  }
+  },
+  "button_after": {
+    "buttonText": "Veure TOTES les adjudicacions",
+    "globalSearch": "",
+    "column2Search": "0",
+    "info": {
+      "page": 0,
+      "pages": 307,
+      "start": 0,
+      "end": 10,
+      "length": 10,
+      "recordsTotal": 154243,
+      "recordsDisplay": 3065,
+      "serverSide": true
+    }
+  },
+  "button_request_count": 1,
+  "button_requests_tail": [
+    "https://www.sindicat.net/eines/nomenaments/server_processing2.php?draw=2&columns%5B0%5D%5Bdata%5D=0&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=1&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=2&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=0&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=3&columns%5B3%5D%5Bname%5D=&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=4&columns%5B4%5D%5Bname%5D=&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=true&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=5&columns%5B5%5D%5Bname%5D=&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B6%5D%5Bdata%5D=6&columns%5B6%5D%5Bname%5D=&columns%5B6%5D%5Bsearchable%5D=true&columns%5B6%5D%5Borderable%5D=true&columns%5B6%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B6%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B7%5D%5Bdata%5D=7&columns%5B7%5D%5Bname%5D=&columns%5B7%5D%5Bsearchable%5D=true&columns%5B7%5D%5Borderable%5D=true&columns%5B7%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B7%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B8%5D%5Bdata%5D=8&columns%5B8%5D%5Bname%5D=&columns%5B8%5D%5Bsearchable%5D=true&columns%5B8%5D%5Borderable%5D=true&columns%5B8%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B8%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B9%5D%5Bdata%5D=9&columns%5B9%5D%5Bname%5D=&columns%5B9%5D%5Bsearchable%5D=true&columns%5B9%5D%5Borderable%5D=true&columns%5B9%5D%5Bsearch%5D%5Bvalue%5D=2026-2027&columns%5B9%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=1&order%5B0%5D%5Bdir%5D=desc&start=0&length=10&search%5Bvalue%5D=&search%5Bregex%5D=false&minimo=&maximo=&_=1791827915583"
+  ]
 }
