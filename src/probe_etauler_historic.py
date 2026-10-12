@@ -71,7 +71,16 @@ def run(path):
      historic_radio.check(force=True,timeout=4500)
      data["historic_radio_checked"]=True
     except Exception as ex:data["historic_radio_error"]=str(ex)[:190]
-   page.wait_for_timeout(800)
+   # The popover has an Apply ('Mostrar resultats') button.
+   # The radio itself only changes local state until that button is clicked.
+   apply=page.locator('[role="dialog"] button[type="submit"]')
+   data["apply_buttons_found"]=apply.count()
+   if apply.count():
+    try:
+     apply.last.click(force=True,timeout=4000)
+     data["historic_applied_via_dialog"]=True
+    except Exception as ex:data["historic_apply_error"]=str(ex)[:160]
+   page.wait_for_timeout(900)
    data["status_after_menu"]=page.locator('button[aria-label^="Estat:"]').first.get_attribute("aria-label") if page.locator('button[aria-label^="Estat:"]').count() else None
    data["radio_current"]=page.evaluate("""() => [...document.querySelectorAll('input[name=state]')].map(x=>({value:x.value,checked:x.checked}))""")
    all_button=page.get_by_role("button",name="Veure'ls tots")
