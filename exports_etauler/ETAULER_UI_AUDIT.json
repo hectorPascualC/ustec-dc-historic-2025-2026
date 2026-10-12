@@ -1,0 +1,233 @@
+{
+  "run_at": "2026-10-12T19:44:18.158219+00:00",
+  "target": "https://tauler.seu-e.cat/inici?idEns=1",
+  "network": [
+    {
+      "method": "GET",
+      "path": "/api/ens/1"
+    },
+    {
+      "method": "GET",
+      "path": "/api/classificacions"
+    },
+    {
+      "method": "POST",
+      "path": "/api/edictes"
+    }
+  ],
+  "http": 200,
+  "ui": {
+    "title": "e-TAULER - Generalitat de Catalunya",
+    "url_path": "/inici",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "placeholder": "Buscar edictes i anuncis per paraula clau o expedient",
+        "name": "search-bar",
+        "aria": "Buscar edictes i anuncis per paraula clau o expedient",
+        "id": "search-input"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "CA",
+        "aria": "Català (Selecció d'idioma)",
+        "type": "button"
+      },
+      {
+        "text": "Subscripció RSS",
+        "aria": null,
+        "type": "button"
+      },
+      {
+        "text": "Cercar",
+        "aria": "Cercar",
+        "type": "submit"
+      },
+      {
+        "text": "Actius",
+        "aria": "Estat:Actius",
+        "type": "button"
+      },
+      {
+        "text": "Categoria:",
+        "aria": "Categoria: ",
+        "type": "button"
+      },
+      {
+        "text": "buttons.toggle",
+        "aria": "buttons.toggle",
+        "type": "button"
+      },
+      {
+        "text": "Organisme publicador:",
+        "aria": "Organisme publicador: ",
+        "type": "button"
+      },
+      {
+        "text": "buttons.toggle",
+        "aria": "buttons.toggle",
+        "type": "button"
+      },
+      {
+        "text": "Destacats",
+        "aria": null,
+        "type": "button"
+      },
+      {
+        "text": "Data publicació",
+        "aria": "Data publicació",
+        "type": "button"
+      },
+      {
+        "text": "Veure'ls tots",
+        "aria": null,
+        "type": "button"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Acord de la 2a reunió de la Junta de Mèrits i Capacitats del concurs e",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "ANUNCI d'informació pública de l'estudi d’avaluació de la mobilitat ge",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "ANUNCI de notificació de la resolució dels ajuts destinats a pescadors",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "ANUNCI de notificació de la resolució dels ajuts destinats a armadors ",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Resolució de concessió de subvencions per a la revitalització comercia",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Acord de la 2a reunió de la Junta de Mèrits i Capacitats del concurs e",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Resolució d’inadmissió de les sol·licituds de subvencions per a la rev",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Modificació de la Resolució de 20 de juliol de 2026, per la qual es de",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Resolució per la qual s’assignen dotacions de suport intensiu a l’esco",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "RESOLUCIÓ de concessió de subvencions per a l'adquisició, la instal·la",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Resolució CLT/3409/2026, de 18 de setembre, de convocatòria per a la p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Resolució provisional de concessió de l'ajut mínimis a l'adquisició de",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Resolució provisional de concessió de l'ajut en règim d'exempció a l'a",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Resolució d’inadmissió i desistiment de l'ajut en règim d'exempció a l",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Resolució d’inadmissió i desistiment de l'ajut de mínimis a l'adquisic",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "Anunci de notificació en procediment pel qual se citen a termini les p",
+        "aria": null,
+        "type": "submit"
+      },
+      {
+        "text": "close",
+        "aria": "Tancar",
+        "type": "button"
+      }
+    ],
+    "selects": [],
+    "scripts": [
+      "/c/hotjar-227224.js",
+      "/gtag/js",
+      "/gtm.js",
+      "/ruxitagentjs_ICA15789NPRTUVXfqrux_10345260810170330.js",
+      "/assets/index-58a92dde.js"
+    ],
+    "filters": [],
+    "hasOld": false,
+    "countMatches": [
+      "238 anuncis"
+    ]
+  }
+}
