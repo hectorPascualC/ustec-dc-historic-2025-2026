@@ -1,0 +1,131 @@
+{
+  "at_utc": "2026-10-12T20:48:25.775863+00:00",
+  "scope_dates": [
+    "2025-11-01",
+    "2026-02-28"
+  ],
+  "sources": [
+    {
+      "label": "CA_JAN29",
+      "capture": "20260129224630",
+      "source": "https://wayback.padicat.cat/20260129224630id_/https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "http": 200,
+      "sha256": "683930ffad9024801119443a92dd6d05e5e3cae7e54ac0d2887f6f54c2d8c148",
+      "total_records": 49,
+      "data_min": "2025-08-27",
+      "data_max": "2026-01-29",
+      "in_scope_target_rows": [
+        {
+          "code": "GENSEC_2526_149",
+          "id": "68508",
+          "date": "2026-01-22",
+          "profile": "627 - Sistemes i aplicacions informàtiques",
+          "centre": "Institut Tecnològic de Barcelona",
+          "convocatoria_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+          "result_url": ""
+        },
+        {
+          "code": "GENSEC_2526_145",
+          "id": "68479",
+          "date": "2026-01-22",
+          "profile": "507 - Informàtica (ciberseguretat)",
+          "centre": "Institut Tecnològic de Barcelona",
+          "convocatoria_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+          "result_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf"
+        },
+        {
+          "code": "GENSEC2526_167",
+          "id": "69243",
+          "date": "2026-01-21",
+          "profile": "507- Informàtica",
+          "centre": "Institut Pedralbes",
+          "convocatoria_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+          "result_url": ""
+        },
+        {
+          "code": "GENSEC_147",
+          "id": "68497",
+          "date": "2025-12-05",
+          "profile": "Sistemes i Aplicacions Informàtiques (627)",
+          "centre": "Institut Escola del Treball",
+          "convocatoria_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+          "result_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf"
+        }
+      ]
+    },
+    {
+      "label": "ES_JAN29",
+      "capture": "20260129230101",
+      "source": "https://wayback.padicat.cat/20260129230101id_/https://www.edubcn.cat/pdc_rest/convocatories/es",
+      "http": 200,
+      "sha256": "32037fb420861f9339a2c7afba2527edaebbb45e1f4cd8d06f38bf75d8590eb0",
+      "total_records": 49,
+      "data_min": "2025-08-27",
+      "data_max": "2026-01-29",
+      "in_scope_target_rows": [
+        {
+          "code": "GENSEC_2526_149",
+          "id": "68508",
+          "date": "2026-01-22",
+          "profile": "627 - Sistemas y aplicaciones informáticas",
+          "centre": "Institut Tecnològic de Barcelona",
+          "convocatoria_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+          "result_url": ""
+        },
+        {
+          "code": "GENSEC_2526_145",
+          "id": "68479",
+          "date": "2026-01-22",
+          "profile": "507 - Informática (ciberseguridad)",
+          "centre": "Institut Tecnològic de Barcelona",
+          "convocatoria_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+          "result_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf"
+        },
+        {
+          "code": "GENSEC2526_167",
+          "id": "69243",
+          "date": "2026-01-21",
+          "profile": "507- Informática",
+          "centre": "Institut Pedralbes",
+          "convocatoria_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+          "result_url": ""
+        },
+        {
+          "code": "GENSEC_147",
+          "id": "68497",
+          "date": "2025-12-05",
+          "profile": "Sistemas y Aplicaciones Informáticas (627)",
+          "centre": "Institut Escola del Treball",
+          "convocatoria_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+          "result_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf"
+        }
+      ]
+    },
+    {
+      "label": "CA_OCT4",
+      "capture": "20261004093514",
+      "source": "https://wayback.padicat.cat/20261004093514id_/https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "http": 200,
+      "sha256": "3462fdb3721494a5ebcfffee561b3fd55f5510febf5ae4617298aa90cb9b48a1",
+      "total_records": 145,
+      "data_min": "2024-10-10",
+      "data_max": "2026-10-02",
+      "in_scope_target_rows": []
+    }
+  ],
+  "codes_jan": [
+    "GENSEC2526_167",
+    "GENSEC_147",
+    "GENSEC_2526_145",
+    "GENSEC_2526_149"
+  ],
+  "codes_oct_in_period": [],
+  "additional_oct_in_period": [],
+  "additional_original_pdf_checks": [],
+  "additional_original_pdfs": 0,
+  "warnings": [
+    "October snapshot presence doesn't prove a particular earlier publication time; crosscheck DATA in PDF.",
+    "Absence from October snapshot doesn't mean an earlier vacancy never existed.",
+    "No candidate names or applicant details are retained."
+  ]
+}
