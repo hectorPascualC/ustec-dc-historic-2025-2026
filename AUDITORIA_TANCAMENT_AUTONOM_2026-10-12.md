@@ -25,6 +25,14 @@ Cens exhaustiu de les **convocatòries publicades** de difícil cobertura de 507
 - El recompte `28` és el corpus heretat auditat, **no** un cens certificat del període.
 - No hi ha cap necessitat de pagar TinyFish, Firecrawl o els minuts de GitHub de repositoris privats per aquesta prova.
 
+## Investigació addicional: backend dinàmic d'EDUBCN (no PDF)
+
+- Accés públic confirmat a `https://www.edubcn.cat/pdc_rest/convocatories/ca` (resposta HTTP 200) via navegador Playwright, diferent de la llista d'USTEC.
+- A la resposta consultada el 12/10/2026 hi havia **83 files visibles**, totes amb el camp `DATA` de **2026**. **Cap** d'elles estava datada entre 01/11/2025 i 28/02/2026.
+- Una fila conservava un codi amb prefix `GENSEC_2526`, però amb data **10/07/2026** i enllaç documental del curs següent; no és evidència de publicació nov–feb.
+- S'ha executat un [workflow d'inspecció EDUBCN](https://github.com/hectorPascualC/ustec-dc-historic-2025-2026/actions/runs/38289566902), i s'han guardat els [metadades sense identificacions personals](https://github.com/hectorPascualC/ustec-dc-historic-2025-2026/blob/main/exports_edubcn/EDUBCN_HISTORIC_AUDIT.json): **1** codi 2526 visible al DOM, **56** codis 2627, i petició XHR a `/pdc_rest/convocatories/ca`.
+- **No és un arxiu exhaustiu**: la resposta de l'API és la fotografia actual, no un registre longitudinal certificat. El nombre real d'ofertes històriques del període segueix desconegut.
+
 ## Veredicte
 
 **FAIL / OBJECTIU EXHAUSTIU NO ASSOLIT.** L'execució autònoma ha esgotat les consultes implementades i ha deixat dades d'errors reproduïbles. No existeix evidència suficient per certificar el total de convocatòries publicades nov–feb ni les republicacions i les desertes.
