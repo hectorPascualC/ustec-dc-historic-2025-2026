@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-10-12T20:21:11.025657+00:00",
+  "portal": "https://padicat.cat/",
+  "searches": [],
+  "request_paths": [
+    {
+      "host": "padicat.cat",
+      "path": "/",
+      "method": "GET"
+    }
+  ],
+  "error": "Error: Page.goto: net::ERR_CONNECTION_RESET at https://padicat.cat/\nCall log:\n  - navigating to \"https://padicat.cat/\", waiting until \"domcontentloaded\"\n"
+}
