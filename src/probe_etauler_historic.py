@@ -54,8 +54,11 @@ def run(path):
    for q in queries:
     try:
      page.locator("#search-input").fill(q)
-     page.locator('button[aria-label="Cercar"]').click(timeout=3500)
-     page.wait_for_timeout(1100)
+     if q==queries[0]:
+      data["search_button_disabled"]=page.locator('button[aria-label="Cercar"]').evaluate("(e)=>e.disabled")
+      data["status_label_after_historic"]=page.evaluate("""() => [...document.querySelectorAll("button")].map(x=>x.getAttribute("aria-label")||"").find(x=>x.startsWith("Estat:"))||null""")
+     page.locator("#search-input").press("Enter")
+     page.wait_for_timeout(1700)
      d=page.evaluate("""() => {
        const text=document.body.innerText||'';
        return {counts:[...text.matchAll(/(?:\\d[\\d.,]*\\s+anuncis)/gi)].map(x=>x[0]).slice(0,5),
