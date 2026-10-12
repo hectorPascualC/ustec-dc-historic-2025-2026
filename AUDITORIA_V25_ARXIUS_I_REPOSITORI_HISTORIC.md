@@ -61,3 +61,11 @@ S'han provat cerques dirigides a PDF històrics i mirrors en sindicats, reposito
 - No s'han fet despeses noves amb proveïdors de navegador.
 
 **Veredicte V25:** PASS per verificació de l'existència d'un tercer seguiment contemporani i diagnòstic reproduïble de Wayback; **FAIL per assolir cens històric exhaustiu**. Cap plaça nova. Pendents: rastres web/sindicals originals alternatius, possibles còpies de documents guardats externament, i el creuament de places desertes i republicacions entre 12 àmbits.
+
+## 6. Urlscan.io — prova de recerca de captures públiques alternatives
+
+S'ha consultat l'endpoint públic de recerca `https://urlscan.io/api/v1/search/` amb `page.domain:educacio.gencat.cat` i l'interval `date:[2025-11-01 TO 2026-03-01]`. Resposta JSON accessible sense credencials: `results=[]`, `total=0`, però **`search_date_limit_days=30`**. Aquesta restricció explícita **impedeix consultar de manera fiable novembre 2025 – febrer 2026 amb l'accés gratuït anònim**; els zeros retornats no s'incorporen a cap indicador d'absència documental. Documentació: https://urlscan.io/docs/api/ .
+
+## 7. Reavaluació de les sis àrees sense identificadors
+
+S'ha provat el cercador textual TinyFish amb **filtres temporals d'indexació** `after_date=2025-11-01` i `before_date=2026-03-01` i consultes específiques per rutes de Girona, Tarragona, Terres de l'Ebre, Catalunya Central, Maresme–Vallès Oriental i Alt Pirineu i Aran. **Cap resultat indexat retornat amb aquests filtres**. Un resultat de cercador absent sota filtres temporals NO demostra que un PDF antic no s'hagués publicat. La revisió externa addicional ha recuperat sobretot PDF de 2026-27, exclosos del cens.
