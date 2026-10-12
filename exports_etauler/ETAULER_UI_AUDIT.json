@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-12T19:51:45.922851+00:00",
+  "run_at": "2026-10-12T19:53:36.124902+00:00",
   "target": "https://tauler.seu-e.cat/inici?idEns=1",
   "network": [
     {
@@ -44,6 +44,80 @@
     }
   ],
   "http": 200,
+  "payloads": [
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "<string_redacted>",
+      "destacat": true,
+      "state": "1"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "nomenaments interí",
+      "destacat": null,
+      "state": "1"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "GENSEC_2526",
+      "destacat": null,
+      "state": "1"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "2025/SEC",
+      "destacat": null,
+      "state": "1"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "507",
+      "destacat": null,
+      "state": "1"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "627",
+      "destacat": null,
+      "state": "1"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "F57",
+      "destacat": null,
+      "state": "1"
+    },
+    {
+      "conceptes": {
+        "list_length": 0,
+        "first": null
+      },
+      "cerca": "F87",
+      "destacat": null,
+      "state": "1"
+    }
+  ],
   "ui": {
     "title": "e-TAULER - Generalitat de Catalunya",
     "url_path": "/inici",
@@ -275,6 +349,20 @@
   "historic_mode_selected": true,
   "historic_radio_checked": true,
   "status_after_menu": "Estat:Actius",
+  "radio_current": [
+    {
+      "value": "0",
+      "checked": false
+    },
+    {
+      "value": "1",
+      "checked": false
+    },
+    {
+      "value": "2",
+      "checked": true
+    }
+  ],
   "show_all_button_count": 0,
   "search_area_dom": "<div class=\"MuiFormControl-root MuiTextField-root css-i44wyl\"><div class=\"MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedEnd css-9t0go7\"><input aria-invalid=\"false\" id=\"search-input\" name=\"search-bar\" placeholder=\"Buscar edictes i anuncis per paraula clau o expedient\" type=\"text\" aria-label=\"Buscar edictes i anuncis per paraula clau o expedient\" class=\"MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-7ip6co\" value=\"\"><button class=\"MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1w4scp2\" tabindex=\"0\" type=\"submit\" aria-label=\"Cercar\"><svg class=\"MuiSvgIcon-root MuiSvgIcon-fontSizeMedium material-icons notranslate MuiIcon-root MuiIcon-fontSizeMedium css-1ql5b8g\" focusable=\"false\" aria-hidden=\"true\" viewBox=\"0 0 24 24\" data-testid=\"SearchIcon\"><path d=\"M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z\"></path></svg></button><fieldset aria-hidden=\"true\" class=\"MuiOutlinedInput-notchedOutline css-igs3ac\"><legend class=\"css-ihdtdm\"><span class=\"notranslate\">​</span></legend></fieldset></div></div>",
   "searches": [
