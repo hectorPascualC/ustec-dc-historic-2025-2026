@@ -59,3 +59,14 @@ S'han provat cerques específiques per identificador (entre altres `19217376`, `
 **FAIL: cens exhaustiu pendent.** L'accés a PDFs retirats via el servidor original és inviable amb les 68 URL provades; aquesta limitació documentada fa que reintentar noms de fitxer en directe no sigui una estratègia suficient. La línia més raonable és **índexs textuals conservats per tercers, repositoris sindicals de còpies i fonts alternatives territorials**, sense considerar els 404 com a zeros de places.
 
 La informació personal de docents i candidats no es conserva als CSV públics.
+
+## 6. Comprovació de les col·leccions i límits dels arxius (no certifica absències)
+
+S'ha llegit el fitxer públic [Common Crawl collinfo.json](https://index.commoncrawl.org/collinfo.json) i verificat que els quatre identificadors usats en la primera passada històrica **SÍ existeixen**:
+`CC-MAIN-2025-47` (06–19/11/2025), `CC-MAIN-2025-51` (04–17/12/2025), `CC-MAIN-2026-04` (12–25/01/2026) i `CC-MAIN-2026-08` (06–19/02/2026).
+
+Per tant els HTTP 503 de la consulta anterior **no es poden atribuir a noms de col·lecció inventats**, sinó que són compatibles amb **limitació de freqüència o indisponibilitat del CDX**. La documentació oficial de Common Crawl indica que el servidor és molt limitat, que un 503 és senyal per reduir el ritme i que es pot bloquejar temporalment la IP fins a 24 hores.
+
+Fonts: [Common Crawl FAQ](https://commoncrawl.org/faq), [inventari de col·leccions](https://index.commoncrawl.org/collinfo.json). Les consultes alternatives puntuals a `archive.org/wayback/available` i al CDX han rebut redireccions no compatibles en la lectura remota; **no hi ha còpia històrica acreditada**.
+
+**Decisió:** no saturar els arxius públics amb retries massius; cap prova d'absència de places es dedueix dels 404/503/errors de consulta.
