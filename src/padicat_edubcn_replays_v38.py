@@ -12,7 +12,7 @@ CDX="https://wayback.padicat.cat/cdx"
 URL="https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura"
 HEADERS={"User-Agent":"Mozilla/5.0 (noncommercial historic Catalan education vacancies audit)"}
 def load_metadata():
- r=requests.get(CDX,params={"url":URL,"matchType":"prefix","from":"20251001","to":"20261012","limit":"40"},
+ r=requests.get(CDX,params={"url":URL,"matchType":"prefix","from":"20251001","to":"20261012","limit":"40","output":"json"},
                  headers=HEADERS,timeout=(10,27))
  result={"http":r.status_code,"bytes":len(r.content),"items":[]}
  if r.status_code!=200:return result
