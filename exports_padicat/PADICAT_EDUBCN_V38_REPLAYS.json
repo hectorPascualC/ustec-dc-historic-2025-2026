@@ -1,0 +1,133 @@
+{
+  "checked_utc": "2026-10-12T20:39:15.199997+00:00",
+  "original_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+  "metadata_http": 200,
+  "metadata_records": 3,
+  "record_schemas": [
+    {
+      "keys": [
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "capture_timestamp": null,
+      "datetime": null,
+      "date": null,
+      "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura"
+    },
+    {
+      "keys": [
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "capture_timestamp": null,
+      "datetime": null,
+      "date": null,
+      "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#!/cerca"
+    },
+    {
+      "keys": [
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "capture_timestamp": null,
+      "datetime": null,
+      "date": null,
+      "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura"
+    }
+  ],
+  "replays": [
+    {
+      "original": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "capture_timestamp": "",
+      "metadata_keys": [
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "reason": "No exact 14-digit timestamp in parsed CDX record"
+    },
+    {
+      "original": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#!/cerca",
+      "capture_timestamp": "",
+      "metadata_keys": [
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "reason": "No exact 14-digit timestamp in parsed CDX record"
+    },
+    {
+      "original": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "capture_timestamp": "",
+      "metadata_keys": [
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "reason": "No exact 14-digit timestamp in parsed CDX record"
+    }
+  ],
+  "limitations": [
+    "The archive may preserve the public page shell but not historical API responses.",
+    "Timestamp (if known) is a capture time, NOT original DC announcement publication time.",
+    "No names, document body, or private identifiers recorded.",
+    "No historical offer has been authenticated by metadata alone."
+  ]
+}
