@@ -1,0 +1,305 @@
+{
+  "checked_utc": "2026-10-12T20:37:19.357048+00:00",
+  "source": "PADICAT official public CDX",
+  "endpoint": "https://wayback.padicat.cat/cdx",
+  "scope": "2025-10-01 to 2026-10-12, historic original DC announcements 507/627/F57/F87",
+  "query_count": 25,
+  "http_200": 25,
+  "total_capture_records": 7,
+  "dc_path_capture_records": 3,
+  "dc_pdf_capture_records": 0,
+  "areas_with_dc_hits": [
+    "EDUBCN"
+  ],
+  "queries": [
+    {
+      "area": "Barcelonès",
+      "match": "exact",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Barcelonès",
+      "match": "exact",
+      "url": "http://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Barcelonès",
+      "match": "exact",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants06022026.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Barcelonès",
+      "match": "exact",
+      "url": "http://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants06022026.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Vallès Occidental",
+      "match": "exact",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Vallès Occidental",
+      "match": "exact",
+      "url": "http://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Girona",
+      "match": "exact",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/GIR-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Girona",
+      "match": "exact",
+      "url": "http://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/GIR-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Lleida",
+      "match": "exact",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Lleida",
+      "match": "exact",
+      "url": "http://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Alt Pirineu i Aran",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Baix Llobregat",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/baix-llobregat/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Barcelonès",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Catalunya Central",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Girona",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Lleida",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Maresme–Vallès Oriental",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/maresme-valles-oriental/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Penedès",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/penedes/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Tarragona",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Terres de l'Ebre",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/terres-ebre/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Vallès Occidental",
+      "match": "prefix",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Barcelonès",
+      "match": "prefix",
+      "url": "http://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Vallès Occidental",
+      "match": "prefix",
+      "url": "http://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/",
+      "http": 200,
+      "matches": 0,
+      "bytes": 0,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "EDUBCN",
+      "match": "prefix",
+      "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "http": 200,
+      "matches": 3,
+      "bytes": 1928,
+      "truncated": false,
+      "error": ""
+    },
+    {
+      "area": "Control-PADICAT",
+      "match": "exact",
+      "url": "https://efes.cat",
+      "http": 200,
+      "matches": 4,
+      "bytes": 1843,
+      "truncated": false,
+      "error": ""
+    }
+  ],
+  "dc_records": [
+    {
+      "area": "EDUBCN",
+      "query_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "original_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "timestamp": "",
+      "status": "200",
+      "mime": "text/html",
+      "digest": "SHA256723F276BA37BCB6C6ADB57FAF7E54FF5A7A7C4322B45C4EAAA",
+      "length": "15792"
+    },
+    {
+      "area": "EDUBCN",
+      "query_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "original_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#!/cerca",
+      "timestamp": "",
+      "status": "200",
+      "mime": "text/html",
+      "digest": "SHA256A67FAD25EE66DA7323C23734F72C6CE55EECADEF3253EB2AAA",
+      "length": "16434"
+    },
+    {
+      "area": "EDUBCN",
+      "query_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "original_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "timestamp": "",
+      "status": "200",
+      "mime": "text/html",
+      "digest": "SHA25622A27F63A66CAECEFA527E3D456662D67BCF4C6DC7B347C5D774AAAAAA",
+      "length": "16596"
+    }
+  ],
+  "negative_cannot_prove_absence": true,
+  "warnings": [
+    "The CDX index can be incomplete or omit a URL variant.",
+    "2025-26 archive timestamp is not proof of original publication date.",
+    "Prefix query may truncate after 60 rows and must then be paginated.",
+    "Only metadata published, not full PDF or candidate personal data."
+  ]
+}
