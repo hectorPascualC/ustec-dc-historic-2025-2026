@@ -42,6 +42,9 @@ jobs:
             --start 2025-11-01 --end 2026-02-28 \
             --codes 507 627 F57 F87 \
             --page-size 250 --max-pages 120 --anonymize
+      - name: Diagnose procedure and unassigned UI controls (public metadata only)
+        if: always()
+        run: python src/diagnosticar_ustec.py --output resultats/USTEC_DIAGNOSTIC.json
       - name: Publish anonymized audit and CSV results in this public repository
         if: always()
         run: |
@@ -52,6 +55,7 @@ jobs:
           mkdir -p exports
           cp resultats/AUDITORIA_EXTRACCIO.json exports/
           cp resultats/USTEC_nomenaments_*.csv exports/
+          if [ -f resultats/USTEC_DIAGNOSTIC.json ]; then cp resultats/USTEC_DIAGNOSTIC.json exports/; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add exports/
