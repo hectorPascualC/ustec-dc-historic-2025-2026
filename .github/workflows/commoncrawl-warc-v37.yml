@@ -1,0 +1,33 @@
+name: Common Crawl — recuperar WARC PDF DC V37
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/commoncrawl_warc_v37.py','.github/workflows/commoncrawl-warc-v37.yml']
+permissions:
+  contents: write
+jobs:
+  warc:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install archive/PDF readers
+        run: python -m pip install 'requests>=2.31,<3' 'warcio>=1.7,<2' 'pymupdf>=1.24,<2'
+      - name: Sequential low-impact CDX searches and verifiable WARC recovery
+        run: python src/commoncrawl_warc_v37.py --output exports_commoncrawl/COMMONCRAWL_V37_WARC.json
+      - name: Publish only archive locator metadata and PDF hashes
+        if: always()
+        run: |
+          if [ ! -s exports_commoncrawl/COMMONCRAWL_V37_WARC.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_commoncrawl/COMMONCRAWL_V37_WARC.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: check Common Crawl archived PDF WARC records, rate-limited'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
