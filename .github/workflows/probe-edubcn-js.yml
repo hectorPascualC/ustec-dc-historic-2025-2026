@@ -1,0 +1,32 @@
+name: EDUBCN public JavaScript historical API audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/probe_edubcn_js_endpoints.py', '.github/workflows/probe-edubcn-js.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Find backend endpoints and archive parameters
+        run: python src/probe_edubcn_js_endpoints.py --output exports_edubcn/EDUBCN_JS_ENDPOINTS.json
+      - name: Publish public-code metadata only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_edubcn/EDUBCN_JS_ENDPOINTS.json
+          if ! git diff --cached --quiet; then
+            git commit -m "research: inventory EDUBCN published Javascript AJAX endpoints"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
