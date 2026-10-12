@@ -1,0 +1,358 @@
+{
+  "checked_utc": "2026-10-12T20:43:19.113382+00:00",
+  "cases": [
+    {
+      "area": "EDUBCN API",
+      "mode": "exact",
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "http": 200,
+      "records": [
+        {
+          "timestamp": "20260129224630",
+          "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+          "status": "200",
+          "mime": "application/json",
+          "digest": "SHA256633FFAD24443A2DD6D5E5E3CAE7E54ACD27F6F54C2DAAAAAAA",
+          "length": "4905"
+        },
+        {
+          "timestamp": "20261004093514",
+          "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+          "status": "200",
+          "mime": "application/json",
+          "digest": "SHA2563462FDB37244A5EBCFFFEE56B3FD55F55FEBF5AE4672AACBB44AAAAAAA",
+          "length": "10118"
+        }
+      ],
+      "truncated": false,
+      "response_bytes": 1184
+    },
+    {
+      "area": "EDUBCN API",
+      "mode": "exact",
+      "url": "http://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "http": 200,
+      "records": [
+        {
+          "timestamp": "20260129224630",
+          "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+          "status": "200",
+          "mime": "application/json",
+          "digest": "SHA256633FFAD24443A2DD6D5E5E3CAE7E54ACD27F6F54C2DAAAAAAA",
+          "length": "4905"
+        },
+        {
+          "timestamp": "20261004093514",
+          "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+          "status": "200",
+          "mime": "application/json",
+          "digest": "SHA2563462FDB37244A5EBCFFFEE56B3FD55F55FEBF5AE4672AACBB44AAAAAAA",
+          "length": "10118"
+        }
+      ],
+      "truncated": false,
+      "response_bytes": 1184
+    },
+    {
+      "area": "EDUBCN API",
+      "mode": "prefix",
+      "url": "https://www.edubcn.cat/pdc_rest/",
+      "http": 200,
+      "records": [
+        {
+          "timestamp": "20260129224630",
+          "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+          "status": "200",
+          "mime": "application/json",
+          "digest": "SHA256633FFAD24443A2DD6D5E5E3CAE7E54ACD27F6F54C2DAAAAAAA",
+          "length": "4905"
+        },
+        {
+          "timestamp": "20261004093514",
+          "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+          "status": "200",
+          "mime": "application/json",
+          "digest": "SHA2563462FDB37244A5EBCFFFEE56B3FD55F55FEBF5AE4672AACBB44AAAAAAA",
+          "length": "10118"
+        },
+        {
+          "timestamp": "20260129230101",
+          "url": "https://www.edubcn.cat/pdc_rest/convocatories/es",
+          "status": "200",
+          "mime": "application/json",
+          "digest": "SHA2563237FB426F33A2C7AFBA2527EDAEBBB45EF4CDD6F3BF75D5EB",
+          "length": "4933"
+        },
+        {
+          "timestamp": "20261004094857",
+          "url": "https://www.edubcn.cat/pdc_rest/convocatories/es",
+          "status": "200",
+          "mime": "application/json",
+          "digest": "SHA256DD7B77F267DAFBBBB27757CA4FAFFBDBEBB7FEB6FFFAAAAAAA",
+          "length": "10180"
+        }
+      ],
+      "truncated": false,
+      "response_bytes": 2361
+    },
+    {
+      "area": "EDUBCN PDFs",
+      "mode": "prefix",
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/",
+      "http": 200,
+      "records": [
+        {
+          "timestamp": "20260129230840",
+          "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/primaria/Convocatoria_CS_CRP_MUNICIPALS_2020.pdf",
+          "status": "404",
+          "mime": "text/html",
+          "digest": "SHA2563D4BCB4BF2ED42D533764C4F7CE5EA3C26CEAA6B322AF7D4677AAAAAAA",
+          "length": "1206"
+        },
+        {
+          "timestamp": "20261004095611",
+          "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/primaria/Convocatoria_CS_CRP_MUNICIPALS_2020.pdf",
+          "status": "404",
+          "mime": "text/html",
+          "digest": "SHA2563D4BCB4BF2ED42D533764C4F7CE5EA3C26CEAA6B322AF7D4677AAAAAAA",
+          "length": "1205"
+        }
+      ],
+      "truncated": false,
+      "response_bytes": 1604
+    },
+    {
+      "area": "EDUBCN PDFs",
+      "mode": "prefix",
+      "url": "http://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/",
+      "http": 200,
+      "records": [
+        {
+          "timestamp": "20260129230840",
+          "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/primaria/Convocatoria_CS_CRP_MUNICIPALS_2020.pdf",
+          "status": "404",
+          "mime": "text/html",
+          "digest": "SHA2563D4BCB4BF2ED42D533764C4F7CE5EA3C26CEAA6B322AF7D4677AAAAAAA",
+          "length": "1206"
+        },
+        {
+          "timestamp": "20261004095611",
+          "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/primaria/Convocatoria_CS_CRP_MUNICIPALS_2020.pdf",
+          "status": "404",
+          "mime": "text/html",
+          "digest": "SHA2563D4BCB4BF2ED42D533764C4F7CE5EA3C26CEAA6B322AF7D4677AAAAAAA",
+          "length": "1205"
+        }
+      ],
+      "truncated": false,
+      "response_bytes": 1604
+    },
+    {
+      "area": "EDUBCN PDFs secundària",
+      "mode": "prefix",
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/secundaria/",
+      "http": 200,
+      "records": [],
+      "truncated": false,
+      "response_bytes": 0
+    },
+    {
+      "area": "EDUBCN DC page",
+      "mode": "exact",
+      "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "http": 200,
+      "records": [
+        {
+          "timestamp": "20260129224629",
+          "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+          "status": "200",
+          "mime": "text/html",
+          "digest": "SHA256723F276BA37BCB6C6ADB57FAF7E54FF5A7A7C4322B45C4EAAA",
+          "length": "15792"
+        },
+        {
+          "timestamp": "20260912222659",
+          "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#!/cerca",
+          "status": "200",
+          "mime": "text/html",
+          "digest": "SHA256A67FAD25EE66DA7323C23734F72C6CE55EECADEF3253EB2AAA",
+          "length": "16434"
+        },
+        {
+          "timestamp": "20261004093513",
+          "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+          "status": "200",
+          "mime": "text/html",
+          "digest": "SHA25622A27F63A66CAECEFA527E3D456662D67BCF4C6DC7B347C5D774AAAAAA",
+          "length": "16596"
+        }
+      ],
+      "truncated": false,
+      "response_bytes": 2015
+    },
+    {
+      "area": "EDUBCN control archive",
+      "mode": "exact",
+      "url": "https://efes.cat",
+      "http": 200,
+      "records": [
+        {
+          "timestamp": "20251123074854",
+          "url": "https://efes.cat/",
+          "status": "200",
+          "mime": "text/html",
+          "digest": "SHA25673E7B77AD25B2A4E6E7F27D65CC3DBB5DDEA7E5FECADEC2A53",
+          "length": "7353"
+        },
+        {
+          "timestamp": "20260220030151",
+          "url": "https://www.efes.cat/",
+          "status": "200",
+          "mime": "text/html",
+          "digest": "SHA256C5EA73DB75BF35DBEFB722BEAFFDF6DC23A42B64475E6B52YA",
+          "length": "7121"
+        },
+        {
+          "timestamp": "20260220030444",
+          "url": "http://www.efes.cat/",
+          "status": "302",
+          "mime": "text/html",
+          "digest": "SHA256E3BC442FCC4AFBF4C6FB2427AE4E464B34CA45B752B4AAAAAA",
+          "length": "530"
+        },
+        {
+          "timestamp": "20261005012352",
+          "url": "https://efes.cat/",
+          "status": "200",
+          "mime": "text/html",
+          "digest": "SHA256EEABD674735365F3B232A77EC3FBC7B5EAEA3DFB3DBC77E3BC75BAAAAA",
+          "length": "7351"
+        }
+      ],
+      "truncated": false,
+      "response_bytes": 1959
+    }
+  ],
+  "indexed_education_records": 15,
+  "pdf_capture_records": 4,
+  "api_capture_records": 8,
+  "pdf_capture_sample": [
+    {
+      "area": "EDUBCN PDFs",
+      "timestamp": "20260129230840",
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/primaria/Convocatoria_CS_CRP_MUNICIPALS_2020.pdf",
+      "status": "404",
+      "mime": "text/html",
+      "digest": "SHA2563D4BCB4BF2ED42D533764C4F7CE5EA3C26CEAA6B322AF7D4677AAAAAAA",
+      "length": "1206"
+    },
+    {
+      "area": "EDUBCN PDFs",
+      "timestamp": "20261004095611",
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/primaria/Convocatoria_CS_CRP_MUNICIPALS_2020.pdf",
+      "status": "404",
+      "mime": "text/html",
+      "digest": "SHA2563D4BCB4BF2ED42D533764C4F7CE5EA3C26CEAA6B322AF7D4677AAAAAAA",
+      "length": "1205"
+    },
+    {
+      "area": "EDUBCN PDFs",
+      "timestamp": "20260129230840",
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/primaria/Convocatoria_CS_CRP_MUNICIPALS_2020.pdf",
+      "status": "404",
+      "mime": "text/html",
+      "digest": "SHA2563D4BCB4BF2ED42D533764C4F7CE5EA3C26CEAA6B322AF7D4677AAAAAAA",
+      "length": "1206"
+    },
+    {
+      "area": "EDUBCN PDFs",
+      "timestamp": "20261004095611",
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/primaria/Convocatoria_CS_CRP_MUNICIPALS_2020.pdf",
+      "status": "404",
+      "mime": "text/html",
+      "digest": "SHA2563D4BCB4BF2ED42D533764C4F7CE5EA3C26CEAA6B322AF7D4677AAAAAAA",
+      "length": "1205"
+    }
+  ],
+  "api_capture_sample": [
+    {
+      "area": "EDUBCN API",
+      "timestamp": "20260129224630",
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "status": "200",
+      "mime": "application/json",
+      "digest": "SHA256633FFAD24443A2DD6D5E5E3CAE7E54ACD27F6F54C2DAAAAAAA",
+      "length": "4905"
+    },
+    {
+      "area": "EDUBCN API",
+      "timestamp": "20261004093514",
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "status": "200",
+      "mime": "application/json",
+      "digest": "SHA2563462FDB37244A5EBCFFFEE56B3FD55F55FEBF5AE4672AACBB44AAAAAAA",
+      "length": "10118"
+    },
+    {
+      "area": "EDUBCN API",
+      "timestamp": "20260129224630",
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "status": "200",
+      "mime": "application/json",
+      "digest": "SHA256633FFAD24443A2DD6D5E5E3CAE7E54ACD27F6F54C2DAAAAAAA",
+      "length": "4905"
+    },
+    {
+      "area": "EDUBCN API",
+      "timestamp": "20261004093514",
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "status": "200",
+      "mime": "application/json",
+      "digest": "SHA2563462FDB37244A5EBCFFFEE56B3FD55F55FEBF5AE4672AACBB44AAAAAAA",
+      "length": "10118"
+    },
+    {
+      "area": "EDUBCN API",
+      "timestamp": "20260129224630",
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "status": "200",
+      "mime": "application/json",
+      "digest": "SHA256633FFAD24443A2DD6D5E5E3CAE7E54ACD27F6F54C2DAAAAAAA",
+      "length": "4905"
+    },
+    {
+      "area": "EDUBCN API",
+      "timestamp": "20261004093514",
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "status": "200",
+      "mime": "application/json",
+      "digest": "SHA2563462FDB37244A5EBCFFFEE56B3FD55F55FEBF5AE4672AACBB44AAAAAAA",
+      "length": "10118"
+    },
+    {
+      "area": "EDUBCN API",
+      "timestamp": "20260129230101",
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/es",
+      "status": "200",
+      "mime": "application/json",
+      "digest": "SHA2563237FB426F33A2C7AFBA2527EDAEBBB45EF4CDD6F3BF75D5EB",
+      "length": "4933"
+    },
+    {
+      "area": "EDUBCN API",
+      "timestamp": "20261004094857",
+      "url": "https://www.edubcn.cat/pdc_rest/convocatories/es",
+      "status": "200",
+      "mime": "application/json",
+      "digest": "SHA256DD7B77F267DAFBBBB27757CA4FAFFBDBEBB7FEB6FFFAAAAAAA",
+      "length": "10180"
+    }
+  ],
+  "verified_original_2025_26_offers": 0,
+  "warnings": [
+    "This is an index query only, not a recovered historical PDF or API JSON body.",
+    "Captured API URL metadata does not prove historical API response content.",
+    "A date in the index represents crawler capture, not publication of a specific vacancy.",
+    "A 200 response with 0 CDX rows does not prove that no vacancies were published."
+  ]
+}
