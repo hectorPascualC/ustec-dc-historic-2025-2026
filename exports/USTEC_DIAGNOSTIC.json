@@ -1,0 +1,123 @@
+{
+  "checked_at": "2026-10-12T17:56:57.872226+00:00",
+  "url": "https://www.sindicat.net/eines/nomenaments/nomenaments2.php",
+  "dom": {
+    "time": "2026-10-12T17:57:00.419Z",
+    "tableIndex": 8,
+    "procedureHeader": "<th class=\"big-col dt-body-center sorting\" tabindex=\"0\" aria-controls=\"example\" rowspan=\"1\" colspan=\"1\" style=\"width: 124.391px;\" aria-label=\"ProcedimentFiltrar per ProcedimentNomenaments telemàticsAdjudicacions estiuDifícil coberturaProcediment urgènciaSelecció direcció&amp;nbsp;: activate to sort column ascending\">Procediment<br><br><select><option value=\"\">Filtrar per Procediment</option><option value=\"nt\">Nomenaments telemàtics</option><option value=\"ae\">Adjudicacions estiu</option><option value=\"dif\">Difícil cobertura</option><option value=\"urg\">Procediment urgència</option><option value=\"dir\">Selecció direcció</option></select><br>&nbsp;</th>",
+    "selects": [
+      {
+        "outer": "<select name=\"example_length\" aria-controls=\"example\" class=\"\"><option value=\"10\">10</option><option value=\"25\">25</option><option value=\"50\">50</option><option value=\"100\">100</option></select>",
+        "value": "10",
+        "options": []
+      },
+      {
+        "outer": "<select><option value=\"\">Filtrar per Servei Territorial</option><option value=\"1\">Barcelona Consorci</option><option value=\"2\">Barcelonès</option> <option value=\"3\">Baix Llobregat</option> <option value=\"4\">Vallès Occidental</option> <option value=\"5\">Maresme - Vallès Oriental</o",
+        "value": "",
+        "options": []
+      },
+      {
+        "outer": "<select><option value=\"\">Filtrar per Procediment</option><option value=\"nt\">Nomenaments telemàtics</option><option value=\"ae\">Adjudicacions estiu</option><option value=\"dif\">Difícil cobertura</option><option value=\"urg\">Procediment urgència</option><option value=\"dir\">Selecció di",
+        "value": "",
+        "options": [
+          {
+            "value": "nt",
+            "text": "Nomenaments telemàtics"
+          },
+          {
+            "value": "dif",
+            "text": "Difícil cobertura"
+          }
+        ]
+      },
+      {
+        "outer": "<select><option value=\"\">Filtrar per Curs</option><option value=\"2026-2027\" selected=\"selected\">2026-2027</option><option value=\"2025-2026\">2025-2026</option><option value=\"2024-2025\">2024-2025</option><option value=\"2023-2024\">2023-2024</option><option value=\"2022-2023\">2022-202",
+        "value": "2026-2027",
+        "options": [
+          {
+            "value": "2025-2026",
+            "text": "2025-2026"
+          },
+          {
+            "value": "2024-2025",
+            "text": "2024-2025"
+          }
+        ]
+      },
+      {
+        "outer": "<select><option value=\"\">Filtrar per Servei Territorial</option><option value=\"1\">Barcelona Consorci</option><option value=\"2\">Barcelonès</option> <option value=\"3\">Baix Llobregat</option> <option value=\"4\">Vallès Occidental</option> <option value=\"5\">Maresme - Vallès Oriental</o",
+        "value": "",
+        "options": []
+      },
+      {
+        "outer": "<select><option value=\"\">Filtrar per Procediment</option><option value=\"nt\">Nomenaments telemàtics</option><option value=\"ae\">Adjudicacions estiu</option><option value=\"dif\">Difícil cobertura</option><option value=\"urg\">Procediment urgència</option><option value=\"dir\">Selecció di",
+        "value": "",
+        "options": [
+          {
+            "value": "nt",
+            "text": "Nomenaments telemàtics"
+          },
+          {
+            "value": "dif",
+            "text": "Difícil cobertura"
+          }
+        ]
+      },
+      {
+        "outer": "<select><option value=\"\">Filtrar per Curs</option><option value=\"2026-2027\" selected=\"selected\">2026-2027</option><option value=\"2025-2026\">2025-2026</option><option value=\"2024-2025\">2024-2025</option><option value=\"2023-2024\">2023-2024</option><option value=\"2022-2023\">2022-202",
+        "value": "2026-2027",
+        "options": [
+          {
+            "value": "2025-2026",
+            "text": "2025-2026"
+          },
+          {
+            "value": "2024-2025",
+            "text": "2024-2025"
+          }
+        ]
+      }
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "id": "btn-filter",
+        "outer": "<button id=\"btn-filter\">Veure les NO adjudicades</button>"
+      }
+    ],
+    "scripts": [
+      {
+        "term": "adjudicades",
+        "around": "    });  // fi create table=datatable(..)\n\n\n            \n\n            // controls sobre la taula a l'alçada desplegable regs x pag.\n            boto_noadjudicats='<div id=\"boto_noadjudicada\" class=\"dataTables_length\" style=\"padding:5px\"><br/><button id=\"btn-filter\" >Veure les NO adjudicades</button></div>';\n            $(\"#example_length\").after(boto_noadjudicats);\n\n            // - no va no tanca el calendar despres del blur - conflicte amb dataTables_wrapper\n            // data_inicial='<div id=\"data_inicial\" class=\"dataTables_length\" style=\"padding:5px\"><label>Data inicial:</label><input type=\"text\" id=\"min\" name=\"min\"></div>';\n            // $(\"#boto_noadjudicada\").af"
+      },
+      {
+        "term": "noadjud",
+        "around": "                   if(colIndex==9)  $(this).attr('title', \"Curs\");             \n                    });\n                },\n            });  // fi create table=datatable(..)\n\n\n            \n\n            // controls sobre la taula a l'alçada desplegable regs x pag.\n            boto_noadjudicats='<div id=\"boto_noadjudicada\" class=\"dataTables_length\" style=\"padding:5px\"><br/><button id=\"btn-filter\" >Veure les NO adjudicades</button></div>';\n            $(\"#example_length\").after(boto_noadjudicats);\n\n            // - no va no tanca el calendar despres del blur - conflicte amb dataTables_wrapper\n            // data_inicial='<div id=\"data_inicial\" class=\"dataTables_length\" style="
+      },
+      {
+        "term": "difícil cobertura",
+        "around": "bsp;');\n                } else if (index == 8) {\n                    $(this).html(title + '<br><br>' + '<select><option value=\"\">Filtrar per ' + title + '</option><option value=\"nt\">Nomenaments telemàtics</option><option value=\"ae\">Adjudicacions estiu</option><option value=\"dif\">Difícil cobertura</option><option value=\"urg\">Procediment urgència</option><option value=\"dir\">Selecció direcció</option></select><br>&nbsp;');\n                } else if (index == 9) {\n                    $(this).html(title + '<br><br>' + '<select><option value=\"\">Filtrar per ' + title + '</option><option value=\"2026-2027\" selected=\"selected\">2026-2027</option><option value=\"2025-2026\">2025-2026</"
+      },
+      {
+        "term": "Difícil cobertura",
+        "around": "bsp;');\n                } else if (index == 8) {\n                    $(this).html(title + '<br><br>' + '<select><option value=\"\">Filtrar per ' + title + '</option><option value=\"nt\">Nomenaments telemàtics</option><option value=\"ae\">Adjudicacions estiu</option><option value=\"dif\">Difícil cobertura</option><option value=\"urg\">Procediment urgència</option><option value=\"dir\">Selecció direcció</option></select><br>&nbsp;');\n                } else if (index == 9) {\n                    $(this).html(title + '<br><br>' + '<select><option value=\"\">Filtrar per ' + title + '</option><option value=\"2026-2027\" selected=\"selected\">2026-2027</option><option value=\"2025-2026\">2025-2026</"
+      },
+      {
+        "term": "procediment",
+        "around": " {\n                    $(this).html(title + '<br><br>' + '<select><option value=\"\">Filtrar per ' + title + '</option><option value=\"nt\">Nomenaments telemàtics</option><option value=\"ae\">Adjudicacions estiu</option><option value=\"dif\">Difícil cobertura</option><option value=\"urg\">Procediment urgència</option><option value=\"dir\">Selecció direcció</option></select><br>&nbsp;');\n                } else if (index == 9) {\n                    $(this).html(title + '<br><br>' + '<select><option value=\"\">Filtrar per ' + title + '</option><option value=\"2026-2027\" selected=\"selected\">2026-2027</option><option value=\"2025-2026\">2025-2026</option><option value=\"2024-2025\">2024-2025</op"
+      }
+    ],
+    "unassignedMatches": 1,
+    "tableInfo": {
+      "page": 0,
+      "pages": 2734,
+      "start": 0,
+      "end": 10,
+      "length": 10,
+      "recordsTotal": 154243,
+      "recordsDisplay": 27336,
+      "serverSide": true
+    }
+  }
+}
