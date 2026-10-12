@@ -44,6 +44,20 @@ if __name__ == "__main__":
             page.wait_for_function("!!(window.jQuery && window.jQuery.fn.dataTable && window.jQuery.fn.dataTable.tables().length)",timeout=55000)
             page.wait_for_timeout(1200)
             result["dom"]=page.evaluate(JS)
+            button=page.locator("#btn-filter")
+            if button.count():
+                requests=[]
+                page.on("request", lambda q: requests.append(q.url) if "server_processing2.php" in q.url else None)
+                button.click()
+                page.wait_for_timeout(1500)
+                result["button_after"] = page.evaluate("""() => {
+                  const jq=window.jQuery,api=jq(jq.fn.dataTable.tables()[0]).DataTable();
+                  return {buttonText:document.querySelector('#btn-filter')?.textContent,
+                          globalSearch:api.search(),column2Search:api.column(2).search(),
+                          info:api.page.info()};
+                }""")
+                result["button_request_count"]=len(requests)
+                result["button_requests_tail"]=requests[-2:]
             browser.close()
     except Exception as e:
         result["error"]=str(e)
