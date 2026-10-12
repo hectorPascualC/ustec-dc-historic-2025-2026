@@ -69,3 +69,11 @@ S'ha consultat l'endpoint públic de recerca `https://urlscan.io/api/v1/search/`
 ## 7. Reavaluació de les sis àrees sense identificadors
 
 S'ha provat el cercador textual TinyFish amb **filtres temporals d'indexació** `after_date=2025-11-01` i `before_date=2026-03-01` i consultes específiques per rutes de Girona, Tarragona, Terres de l'Ebre, Catalunya Central, Maresme–Vallès Oriental i Alt Pirineu i Aran. **Cap resultat indexat retornat amb aquests filtres**. Un resultat de cercador absent sota filtres temporals NO demostra que un PDF antic no s'hagués publicat. La revisió externa addicional ha recuperat sobretot PDF de 2026-27, exclosos del cens.
+
+## 8. Índexs Wayback alternatius, consulta puntual
+
+S'han provat dos endpoints alternatius al CDX principal amb un PDF nominal de 07/11/2025 del Barcelonès:
+- `https://web.archive.org/__wb/calendarcaptures/2` (calendari de captures)
+- `https://wayback.archive-it.org/all/timemap/cdx` (índex de col·leccions Archive-It)
+
+La passarel·la pública de consulta ha retornat **`invalid_redirect_url`** en ambdós casos. No s'ha rebut cap registre de captures usable ni una resposta de **0 captures** verificable; l'error es classifica com a limitació tècnica d'accés, **no com absència d'arxius històrics**.
