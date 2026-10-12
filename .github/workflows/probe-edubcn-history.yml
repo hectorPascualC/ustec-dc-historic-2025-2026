@@ -1,0 +1,40 @@
+name: Revisar historial dinamic EDUBCN DC 2025-2026
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/probe-edubcn-history.yml'
+      - 'src/probe_edubcn_history.py'
+permissions:
+  contents: write
+concurrency:
+  group: edubcn-dc-historical-inspection
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          python -m pip install 'playwright>=1.50,<2'
+          python -m playwright install --with-deps chromium
+      - run: python src/probe_edubcn_history.py --output edubcn_result/EDUBCN_HISTORIC_AUDIT.json
+      - name: Publish non-personal public-source audit
+        if: always()
+        run: |
+          if [ ! -f edubcn_result/EDUBCN_HISTORIC_AUDIT.json ]; then exit 1; fi
+          mkdir -p exports_edubcn
+          cp edubcn_result/EDUBCN_HISTORIC_AUDIT.json exports_edubcn/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_edubcn/
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: verify public EDUBCN historical search visibility'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
