@@ -50,7 +50,26 @@ def run(path):
       data["historic_mode_selected"]=True
      else:data["historic_mode_selected"]=False
     except Exception as ex:data["historic_mode_error"]=str(ex)[:130]
+   # Explicitly select the historic radio state=2 rather than clicking its text span.
+   historic_radio=page.locator('input[name="state"][value="2"]')
+   if not historic_radio.count():
+    selector=page.locator('button[aria-label^="Estat:"]')
+    if selector.count():selector.first.click()
+   if historic_radio.count():
+    try:
+     historic_radio.check(force=True,timeout=4500)
+     data["historic_radio_checked"]=True
+    except Exception as ex:data["historic_radio_error"]=str(ex)[:190]
+   page.wait_for_timeout(800)
    data["status_after_menu"]=page.locator('button[aria-label^="Estat:"]').first.get_attribute("aria-label") if page.locator('button[aria-label^="Estat:"]').count() else None
+   all_button=page.get_by_role("button",name="Veure'ls tots")
+   data["show_all_button_count"]=all_button.count()
+   if all_button.count():
+    try:
+     all_button.first.click(force=True,timeout=4500)
+     page.wait_for_timeout(1100)
+     data["clicked_veurels_tots"]=True
+    except Exception as ex:data["show_all_error"]=str(ex)[:180]
    data["search_area_dom"]=page.locator("#search-input").evaluate("(x)=>x.parentElement?.parentElement?.outerHTML.slice(0,1800)")
    page.keyboard.press("Escape")
    queries=["difícil cobertura","dificil cobertura","nomenaments interí","GENSEC_2526","2025/SEC","507","627","F57","F87"]
