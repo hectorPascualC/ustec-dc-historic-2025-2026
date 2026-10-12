@@ -35,3 +35,8 @@ Per territoris: Barcelonès 17; Baix Llobregat 9; Vallès Occidental 2; Lleida 3
 Fonts originals històriques: documents públics de difícil cobertura del Vallès Occidental, `VOC-SEC-dificil-cobertura-oferta-vacants.pdf` i `VOC-SEC-dificil-cobertura-vacants-cobertes.pdf`.
 
 **Auditoria:** prova oferta/resultat PASS; cens exhaustiu FAIL. Els zeros de casos coneguts no indiquen zeros de places publicades.
+
+
+## Exclusió documentada: F57-507 Torre Roja (juliol 2025)
+
+El document oficial del Baix Llobregat **BLL-PFI.pdf**, datat a Sant Feliu de Llobregat l'**1 de juliol de 2025**, acredita una plaça **F57** amb especialitat ordinària **507** a l'**Institut Torre Roja** (Viladecans), amb una vacant. Aquesta evidència és **anterior a 01/11/2025**, de manera que **no s'afegeix** als 32 ID del període si no apareix una republicació posterior acreditada. Serveix per confirmar oficialment la relació **F57 ↔ 507** en aquest procediment. Font: https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/baix-llobregat/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BLL-PFI.pdf
