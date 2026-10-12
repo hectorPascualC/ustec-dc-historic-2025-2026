@@ -1,0 +1,38 @@
+name: Arxiu Wayback DC consulta limitada 65s
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/retry_wayback_cdx_65s.py'
+      - '.github/workflows/probe-wayback-65s.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  cdx:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install HTTP client
+        run: python -m pip install 'requests>=2.31,<3'
+      - name: Request three low-rate historical URL lookups
+        run: python src/retry_wayback_cdx_65s.py --output exports_wayback/RESUM_CDX_65S.json
+      - name: Publish only archive metadata
+        if: always()
+        run: |
+          if [ ! -s exports_wayback/RESUM_CDX_65S.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_wayback/RESUM_CDX_65S.json
+          if ! git diff --cached --quiet; then
+            git commit -m "audit: record three 65-second CDX probes and source availability"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
