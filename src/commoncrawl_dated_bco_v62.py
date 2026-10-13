@@ -35,7 +35,7 @@ def query(coll,row):
        "original_url":url,"collection":coll,"status":None,"records":[]}
  try:
   r=requests.get("https://index.commoncrawl.org/"+coll+"-index",
-      params={"url":url,"output":"json"},headers={"User-Agent":UA},timeout=(9,21))
+      params={"url":url,"output":"json"},headers=UA,timeout=(9,21))
   meta["status"]=r.status_code
   if r.status_code==200:
    for line in r.text.splitlines()[:15]:
@@ -63,7 +63,7 @@ def inspect_warc(rec):
   if not(0<=offset and 100<=length<=3500000):
    out["error"]="invalid WARC byte-range";return out
   r=requests.get("https://data.commoncrawl.org/"+filename,
-       headers={"Range":f"bytes={offset}-{offset+length-1}","User-Agent":UA},
+       headers={"Range":f"bytes={offset}-{offset+length-1}",**UA},
        timeout=(10,35))
   if r.status_code!=206:
    out["error"]="WARC_range_http_"+str(r.status_code);return out
