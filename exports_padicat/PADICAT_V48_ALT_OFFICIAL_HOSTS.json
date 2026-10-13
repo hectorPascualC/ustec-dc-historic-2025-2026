@@ -1,0 +1,85 @@
+{
+  "checked_at": "2026-10-13T13:51:01.547710+00:00",
+  "scope": "historic public PDF hosts October2025-March2026",
+  "queries": [
+    {
+      "name": "educacio_website",
+      "url": "https://educacio.gencat.cat/",
+      "status": 200,
+      "indexed": 180,
+      "suspected_dc": [],
+      "truncated": true
+    },
+    {
+      "name": "educacio_http",
+      "url": "http://educacio.gencat.cat/",
+      "status": 200,
+      "indexed": 180,
+      "suspected_dc": [],
+      "truncated": true
+    },
+    {
+      "name": "educacio_www",
+      "url": "https://www.educacio.gencat.cat/",
+      "status": 200,
+      "indexed": 180,
+      "suspected_dc": [],
+      "truncated": true
+    },
+    {
+      "name": "educacio_pdf_tree",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/",
+      "status": 200,
+      "indexed": 0,
+      "suspected_dc": [],
+      "truncated": false
+    },
+    {
+      "name": "educacio_pdf_tree_http",
+      "url": "http://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/",
+      "status": 200,
+      "indexed": 0,
+      "suspected_dc": [],
+      "truncated": false
+    },
+    {
+      "name": "ensenyament_old",
+      "url": "https://ensenyament.gencat.cat/",
+      "status": 200,
+      "indexed": 26,
+      "suspected_dc": [],
+      "truncated": false
+    },
+    {
+      "name": "documents_espai",
+      "url": "https://documents.espai.educacio.gencat.cat/",
+      "status": 200,
+      "indexed": 3,
+      "suspected_dc": [],
+      "truncated": false
+    },
+    {
+      "name": "documents_espai_http",
+      "url": "http://documents.espai.educacio.gencat.cat/",
+      "status": 200,
+      "indexed": 3,
+      "suspected_dc": [],
+      "truncated": false
+    },
+    {
+      "name": "documents_espai_www",
+      "url": "https://www.documents.espai.educacio.gencat.cat/",
+      "status": 200,
+      "indexed": 3,
+      "suspected_dc": [],
+      "truncated": false
+    }
+  ],
+  "archive_dc_url_hits": 0,
+  "limitations": [
+    "CDX prefix listings can be truncated and can normalize http to https.",
+    "No public PDF body is recovered merely by seeing CDX URL metadata.",
+    "2025-26 archive capture and original publication time are different.",
+    "Zero in one archive is not a zero of real administrative vacancy publications."
+  ]
+}
