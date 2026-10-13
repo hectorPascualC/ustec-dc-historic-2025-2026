@@ -1,0 +1,631 @@
+{
+  "at": "2026-10-13T13:58:43.829447+00:00",
+  "scope": "Captured EDUBCN 2026-01-29 archive original PDF body scan",
+  "cdx_total_records": 252,
+  "cdx_200_pdf_records": 248,
+  "eligible_filename_candidates": 49,
+  "selection_truncated": false,
+  "original_archived_pdfs_downloaded": 49,
+  "pdfs_with_specialty_adjacent_labels": 3,
+  "potential_target_documents": [
+    {
+      "archive_capture": "20260129232203",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "36b740c5ae79725d3cfa2fb30a037214047d855cdb63bb01bc9a0c50fa069573",
+      "matching_specialty_codes": [
+        "507"
+      ],
+      "raw_code_tokens": [
+        "507"
+      ],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232203",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "476f51b8091ccc4390699813badb467e267dc805d26f685b657a99b2ec59a325",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [
+        "627"
+      ],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "8a9c68a960446d7cbe84332b293a29452e6b915124a79ee17425f52e5495abb3",
+      "matching_specialty_codes": [
+        "627"
+      ],
+      "raw_code_tokens": [
+        "627"
+      ],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "75e4daa41bb335b5c69bab2bf1a8f7721d090a03552678f03f112b53d17e82af",
+      "matching_specialty_codes": [
+        "507"
+      ],
+      "raw_code_tokens": [
+        "507"
+      ],
+      "mentions_2025_26": true
+    }
+  ],
+  "audit_records": [
+    {
+      "archive_capture": "20260129232203",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENPRI_2526_34_GRUPESTABLE.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "1f2796928705a4c8a534ee7c9ed2dab1cd33b1983e8b70ba7040948e92647bdf",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232203",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENPRI_2526__38_AH_SantaCreuISantPau_PRI.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "617de3192b263886753537d0c90a38c3bb75fe7e3ef23804bf64226a9beaad0a",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "e433503609731505b4d804e079ac5e433542564be36a73a61cf588fbb1b8d658",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "e5aeffaf7edcbce3cbb16afc16da452a2ecfbbe8226dc20f0bfac53df84bdb1c",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_127_ITAEB_512.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "c4fc8b64c40cf02a04400fadd194911ed6924b327e8c335867628e205474b932",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_133_AA_reforc_diversoscentres.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "133d1aca1d8a64ac5485068228b80ed50d0dd8111448c435855b1a70bd1fc09a",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_135_HospitalDia_PSI_v1.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "fca35640d4a207c71b2a64de69c45908e52e21514888a3a7cd13af09d6e7db09",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232203",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "36b740c5ae79725d3cfa2fb30a037214047d855cdb63bb01bc9a0c50fa069573",
+      "matching_specialty_codes": [
+        "507"
+      ],
+      "raw_code_tokens": [
+        "507"
+      ],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232203",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "476f51b8091ccc4390699813badb467e267dc805d26f685b657a99b2ec59a325",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [
+        "627"
+      ],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "13abd492d0e68d2b62d13a48f2d0a829ec419e4154257d3b00d6e90470d7b19c",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_153_Inst_DrPuigvert_MU.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "47fd18c4fcecf06711f064e4dd4a37f5c7f2606847635abde4366f2e482a92dc",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232203",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_155_Inst_MareDeuMerce_F69.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "4dc52b26c2076383a35cb2fa7da02e5c910acfa3dab819f7f67559543f3e2037",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_156_EA_Llotja_709.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "126df0630485d4ef278f13f9d2fe8c5d81889441da160e9b82297e45f1d2afe1",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_157_EA_Llotja_722.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "62be8f1789a3c34beaab737455fe33a99560a6ab89419b4f7a1fb76a6a296cab",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_158_EA_Llotja_810.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "23ba3ad4046d33b110093003edaa7d7aa6e608666e82956441331835ddd0ab74",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_159_VallHebronPFI.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "16cd0752ff7910bef6b144e1bbfc7ae6193d784d9af664104e29f9c7b81da32c",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232203",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_162_Ins_MareDeuMerce_511.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "8d4bbb0e03fd32fa2feca21bd8ebf42a38a2b79c16fddb201fe0aaace9e5a5de",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232203",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_164_Ins_FPSValld_Hebron_619.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "db479d8aca8d3c4d138fe7c7c630d3ed105c11d173a5fdd2a9f036824a27159b",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_165_Ins_MareDeuMerce_609.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "4f0f45e9cdb44fdb60c5f1e2c4cef602f1e6534fb97ca1184ee347543ce5b14f",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_166_Inst_SalvadorSegui_503.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "c4dc5c24ac105a37437ee607829518528882b8d68f4c7d1200fd0eefcdca2c38",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_168_Area_Educacio_Inclusiva_CEB_PSI_.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "c970cb0fe0bef24274f4daedd46c19b3ad16238ee2d3595c9830f0f0767a1c8d",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": false
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_169_I_Flos_i_Calcat_ADC.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "79a588db7263b9ac7561bfda8acd013e1ac90e9848a98d159ae1c6b9a1690148",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_170_CFA_LES_CORTS_SCO.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "690d469d7d4eb423cd2271bddf3e5dcf5e8a31d51aaec8bf386e98f98d6e1365",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_171_EOI_BARCELONA_CATALA_EOI_195.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "fe6b79e02fa1e19e3c5f2190b67daae9f09fe4b915e07b0d4c55220f61f10736",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_172_EOI_BARCELONA_FRANCES_EOI_192.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "0500858eb2af3d307cc159503169040defe46692bc95a743bc26700362e448d4",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_173_Ins_FPSValld_Hebron_619.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "ecb872a46ea738b3ba7540292e08a2cd402997e7ef0600f6e4caf9a69223d8bf",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_54_CREDA_Pere_Barnils_PSI.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "8ed5556587849e253f53a5704e6efb4d28457492d4e20db3a35110869bf82d47",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_90_EOI_Guinardo_Frances.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 4,
+      "sha256": "0ad05e1fed3ab283b9ff8466a62d633dcf7cd16ebc919e590d69089c1061ce00",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_099B_INS_ESCOLA_DEL_TREBALL_605.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "dca0e758daedff4eaa61f9a175b6b9212ecba3bc6e18a617cefd697b8c1e30d0",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_130_INS-INDUSTRIA-SOSTENIBLE_606__Installacions-Electrotecniques.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "c547a3562e6bdeb850c5acfd157193f1e368b1b6ed6adb1bdd3daa1c1bc853bb",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "8a9c68a960446d7cbe84332b293a29452e6b915124a79ee17425f52e5495abb3",
+      "matching_specialty_codes": [
+        "627"
+      ],
+      "raw_code_tokens": [
+        "627"
+      ],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_160_INS_INDUSTRIA_SOSTENIBLE_525_Sistemes_Electrrotecnics_i_Automatics.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "2ad4ebf2a8711f3d853cf81ab6334571d60c06dde6f6f3f98ed9f99e46eb0b46",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_161_INS_ESCOLA_DEL_TREBALL_605_InstalLacioMant._Equips_Termics.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "2c27b2586278a35fedef985416a0cd148453894df065a4d54508c1ce1b566a7a",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232204",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_163_IEA_Oriol_Martorell_448_Trompeta.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "fc140b2eeae1eb29ef8305d613b9138c93d77becab9698c0b2c693c0446dda4e",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "75e4daa41bb335b5c69bab2bf1a8f7721d090a03552678f03f112b53d17e82af",
+      "matching_specialty_codes": [
+        "507"
+      ],
+      "raw_code_tokens": [
+        "507"
+      ],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNPRI_2526_13_CREDA_PERE_BARNILS_ALL.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "6e56f718ce80eb6a724ced78f1d8cc8580779c286f299bdc386bbf7fd65db66c",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNPRI_2526_15_CEE_VILALAJOANA_EES_SUBSTITUCIONS.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "0b7566896109a197b5ea56c9fa2c0f4ae77e11b0cfc7debaeef0593ed0b61ba9",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_045_IQBB_502_v1.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "ea81fcbcaf733e442c2cf1eb36800d5cf74c1f44d02fa5b267afec15360aeeba",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_12_CEE_VilaJoana_Psico_Externa_Substi.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "89f89ad265f4724fed9338086bfa447242c23ef3ee503bf808f0772040dbef59",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_13_CEE_VilaJoana_Arterapia_Substi.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "117a9e05b4c335979d42fe72b047877758994525a9cc4c2b29ab46c0d3510bef",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_23.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "08551a42533c966a57d00b6d037a3adbbfdbd814eabf40c64c1025068417c47d",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_52_SEM_PSI.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "0ad972832b65b9aa4ae5406d6242e62aefa975dfff18b376e0c8aac5e8fe0dda",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232205",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_53_AFA_La_Pau_SMAcompetic.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 2,
+      "sha256": "406c0b3ab0526d8b84bf03a562dc4eb075f93f9bcb793be049a5f28cc5c3b833",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_8_CEE_VilaJoana_PSI.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "a919c2a6333128adc99c936c0b997a984c1df8c9742d15bd1ad1a37bbcf13141",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232206",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_25_26_47_EA_MASSANA_GRAU_LLENGUATGES_DISSENY.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "e38babb8a5e376ca5c6f1924d1de131a756b1fbf2331a99c2aab26254e0533cc",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_25_26_48_EA_MASSANA_GRAU_LLENGUATGES_AUDIOVISUAL.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "df3cf0cd3cf58ad8f0a622ce9c9a548649977f084282b2bcff45c945710d6232",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_25_26_49_EA_MASSANA_GRAU_INVESTIGACIO_EN_DISSENY.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "f23d61bf0aa2a7c902d160db3e135c62c2b8bb7d41c242f83ae2d4ef467e5755",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_25_26_50_EA_MASSANA_GRAU_COMUNICACIO_VISUAL_PRACTIQUES_.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "84599e72d4377898a743243c36fbc9091915f8c98805613e03eabdcba9ae8fec",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    },
+    {
+      "archive_capture": "20260129232207",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_25_26_51_EA_MASSANA_GRAU_LABORATORI_DE_MATERIA_I_CONSTRUCCIO.pdf",
+      "http": 200,
+      "pdf_valid": true,
+      "pages": 3,
+      "sha256": "423b530ceaa87f351bfe5dd44722e9dd2ab610070f2063219709462eb572bb0d",
+      "matching_specialty_codes": [],
+      "raw_code_tokens": [],
+      "mentions_2025_26": true
+    }
+  ],
+  "cautions": [
+    "A raw 507/627/F57/F87 token without adjacent specialty label is not proof of vacancy.",
+    "The archival capture time is not original announcement publication date.",
+    "Only publicly indexed original documents, excludes result PDF based on filename.",
+    "No original PDF text, applicant identities or contacts saved."
+  ]
+}
