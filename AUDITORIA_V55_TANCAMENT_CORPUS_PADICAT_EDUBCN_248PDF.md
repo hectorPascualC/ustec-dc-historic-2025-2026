@@ -9,14 +9,14 @@ L'índex CDX públic de PADICAT per `https://www.edubcn.cat/rcs_gene/seleccio/` 
 | Auditoria | Selecció sense solapament | URL PDF recuperades | Resultat target |
 |---|---|---:|---|
 | V45 | PDF GENSEC/GESEC no RESULTAT | **33** | **4** ofertes ja al cens |
-| V47 | PDF no-GENSEC sense paraules d'exclusió (primeres 7 pàgines) | **87** | 0 perfils documentats |
+| V47 + V56 | PDF no-GENSEC sense paraules d'exclusió (**totes les pàgines verificades a V56**)  | **87** | 0 perfils documentats |
 | V53 | PDF no-GENSEC restants, amb noms abans exclosos (totes les pàgines) | **113** | 0 candidats contextuals |
 | V54 | PDF GENSEC/GESEC RESULTAT (totes les pàgines) | **15** | 2 resultats dels 4 casos coneguts |
 | **TOTAL** | **Totes les URL PDF arxivades amb HTTP 200** | **248/248** | **4 ofertes diferents**, cap nova respecte de V51 |
 
-Les 113 comprovacions V53: **113/113** descàrregues PDF correctes, **165 pàgines** llegides amb text extractable, **0** documents candidats. Les 15 comprovacions V54: **15/15** descàrregues correctes, **15 pàgines** llegides, **2** resultats ja coneguts. A V47: **87/87** PDFs vàlids amb text, només primers set fulls per document. A V45: **33/33** documents originals recuperats.
+Les 113 comprovacions V53: **113/113** descàrregues PDF correctes, **165 pàgines** llegides amb text extractable, **0** documents candidats. Les 15 comprovacions V54: **15/15** descàrregues correctes, **15 pàgines** llegides, **2** resultats ja coneguts. A V47: **87/87** PDFs vàlids amb text i primeres set pàgines revisades. **V56** ha repetit **87/87** amb **320 pàgines totals**, **9 documents de més de 7 pàgines** (màxim 26), **0 errors** i **0 candidats**. A V45: **33/33** documents originals recuperats.
 
-**No confondre 248 PDF arxivats amb 248 ofertes DC, ni 248 URL amb necessàriament 248 continguts binaris diferents.** El corpus inclou resultats, procediments administratius i especialitats alienes. Cap OCR d'imatges escanejades ha estat fet. La V47 pot no detectar mencions en pàgines posteriors a la setena, i cap detecció automàtica demostra absència universal de perfils en un PDF.
+**No confondre 248 PDF arxivats amb 248 ofertes DC, ni 248 URL amb necessàriament 248 continguts binaris diferents.** El corpus inclou resultats, procediments administratius i especialitats alienes. Cap OCR d'imatges escanejades ha estat fet. La limitació de V47 de set pàgines queda resolta per V56 en text extractable; cap detecció automàtica demostra absència universal en pàgines escanejades sense text.
 
 ## 2. Els quatre identificadors objectiu recuperats de l'API arxivada
 
@@ -44,7 +44,7 @@ Els dos documents RESULTAT objectiu són els de `GENSEC_147` i `GENSEC_2526_145`
 
 - Índex directori: [V46](exports_padicat/EDUBCN_PADICAT_V46_FULL_DIRECTORY.json).
 - Grup GENSEC ofertes: [V45](exports_padicat/EDUBCN_PADICAT_V45_ALL_PDFS.json).
-- Grup no-GENSEC normal: [V47](exports_padicat/EDUBCN_PADICAT_V47_NONCODED_PDFS.json).
+- Grup no-GENSEC normal: [V47](exports_padicat/EDUBCN_PADICAT_V47_NONCODED_PDFS.json) i [V56 — totes les pàgines](exports_padicat/EDUBCN_V56_FULL_PAGES.json).
 - Grup no-GENSEC noms exclosos: [V53](exports_padicat/EDUBCN_V53_REMAINING_EXCLUDED_PDFS.json).
 - Grup GENSEC resultats: [V54](exports_padicat/EDUBCN_V54_GENSEC_RESULTS.json).
 - Detall de resultats i condicions: [V52](AUDITORIA_V52_EDUBCN_RESULTATS_JORNADES_2026-10-13.md).
