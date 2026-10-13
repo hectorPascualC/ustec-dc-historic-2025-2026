@@ -1,0 +1,199 @@
+{
+  "checked_utc": "2026-10-13T13:53:58.536074+00:00",
+  "scope": "historic archive captures 2025-11-01 to 2026-02-28, 3 authentic EDUBCN PDF paths",
+  "queries": [
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/",
+      "from": "20251101",
+      "to": "20251130",
+      "status": 200,
+      "response_bytes": 0,
+      "capture_count": 0,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/",
+      "from": "20251201",
+      "to": "20251231",
+      "status": 200,
+      "response_bytes": 0,
+      "capture_count": 0,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/",
+      "from": "20260101",
+      "to": "20260131",
+      "status": 200,
+      "response_bytes": 177081,
+      "capture_count": 252,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/",
+      "from": "20260201",
+      "to": "20260228",
+      "status": 200,
+      "response_bytes": 0,
+      "capture_count": 0,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "http://www.edubcn.cat/rcs_gene/seleccio/",
+      "from": "20251101",
+      "to": "20251130",
+      "status": 200,
+      "response_bytes": 0,
+      "capture_count": 0,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "http://www.edubcn.cat/rcs_gene/seleccio/",
+      "from": "20251201",
+      "to": "20251231",
+      "status": 200,
+      "response_bytes": 0,
+      "capture_count": 0,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "http://www.edubcn.cat/rcs_gene/seleccio/",
+      "from": "20260101",
+      "to": "20260131",
+      "status": 200,
+      "response_bytes": 177081,
+      "capture_count": 252,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "http://www.edubcn.cat/rcs_gene/seleccio/",
+      "from": "20260201",
+      "to": "20260228",
+      "status": 200,
+      "response_bytes": 0,
+      "capture_count": 0,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/",
+      "from": "20251101",
+      "to": "20251130",
+      "status": 200,
+      "response_bytes": 0,
+      "capture_count": 0,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/",
+      "from": "20251201",
+      "to": "20251231",
+      "status": 200,
+      "response_bytes": 0,
+      "capture_count": 0,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/",
+      "from": "20260101",
+      "to": "20260131",
+      "status": 200,
+      "response_bytes": 805,
+      "capture_count": 1,
+      "hit_limit": false,
+      "error": ""
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/extra/03_nomenaments_dificil_cobertura/",
+      "from": "20260201",
+      "to": "20260228",
+      "status": 200,
+      "response_bytes": 0,
+      "capture_count": 0,
+      "hit_limit": false,
+      "error": ""
+    }
+  ],
+  "query_count": 12,
+  "all_capture_records": 505,
+  "valid_pdf_capture_records": 496,
+  "target_pdf_filename_hits": 6,
+  "target_pdf_metadata": [
+    {
+      "timestamp": "20260129232203",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+      "status": "200",
+      "mime": "application/pdf",
+      "digest": "SHA25636B74C5AE7725D3CFA2FB3A372447D55CDB63BBBCAC5FA6573",
+      "length": "150575",
+      "source-coll": "$root",
+      "query_url": "https://www.edubcn.cat/rcs_gene/seleccio/"
+    },
+    {
+      "timestamp": "20260129232203",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+      "status": "200",
+      "mime": "application/pdf",
+      "digest": "SHA256CCA4AA226D3BF26E527CCCDF244ACA5D6BD352BA2BFDEAAAAA",
+      "length": "220550",
+      "source-coll": "$root",
+      "query_url": "https://www.edubcn.cat/rcs_gene/seleccio/"
+    },
+    {
+      "timestamp": "20260129232203",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+      "status": "200",
+      "mime": "application/pdf",
+      "digest": "SHA256476F5BCCC4363BADB467E267DC5D26F65B657AB2EC5A324AAA",
+      "length": "152949",
+      "source-coll": "$root",
+      "query_url": "https://www.edubcn.cat/rcs_gene/seleccio/"
+    },
+    {
+      "timestamp": "20260129232206",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+      "status": "200",
+      "mime": "application/pdf",
+      "digest": "SHA256AC6A6446D7CBE4332B23A2452E6B524A7EE7425F52E545ABB3",
+      "length": "164167",
+      "source-coll": "$root",
+      "query_url": "https://www.edubcn.cat/rcs_gene/seleccio/"
+    },
+    {
+      "timestamp": "20260129232206",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf",
+      "status": "200",
+      "mime": "application/pdf",
+      "digest": "SHA2563CDA75E26C3E7FBE7B54F564542D2D4652B6B5C77736AB4C67",
+      "length": "135563",
+      "source-coll": "$root",
+      "query_url": "https://www.edubcn.cat/rcs_gene/seleccio/"
+    },
+    {
+      "timestamp": "20260129232205",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+      "status": "200",
+      "mime": "application/pdf",
+      "digest": "SHA25675E4DAA4BB335B5C6BAB2BFAF772DA355267F3F2B53D7E2AAA",
+      "length": "160165",
+      "source-coll": "$root",
+      "query_url": "https://www.edubcn.cat/rcs_gene/seleccio/"
+    }
+  ],
+  "unique_target_urls": 6,
+  "warnings": [
+    "Filename code matches are candidate evidence only; PDF must be independently parsed before census admission.",
+    "Archive capture timestamp not original publication date.",
+    "Queries may be incomplete when hit_limit is true, or content archived on alternative hosts.",
+    "Only public source URLs and archive metadata saved; no candidate or teacher details."
+  ]
+}
