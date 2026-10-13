@@ -1,0 +1,33 @@
+name: V56 PADICAT EDUBCN scan full pages of V47 PDFs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/padicat_edubcn_full_pages_v56.py
+      - .github/workflows/padicat-edubcn-full-pages-v56.yml
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'requests>=2.31,<3' 'pymupdf>=1.24,<2'
+      - run: python -m py_compile src/padicat_edubcn_full_pages_v56.py
+      - name: Read full PDFs, including beyond old seven-page cutoff
+        run: python src/padicat_edubcn_full_pages_v56.py --output exports_padicat/EDUBCN_V56_FULL_PAGES.json
+      - name: Publish audit output without any personal data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/EDUBCN_V56_FULL_PAGES.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: V56 inspect all pages of previously seven-page-limited PDFs'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
