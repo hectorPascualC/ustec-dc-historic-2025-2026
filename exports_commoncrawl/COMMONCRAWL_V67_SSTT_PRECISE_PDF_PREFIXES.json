@@ -1,0 +1,89 @@
+{
+  "checked_utc": "2026-10-13T17:59:25.681342+00:00",
+  "approach": "Narrow official filename prefixes vs wide directory prefixes V66",
+  "source": "exports_territorial/SSTT_PDFS.csv verified V24 official URLs",
+  "territories": 6,
+  "collections": [
+    "CC-MAIN-2025-51",
+    "CC-MAIN-2026-08"
+  ],
+  "planned_queries": 12,
+  "executed_queries": 7,
+  "stopped_due_to_four_5xx": true,
+  "successful_queries_200": 0,
+  "no_capture_404": 1,
+  "blocked": 6,
+  "generic_historical_pdf_url_candidates": 0,
+  "validated_pdf_binaries": 0,
+  "queries": [
+    {
+      "territory": "Alt Pirineu i Aran",
+      "pdf_filename_prefix": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/APA-SEC-dificil-cobertura",
+      "collection": "CC-MAIN-2025-51",
+      "http_status": 504,
+      "index_hits": 0,
+      "candidates": [],
+      "error": "HTTP_504"
+    },
+    {
+      "territory": "Catalunya Central",
+      "pdf_filename_prefix": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/CCE-SEC-dificil-cobertura",
+      "collection": "CC-MAIN-2025-51",
+      "http_status": 504,
+      "index_hits": 0,
+      "candidates": [],
+      "error": "HTTP_504"
+    },
+    {
+      "territory": "Girona",
+      "pdf_filename_prefix": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/GIR-SEC-dificil-cobertura",
+      "collection": "CC-MAIN-2025-51",
+      "http_status": 404,
+      "index_hits": 0,
+      "candidates": [],
+      "error": null
+    },
+    {
+      "territory": "Maresme–Vallès Oriental",
+      "pdf_filename_prefix": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/maresme-valles-oriental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/MVO-SEC-dificil-cobertura",
+      "collection": "CC-MAIN-2025-51",
+      "http_status": 503,
+      "index_hits": 0,
+      "candidates": [],
+      "error": "HTTP_503"
+    },
+    {
+      "territory": "Tarragona",
+      "pdf_filename_prefix": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura",
+      "collection": "CC-MAIN-2025-51",
+      "http_status": 503,
+      "index_hits": 0,
+      "candidates": [],
+      "error": "HTTP_503"
+    },
+    {
+      "territory": "Terres de l'Ebre",
+      "pdf_filename_prefix": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/terres-ebre/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TEB-SEC-dificil-cobertura",
+      "collection": "CC-MAIN-2025-51",
+      "http_status": 503,
+      "index_hits": 0,
+      "candidates": [],
+      "error": "HTTP_503"
+    },
+    {
+      "territory": "Alt Pirineu i Aran",
+      "pdf_filename_prefix": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/APA-SEC-dificil-cobertura",
+      "collection": "CC-MAIN-2026-08",
+      "http_status": 503,
+      "index_hits": 0,
+      "candidates": [],
+      "error": "HTTP_503"
+    }
+  ],
+  "warnings": [
+    "Results scoped to precise authenticated original filename prefixes; no evidence of exhaustive months",
+    "HTTP 502/504/429 are not no-capture evidence.",
+    "Index hits require retrieving and validating actual WARC PDF bytes before inclusion.",
+    "No personal applicant information included."
+  ]
+}
