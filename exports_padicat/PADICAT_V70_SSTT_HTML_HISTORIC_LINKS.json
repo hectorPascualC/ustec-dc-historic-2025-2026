@@ -1,11 +1,11 @@
 {
-  "checked_utc": "2026-10-13T18:24:20.378982+00:00",
+  "checked_utc": "2026-10-13T18:25:53.174183+00:00",
   "scope": "11 official territorial secondary-level HTML listings + EDUBCN listing and API control",
   "capture_time_range": "2025-11-01 to 2026-10-13",
   "urls_checked": 13,
   "http_200": 13,
-  "captured_records": 0,
-  "replayed_html": 0,
+  "captured_records": 5,
+  "replayed_html": 3,
   "archived_generic_pdf_urls": [],
   "checks": [
     {
@@ -14,6 +14,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -24,6 +26,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -34,6 +38,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -44,6 +50,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -54,6 +62,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -64,6 +74,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -74,6 +86,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -84,6 +98,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -94,6 +110,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -104,6 +122,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -114,6 +134,8 @@
       "index": {
         "http": 200,
         "captures": [],
+        "response_bytes": 0,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
@@ -123,17 +145,88 @@
       "original_listing_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
       "index": {
         "http": 200,
-        "captures": [],
+        "captures": [
+          {
+            "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+            "timestamp": "20260129224629",
+            "status": "200",
+            "mime": "text/html",
+            "digest": "SHA256723F276BA37BCB6C6ADB57FAF7E54FF5A7A7C4322B45C4EAAA",
+            "length": "15792"
+          },
+          {
+            "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura#!/cerca",
+            "timestamp": "20260912222659",
+            "status": "200",
+            "mime": "text/html",
+            "digest": "SHA256A67FAD25EE66DA7323C23734F72C6CE55EECADEF3253EB2AAA",
+            "length": "16434"
+          },
+          {
+            "url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+            "timestamp": "20261004093513",
+            "status": "200",
+            "mime": "text/html",
+            "digest": "SHA25622A27F63A66CAECEFA527E3D456662D67BCF4C6DC7B347C5D774AAAAAA",
+            "length": "16596"
+          }
+        ],
+        "response_bytes": 2015,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
-      "archived_pages": []
+      "archived_pages": [
+        {
+          "capture": "20260129224629",
+          "http": 200,
+          "html_read": true,
+          "contains_dc": true,
+          "official_pdf_links": [],
+          "error": null
+        },
+        {
+          "capture": "20260912222659",
+          "http": 200,
+          "html_read": true,
+          "contains_dc": true,
+          "official_pdf_links": [],
+          "error": null
+        },
+        {
+          "capture": "20261004093513",
+          "http": 200,
+          "html_read": true,
+          "contains_dc": true,
+          "official_pdf_links": [],
+          "error": null
+        }
+      ]
     },
     {
       "area": "EDUBCN API (control known archived)",
       "original_listing_url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
       "index": {
         "http": 200,
-        "captures": [],
+        "captures": [
+          {
+            "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+            "timestamp": "20260129224630",
+            "status": "200",
+            "mime": "application/json",
+            "digest": "SHA256633FFAD24443A2DD6D5E5E3CAE7E54ACD27F6F54C2DAAAAAAA",
+            "length": "4905"
+          },
+          {
+            "url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+            "timestamp": "20261004093514",
+            "status": "200",
+            "mime": "application/json",
+            "digest": "SHA2563462FDB37244A5EBCFFFEE56B3FD55F55FEBF5AE4672AACBB44AAAAAAA",
+            "length": "10118"
+          }
+        ],
+        "response_bytes": 1184,
+        "response_content_type": "text/x-ndjson",
         "error": null
       },
       "archived_pages": []
