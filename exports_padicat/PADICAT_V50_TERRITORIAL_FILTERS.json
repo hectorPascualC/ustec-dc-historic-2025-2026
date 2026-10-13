@@ -1,19 +1,19 @@
 {
-  "checked_utc": "2026-10-13T13:54:38.649501+00:00",
+  "checked_utc": "2026-10-13T13:58:19.997995+00:00",
   "queries": [
     {
       "host": "educacio",
       "filter": "control_any",
-      "expression": "url:.*",
+      "expression": "~url:.*",
       "http": 200,
       "rows": [],
-      "count": 0,
-      "truncated": false
+      "count": 300,
+      "truncated": true
     },
     {
       "host": "educacio",
       "filter": "dificil",
-      "expression": "url:.*dificil.*",
+      "expression": "~url:.*dificil.*",
       "http": 200,
       "rows": [],
       "count": 0,
@@ -22,7 +22,7 @@
     {
       "host": "educacio",
       "filter": "nomenaments",
-      "expression": "url:.*nomenaments.*",
+      "expression": "~url:.*nomenaments.*",
       "http": 200,
       "rows": [],
       "count": 0,
@@ -31,7 +31,7 @@
     {
       "host": "educacio",
       "filter": "vacants",
-      "expression": "url:.*vacants.*",
+      "expression": "~url:.*vacants.*",
       "http": 200,
       "rows": [],
       "count": 0,
@@ -40,16 +40,16 @@
     {
       "host": "ensenyament",
       "filter": "control_any",
-      "expression": "url:.*",
+      "expression": "~url:.*",
       "http": 200,
       "rows": [],
-      "count": 0,
+      "count": 26,
       "truncated": false
     },
     {
       "host": "ensenyament",
       "filter": "dificil",
-      "expression": "url:.*dificil.*",
+      "expression": "~url:.*dificil.*",
       "http": 200,
       "rows": [],
       "count": 0,
@@ -58,7 +58,7 @@
     {
       "host": "ensenyament",
       "filter": "nomenaments",
-      "expression": "url:.*nomenaments.*",
+      "expression": "~url:.*nomenaments.*",
       "http": 200,
       "rows": [],
       "count": 0,
@@ -67,7 +67,7 @@
     {
       "host": "ensenyament",
       "filter": "vacants",
-      "expression": "url:.*vacants.*",
+      "expression": "~url:.*vacants.*",
       "http": 200,
       "rows": [],
       "count": 0,
@@ -76,16 +76,16 @@
     {
       "host": "documents_espai",
       "filter": "control_any",
-      "expression": "url:.*",
+      "expression": "~url:.*",
       "http": 200,
       "rows": [],
-      "count": 0,
+      "count": 3,
       "truncated": false
     },
     {
       "host": "documents_espai",
       "filter": "dificil",
-      "expression": "url:.*dificil.*",
+      "expression": "~url:.*dificil.*",
       "http": 200,
       "rows": [],
       "count": 0,
@@ -94,7 +94,7 @@
     {
       "host": "documents_espai",
       "filter": "nomenaments",
-      "expression": "url:.*nomenaments.*",
+      "expression": "~url:.*nomenaments.*",
       "http": 200,
       "rows": [],
       "count": 0,
@@ -103,7 +103,7 @@
     {
       "host": "documents_espai",
       "filter": "vacants",
-      "expression": "url:.*vacants.*",
+      "expression": "~url:.*vacants.*",
       "http": 200,
       "rows": [],
       "count": 0,
@@ -111,9 +111,9 @@
     }
   ],
   "backend_filter_control_positive": {
-    "educacio": false,
-    "ensenyament": false,
-    "documents_espai": false
+    "educacio": true,
+    "ensenyament": true,
+    "documents_espai": true
   },
   "new_exact_dc_capture_count": 0,
   "warnings": [
