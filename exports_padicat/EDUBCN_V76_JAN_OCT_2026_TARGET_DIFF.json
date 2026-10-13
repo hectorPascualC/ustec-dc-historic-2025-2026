@@ -1,0 +1,100 @@
+{
+  "checked_utc": "2026-10-13T18:49:41.178894+00:00",
+  "status": "COMPARED_TWO_ARCHIVED_JSON_BODIES",
+  "historical_target": "507 / 627 / F57 / F87",
+  "posting_date_field_interval": "2025-11-01..2026-02-28",
+  "captures": {
+    "2026-01-29": {
+      "capture": "2026-01-29",
+      "archive_timestamp": "20260129224630",
+      "archive_url": "https://wayback.padicat.cat/20260129224630id_/https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "http": 200,
+      "length": 27123,
+      "sha256": "683930ffad9024801119443a92dd6d05e5e3cae7e54ac0d2887f6f54c2d8c148",
+      "parse_ok": true,
+      "all_public_records": 49,
+      "range_records": 37,
+      "target_range": 4,
+      "target_all_dates": 4,
+      "error": null
+    },
+    "2026-10-04": {
+      "capture": "2026-10-04",
+      "archive_timestamp": "20261004093514",
+      "archive_url": "https://wayback.padicat.cat/20261004093514id_/https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "http": 200,
+      "length": 80131,
+      "sha256": "3462fdb3721494a5ebcfffee561b3fd55f5510febf5ae4617298aa90cb9b48a1",
+      "parse_ok": true,
+      "all_public_records": 145,
+      "range_records": 0,
+      "target_range": 0,
+      "target_all_dates": 8,
+      "error": null
+    }
+  },
+  "jan_target_count": 4,
+  "oct_target_count": 0,
+  "oct_in_window_not_in_jan": 0,
+  "jan_target_rows": [
+    {
+      "capture": "2026-01-29",
+      "code": "GENSEC_2526_149",
+      "posting_date_field": "2026-01-22",
+      "specialty": "627 - Sistemes i aplicacions informàtiques",
+      "centre": "Institut Tecnològic de Barcelona",
+      "public_doc_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+      "public_result_pdf": "",
+      "term_description": "fins que es cobreixi la substitució",
+      "incorporation": "immediata"
+    },
+    {
+      "capture": "2026-01-29",
+      "code": "GENSEC_2526_145",
+      "posting_date_field": "2026-01-22",
+      "specialty": "507 - Informàtica (ciberseguretat)",
+      "centre": "Institut Tecnològic de Barcelona",
+      "public_doc_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+      "public_result_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+      "term_description": "fins que es cobreixi la substitució",
+      "incorporation": "immediata"
+    },
+    {
+      "capture": "2026-01-29",
+      "code": "GENSEC2526_167",
+      "posting_date_field": "2026-01-21",
+      "specialty": "507- Informàtica",
+      "centre": "Institut Pedralbes",
+      "public_doc_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+      "public_result_pdf": "",
+      "term_description": "fins al 23/01/2026 a les 11 h",
+      "incorporation": "immediata"
+    },
+    {
+      "capture": "2026-01-29",
+      "code": "GENSEC_147",
+      "posting_date_field": "2025-12-05",
+      "specialty": "Sistemes i Aplicacions Informàtiques (627)",
+      "centre": "Institut Escola del Treball",
+      "public_doc_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+      "public_result_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf",
+      "term_description": "fins al 9/12/25 a les 13 h.",
+      "incorporation": "Immediata"
+    }
+  ],
+  "oct_target_rows": [],
+  "new_oct_target_candidates": [],
+  "jan_only_ids": [
+    "GENSEC2526_167",
+    "GENSEC_147",
+    "GENSEC_2526_145",
+    "GENSEC_2526_149"
+  ],
+  "notes": [
+    "The two API snapshots cannot identify all temporary posts absent from both archive dates.",
+    "A new Oct row with DATA in historic interval still needs original PDF specialty and publication provenance checks.",
+    "A changed ID or updated portal DATA may be a republication, not an additional teaching vacancy.",
+    "Captured API.DATA is labeled Data de publicació by archived Jan app JS (V72).",
+    "Only public vacancy metadata retained; no applicant names or personal data."
+  ]
+}
