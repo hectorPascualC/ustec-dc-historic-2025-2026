@@ -1,0 +1,32 @@
+name: EDUBCN condicions de les ofertes històriques V43
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/edubcn_pdf_conditions_v43.py','.github/workflows/edubcn-pdf-conditions-v43.yml']
+permissions:
+  contents: write
+jobs:
+  conditions:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'requests>=2.31,<3' 'pymupdf>=1.24,<2'
+      - name: Inspect workload and duration in all four source PDF files
+        run: python src/edubcn_pdf_conditions_v43.py --output exports_padicat/EDUBCN_PDF_CONDITIONS_V43.json
+      - name: Publish only public document category and source hash
+        if: always()
+        run: |
+          if [ ! -s exports_padicat/EDUBCN_PDF_CONDITIONS_V43.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/EDUBCN_PDF_CONDITIONS_V43.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: classify actual hours and duration cues of Jan 2026 PDF offers'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
