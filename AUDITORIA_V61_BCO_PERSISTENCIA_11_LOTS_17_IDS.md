@@ -38,6 +38,6 @@ Els documents antics actualment poden donar HTTP 404 i, per tant, la lectura pro
 
 ## Recuperació addicional de PDF via Common Crawl
 
-L'auditoria V62 (`src/commoncrawl_dated_bco_v62.py`) cerca les **11 URL exactes de noms datats del corpus** en índexs contemporanis de Common Crawl i, si troba un registre, intenta recuperar el PDF dins del WARC per validació de bytes i SHA256. Resultat només després de la publicació efectiva de `exports_commoncrawl/COMMONCRAWL_V62_BCO_DATED_PDFS.json`.
+L'auditoria V62 (`src/commoncrawl_dated_bco_v62.py`) cerca les **11 URL exactes de noms datats del corpus** en índexs contemporanis de Common Crawl i, si troba un registre, intenta recuperar el PDF dins del WARC per validació de bytes i SHA256. **Resultat real V62**: 13 consultes completades (11 URL exactes, 2 consultes complementàries en un altre rastreig); **9 HTTP 404 sense captura**, **2 HTTP 502** i **2 HTTP 504**, cap registre CDXJ recuperat i **0 PDF binaris**. El primer intent V62 era invàlid per capçalera User-Agent mal formada i fou substituït per una execució real corregida el 13/10/2026. Els quatre errors 502/504 continuen sent bloquejos tècnics, no zeros de captures. [JSON V62](exports_commoncrawl/COMMONCRAWL_V62_BCO_DATED_PDFS.json).
 
 **Conclusió V61:** PASS en deduplicació i cronologia documental; PARTIAL en determinació de publicació i estats de cobertura; FAIL en cens nacional exhaustiu. **Cens de 36 sense canvis, 0/48 territori-mes certificats.**
