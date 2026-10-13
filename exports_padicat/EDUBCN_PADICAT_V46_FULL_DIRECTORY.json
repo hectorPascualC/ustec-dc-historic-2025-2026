@@ -1,0 +1,299 @@
+{
+  "audited_at": "2026-10-13T13:44:19.790443+00:00",
+  "capture_interval": "2025-11-01..2026-03-05",
+  "cdx_rows": 252,
+  "unique_200_pdf_captures": 248,
+  "original_pdf_count": 223,
+  "results_pdf_count": 25,
+  "gensec_original_pdf_count": 33,
+  "other_original_pdf_count": 190,
+  "year_hint_non_gensec_count": 31,
+  "target_hint_non_gensec_count": 0,
+  "year_or_target_hint_non_gensec": [
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/09-Anunci-Llista-provisional-admeses-i-excloses-20-2025L.pdf",
+      "captured": "20260129234423",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/10-anunci-llista-definitiva-20-2025L.pdf",
+      "captured": "20260129234423",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/11-proposta-nomenament-20-2025L.pdf",
+      "captured": "20260129234423",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/1_OfertaCEB__4_2025_CS_CEB_CoordProjEducatius_Docent.pdf",
+      "captured": "20260129234359",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/3._Llista_d_admesos_excolsos_16_2025CS.pdf",
+      "captured": "20260129234418",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/3._Llista_d_admesos_excolsos_17_2025_CS_Tecnic_superior_gestio_A1-22.pdf",
+      "captured": "20260129234418",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/3_Llista_d_admesos_excolsos_FPO_15_2025CS_v1.pdf",
+      "captured": "20260129234418",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/3_Llista_provisional_admeses_i_excloses_1_2025CS.pdf",
+      "captured": "20260129234504",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/3_Llista_provisional_admeses_i_excloses_3_2025CS.pdf",
+      "captured": "20260129234355",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/4_Llista_provisional_admeses_i_excloses_4_2025_CS.pdf",
+      "captured": "20260129234359",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/4_Proposta_de_nomenament_1_2025_CS.pdf",
+      "captured": "20260129234506",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/4_Proposta_nomenament_3_2025_CS.pdf",
+      "captured": "20260129234356",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/5_Llista_provisional_admeses_i_excloses_21_2025C.pdf",
+      "captured": "20260129234454",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/avis_convocatoria_10-2025-CS.pdf",
+      "captured": "20260129234407",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/cmd_resoluci_admes_i_exclos_centres_municipals_2025_signed_CA_v1.pdf",
+      "captured": "20260129234351",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/Esmena_a_la_Llista_provisional_admeses_i_excloses_11_2025CS.pdf",
+      "captured": "20260129234407",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENPRI_2526_34_GRUPESTABLE.pdf",
+      "captured": "20260129232203",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENPRI_2526__38_AH_SantaCreuISantPau_PRI.pdf",
+      "captured": "20260129232203",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/Llista_de_admeso_exclosos_12_2025CS_ORIENTACIO.pdf",
+      "captured": "20260129234410",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/Llista_provisional_admeses_i_excloses_10_2025CS.pdf",
+      "captured": "20260129234407",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/Llista_provisional_admeses_i_excloses_7_2025CS.pdf",
+      "captured": "20260129234402",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNPRI_2526_13_CREDA_PERE_BARNILS_ALL.pdf",
+      "captured": "20260129232205",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNPRI_2526_15_CEE_VILALAJOANA_EES_SUBSTITUCIONS.pdf",
+      "captured": "20260129232205",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_045_IQBB_502_v1.pdf",
+      "captured": "20260129232206",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_12_CEE_VilaJoana_Psico_Externa_Substi.pdf",
+      "captured": "20260129232207",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_13_CEE_VilaJoana_Arterapia_Substi.pdf",
+      "captured": "20260129232207",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_23.pdf",
+      "captured": "20260129232207",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_52_SEM_PSI.pdf",
+      "captured": "20260129232205",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_53_AFA_La_Pau_SMAcompetic.pdf",
+      "captured": "20260129232205",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2526_8_CEE_VilaJoana_PSI.pdf",
+      "captured": "20260129232207",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/Publicacio_GASETA_Resol_mod_DireccionsMunicipals_2025_20260219.pdf",
+      "captured": "20260129234351",
+      "is_result": false,
+      "has_2025_26_year_text": true,
+      "target_filename": false,
+      "has_GENSEC": false,
+      "code": ""
+    }
+  ],
+  "warning": [
+    "Capture date does not certify posting date.",
+    "Archived URL can refer to other education jobs or old courses.",
+    "Filename hints are only candidates; retrieve PDF and verify actual specialty and publication period.",
+    "Do not count _RESULTAT documents as original vacancies."
+  ]
+}
