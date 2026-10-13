@@ -28,3 +28,4 @@ Si el workflow surt en vermell, revisa `exports/AUDITORIA_EXTRACCIO.json` i les 
 - [**Correccions V52** dels quatre casos EDUBCN](cens/EDUBCN_4_CASOS_V52_CORRECCIONS.csv). **Aquestes correccions prevalen sobre les jornades i estats indeterminats de V49**; els 36 ID continuen sense duplicats.
 
 - [**Auditoria V55 — 248/248 PDF arxivats del directori EDUBCN (29/01/2026)**](AUDITORIA_V55_TANCAMENT_CORPUS_PADICAT_EDUBCN_248PDF.md). Cobertura completa **només d'aquesta fotografia**, no de tot el període ni de Catalunya.
+- [**Verificació V56**](exports_padicat/EDUBCN_V56_FULL_PAGES.json): 87 PDF rellegits íntegrament, 320 pàgines, 9 fitxers de més de set pàgines, 0 candidats nous. El tancament V55 incorpora aquesta comprovació.
