@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-13T13:36:44.618121+00:00",
+  "at": "2026-10-13T13:38:20.400573+00:00",
   "interval": "2025-11-01..2026-03-05",
   "prefix_queries": [
     {
@@ -8,7 +8,97 @@
       "http": 200,
       "truncated": false,
       "response_bytes": 177081,
-      "returned_total": 252
+      "returned_total": 252,
+      "first_public_record_field_keys": [
+        "urlkey",
+        "timestamp",
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "public_code_url_samples": [
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504__Resultat.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_127_ITAEB_512.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_133_AA_reforc_diversoscentres.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_135_HospitalDia_PSI_v1.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        }
+      ]
     },
     {
       "name": "root_http",
@@ -16,7 +106,97 @@
       "http": 200,
       "truncated": false,
       "response_bytes": 177081,
-      "returned_total": 252
+      "returned_total": 252,
+      "first_public_record_field_keys": [
+        "urlkey",
+        "timestamp",
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "public_code_url_samples": [
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504__Resultat.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_127_ITAEB_512.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_133_AA_reforc_diversoscentres.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_135_HospitalDia_PSI_v1.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        }
+      ]
     },
     {
       "name": "no_www",
@@ -24,7 +204,97 @@
       "http": 200,
       "truncated": false,
       "response_bytes": 177081,
-      "returned_total": 252
+      "returned_total": 252,
+      "first_public_record_field_keys": [
+        "urlkey",
+        "timestamp",
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "public_code_url_samples": [
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504__Resultat.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_127_ITAEB_512.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_133_AA_reforc_diversoscentres.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_135_HospitalDia_PSI_v1.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        }
+      ]
     },
     {
       "name": "GESEC",
@@ -32,7 +302,91 @@
       "http": 200,
       "truncated": false,
       "response_bytes": 8470,
-      "returned_total": 11
+      "returned_total": 11,
+      "first_public_record_field_keys": [
+        "urlkey",
+        "timestamp",
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "public_code_url_samples": [
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_099B_INS_ESCOLA_DEL_TREBALL_605.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_130_INS-INDUSTRIA-SOSTENIBLE_606__Installacions-Electrotecniques.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_130_INS_INDUSTRIA_SOSTENIBLE_606__Installacions_Electrotecnique_-_Resultat.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_160_INS_INDUSTRIA_SOSTENIBLE_525_Sistemes_Electrrotecnics_i_Automatics.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_160_INS_INDUSTRIA_SOSTENIBLE_525_Sistemes_Electrrotecnics_i_Automatics_RESULTAT_.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_161_INS_ESCOLA_DEL_TREBALL_605_InstalLacioMant._Equips_Termics.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232204"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_163_IEA_Oriol_Martorell_448_Trompeta.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232204"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_163_IEA_Oriol_Martorell_448_Trompeta_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232204"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        }
+      ]
     },
     {
       "name": "GENSEC",
@@ -40,7 +394,97 @@
       "http": 200,
       "truncated": false,
       "response_bytes": 25865,
-      "returned_total": 37
+      "returned_total": 37,
+      "first_public_record_field_keys": [
+        "urlkey",
+        "timestamp",
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "public_code_url_samples": [
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504__Resultat.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_127_ITAEB_512.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_133_AA_reforc_diversoscentres.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_135_HospitalDia_PSI_v1.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        }
+      ]
     },
     {
       "name": "2526",
@@ -48,7 +492,97 @@
       "http": 200,
       "truncated": false,
       "response_bytes": 25865,
-      "returned_total": 37
+      "returned_total": 37,
+      "first_public_record_field_keys": [
+        "urlkey",
+        "timestamp",
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "public_code_url_samples": [
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_052_IE_Treball_504__Resultat.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_113_FEF_IValldHebron_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_127_ITAEB_512.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_133_AA_reforc_diversoscentres.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_135_HospitalDia_PSI_v1.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232203"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_151_EOI_BARCELONA_CATALA_EOI_195_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        }
+      ]
     },
     {
       "name": "alt_2526",
@@ -56,7 +590,91 @@
       "http": 200,
       "truncated": false,
       "response_bytes": 8470,
-      "returned_total": 11
+      "returned_total": 11,
+      "first_public_record_field_keys": [
+        "urlkey",
+        "timestamp",
+        "url",
+        "mime",
+        "status",
+        "digest",
+        "redirect",
+        "robotflags",
+        "length",
+        "offset",
+        "filename",
+        "load_url",
+        "source",
+        "source-coll"
+      ],
+      "public_code_url_samples": [
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_099B_INS_ESCOLA_DEL_TREBALL_605.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232207"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_130_INS-INDUSTRIA-SOSTENIBLE_606__Installacions-Electrotecniques.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_130_INS_INDUSTRIA_SOSTENIBLE_606__Installacions_Electrotecnique_-_Resultat.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_160_INS_INDUSTRIA_SOSTENIBLE_525_Sistemes_Electrrotecnics_i_Automatics.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_160_INS_INDUSTRIA_SOSTENIBLE_525_Sistemes_Electrrotecnics_i_Automatics_RESULTAT_.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232206"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_161_INS_ESCOLA_DEL_TREBALL_605_InstalLacioMant._Equips_Termics.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232204"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_163_IEA_Oriol_Martorell_448_Trompeta.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232204"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_163_IEA_Oriol_Martorell_448_Trompeta_RESULTAT.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232204"
+        },
+        {
+          "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+          "mime": "application/pdf",
+          "status": "200",
+          "timestamp": "20260129232205"
+        }
+      ]
     }
   ],
   "unique_archived_candidate_offers": 0,
