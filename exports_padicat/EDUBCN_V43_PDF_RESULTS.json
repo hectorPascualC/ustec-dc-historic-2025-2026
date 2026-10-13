@@ -1,0 +1,181 @@
+{
+  "asof": "2026-10-13T13:49:58.759548+00:00",
+  "source_json": "exports_padicat/EDUBCN_20260129_V41_TARGET_OFFERS.json",
+  "documents": [
+    {
+      "code": "GENSEC_2526_149",
+      "kind": "convocatoria",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+      "http": 200,
+      "bytes": 166020,
+      "sha256": "476f51b8091ccc4390699813badb467e267dc805d26f685b657a99b2ec59a325",
+      "evidence": {
+        "dates_mentioned": [
+          "12/12/2025",
+          "31/08/2025"
+        ],
+        "mentions_full_time": false,
+        "mentions_half_time": false,
+        "mentions_100_pct": false,
+        "mentions_50_pct": false,
+        "mentions_full_word": false,
+        "mentions_part_word": false,
+        "has_inici": true,
+        "has_final": true,
+        "mentions_no_expiry": false,
+        "mentions_result": false,
+        "mentions_outside_pool": false,
+        "code_matches": true,
+        "pdf_moddate_literal": [
+          "D:20251210150325"
+        ]
+      },
+      "pages": 3
+    },
+    {
+      "code": "GENSEC_2526_145",
+      "kind": "convocatoria",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+      "http": 200,
+      "bytes": 162839,
+      "sha256": "36b740c5ae79725d3cfa2fb30a037214047d855cdb63bb01bc9a0c50fa069573",
+      "evidence": {
+        "dates_mentioned": [
+          "03/12/2025"
+        ],
+        "mentions_full_time": true,
+        "mentions_half_time": false,
+        "mentions_100_pct": false,
+        "mentions_50_pct": false,
+        "mentions_full_word": true,
+        "mentions_part_word": false,
+        "has_inici": true,
+        "has_final": true,
+        "mentions_no_expiry": false,
+        "mentions_result": false,
+        "mentions_outside_pool": false,
+        "code_matches": true,
+        "pdf_moddate_literal": [
+          "D:20251201141851"
+        ]
+      },
+      "pages": 2
+    },
+    {
+      "code": "GENSEC_2526_145",
+      "kind": "resultat",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+      "http": 200,
+      "bytes": 224572,
+      "sha256": "c0c01a84a8a212169d03bf26e527ccc8df820448ac0a5d6bd352ba28bf8de80b",
+      "evidence": {
+        "dates_mentioned": [],
+        "mentions_full_time": true,
+        "mentions_half_time": false,
+        "mentions_100_pct": false,
+        "mentions_50_pct": false,
+        "mentions_full_word": true,
+        "mentions_part_word": false,
+        "has_inici": true,
+        "has_final": true,
+        "mentions_no_expiry": false,
+        "mentions_result": true,
+        "mentions_outside_pool": false,
+        "code_matches": true,
+        "pdf_moddate_literal": [
+          "D:20260128125751",
+          "D:20260128125752"
+        ]
+      },
+      "pages": 1
+    },
+    {
+      "code": "GENSEC2526_167",
+      "kind": "convocatoria",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+      "http": 200,
+      "bytes": 165673,
+      "sha256": "75e4daa41bb335b5c69bab2bf1a8f7721d090a03552678f03f112b53d17e82af",
+      "evidence": {
+        "dates_mentioned": [],
+        "mentions_full_time": true,
+        "mentions_half_time": false,
+        "mentions_100_pct": false,
+        "mentions_50_pct": false,
+        "mentions_full_word": true,
+        "mentions_part_word": false,
+        "has_inici": true,
+        "has_final": true,
+        "mentions_no_expiry": false,
+        "mentions_result": false,
+        "mentions_outside_pool": false,
+        "code_matches": true,
+        "pdf_moddate_literal": [
+          "D:20260121102536",
+          "D:20260121102542"
+        ]
+      },
+      "pages": 3
+    },
+    {
+      "code": "GENSEC_147",
+      "kind": "convocatoria",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+      "http": 200,
+      "bytes": 177330,
+      "sha256": "8a9c68a960446d7cbe84332b293a29452e6b915124a79ee17425f52e5495abb3",
+      "evidence": {
+        "dates_mentioned": [
+          "30/06/2026"
+        ],
+        "mentions_full_time": true,
+        "mentions_half_time": false,
+        "mentions_100_pct": false,
+        "mentions_50_pct": false,
+        "mentions_full_word": true,
+        "mentions_part_word": false,
+        "has_inici": true,
+        "has_final": true,
+        "mentions_no_expiry": false,
+        "mentions_result": false,
+        "mentions_outside_pool": false,
+        "code_matches": true,
+        "pdf_moddate_literal": [
+          "D:20251205145913"
+        ]
+      },
+      "pages": 3
+    },
+    {
+      "code": "GENSEC_147",
+      "kind": "resultat",
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf",
+      "http": 200,
+      "bytes": 140289,
+      "sha256": "83cd099a75e2698c38e7fbe79b58140f56041542d20d4652b6b5c77736ab4c67",
+      "evidence": {
+        "dates_mentioned": [
+          "30/06/2026"
+        ],
+        "mentions_full_time": true,
+        "mentions_half_time": false,
+        "mentions_100_pct": false,
+        "mentions_50_pct": false,
+        "mentions_full_word": true,
+        "mentions_part_word": false,
+        "has_inici": true,
+        "has_final": true,
+        "mentions_no_expiry": false,
+        "mentions_result": true,
+        "mentions_outside_pool": false,
+        "code_matches": true,
+        "pdf_moddate_literal": [
+          "D:20260122162934",
+          "D:20260122162936"
+        ]
+      },
+      "pages": 1
+    }
+  ],
+  "warning": "Date mentions are not proof of beginning/end or posting date. Jornada flags are document-level and require manual matching; no personal names stored."
+}
