@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-13T13:47:17.017862+00:00",
+  "source": "PADICAT authentic public PDF replays, not live current snapshots",
+  "index_records": 252,
+  "documents_considered": 87,
+  "archives_pdf_recovered": 87,
+  "pdf_text_available": 87,
+  "documents_with_matching_specialty": 0,
+  "candidate_pdfs": [],
+  "non_candidate_error_types": {},
+  "non_candidate_http_counts": {
+    "200": 87
+  },
+  "limitations": [
+    "A PDF mentioning 507/627 may not itself be a difficult-coverage posting.",
+    "Result/list files excluded by name can contain a useful source ID but aren't original offers.",
+    "Only first seven pages extracted per document; scanned-image PDFs without OCR could be missed.",
+    "Date of archive capture is not the date of original vacancy publication.",
+    "Candidate files require manual validation before adding to census.",
+    "No applicants names, contact information, or document text exported."
+  ]
+}
