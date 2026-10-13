@@ -1,0 +1,35 @@
+name: V77 BCO missing weekly dated PDFs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/bco_missing_weekly_pdf_gap_v77.py
+      - .github/workflows/bco-missing-weekly-gap-v77.yml
+permissions:
+  contents: write
+jobs:
+  gaps:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 11
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install public PDF research dependencies
+        run: python -m pip install 'requests>=2.31,<3' 'pymupdf>=1.24,<2'
+      - name: Compile source
+        run: python -m py_compile src/bco_missing_weekly_pdf_gap_v77.py
+      - name: Verify only historical filename gap hypotheses
+        run: python src/bco_missing_weekly_pdf_gap_v77.py --output exports_official/BCO_V77_GAPS_PDF_FILENAME_PROBES.json
+      - name: Commit nonpersonal audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_official/BCO_V77_GAPS_PDF_FILENAME_PROBES.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: V77 six missing weekly Barcelones PDF candidate file probes'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
