@@ -39,11 +39,13 @@ def records(text):
         output.append({k:x.get(k) for k in ("url","timestamp","status","mime","digest","length")})
     return output
 def archive_index(url):
-    result={"http":None,"captures":[],"error":None}
+    result={"http":None,"captures":[],"response_bytes":None,"response_content_type":None,"error":None}
     try:
-        r=requests.get(CDX,params={"url":url,"from":"20251101","to":"20261013"},
+        r=requests.get(CDX,params={"url":url,"matchType":"exact","output":"json","limit":"120","from":"20251101","to":"20261013"},
           headers=HEADERS,timeout=(10,27))
         result["http"]=r.status_code
+        result["response_bytes"]=len(r.content)
+        result["response_content_type"]=r.headers.get("content-type","")
         if r.status_code==200:result["captures"]=records(r.text)
         else:result["error"]="HTTP_"+str(r.status_code)
     except Exception as e:result["error"]=type(e).__name__+": "+str(e)[:100]
