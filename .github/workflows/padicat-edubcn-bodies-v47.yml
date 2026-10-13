@@ -1,0 +1,32 @@
+name: PADICAT EDUBCN — buscar perfils dins tots PDF V47
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/padicat_edubcn_all_bodies_v47.py','.github/workflows/padicat-edubcn-bodies-v47.yml']
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'requests>=2.31,<3' 'pymupdf>=1.24,<2'
+      - name: Audit archived original PDF contents, including non-obvious filenames
+        run: python src/padicat_edubcn_all_bodies_v47.py --output exports_padicat/EDUBCN_V47_ARCHIVED_PDF_BODIES.json
+      - name: Publish vacancy codes and verified PDF hashes, never personal data
+        if: always()
+        run: |
+          if [ ! -s exports_padicat/EDUBCN_V47_ARCHIVED_PDF_BODIES.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/EDUBCN_V47_ARCHIVED_PDF_BODIES.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: scan hidden IT specialties in original Jan 2026 EDUBCN PDF contents'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
