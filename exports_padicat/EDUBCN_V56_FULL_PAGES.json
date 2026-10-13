@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-10-13T16:51:35.420100+00:00",
+  "scope": "Repeat V47 archive documents but read all extractable pages rather than 7",
+  "expected_v47_count": 87,
+  "selected": 87,
+  "valid_pdf": 87,
+  "text_available": 87,
+  "total_pages_read": 320,
+  "documents_longer_than_7_pages": 9,
+  "max_pages_in_document": 26,
+  "contextual_candidates": [],
+  "candidate_count": 0,
+  "errors": [],
+  "cautions": [
+    "No visual OCR for image-only pages",
+    "PDF result is not evidence of a new offer",
+    "The archive index is one-day snapshot, not complete original publication history",
+    "No personal names or original PDF contents persisted."
+  ]
+}
