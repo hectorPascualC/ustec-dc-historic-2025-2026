@@ -1,0 +1,206 @@
+{
+  "audited_at": "2026-10-13T13:33:53.584518+00:00",
+  "baseline": "exports_padicat/EDUBCN_20260129_V41_TARGET_OFFERS.json",
+  "documents_verified": 4,
+  "pdfs": [
+    {
+      "code": "GENSEC_2526_149",
+      "original_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+      "http": 200,
+      "pdf_sha256": "476f51b8091ccc4390699813badb467e267dc805d26f685b657a99b2ec59a325",
+      "is_pdf": true,
+      "pages": 3,
+      "has_code": true,
+      "has_profile_specialty": true,
+      "full_jornada_literal": false,
+      "partial_jornada_literal": false,
+      "workload_class": "not_resolved",
+      "weekly_hours_candidates": [],
+      "dates_near_conditions": [
+        "31/08/2025",
+        "12/12/2025"
+      ],
+      "page_condition_flags": [
+        {
+          "page": 1,
+          "condition_segments": 1,
+          "flags": [
+            {
+              "line": 12,
+              "has_full": false,
+              "has_partial": false,
+              "has_hour_cue": false,
+              "has_end_cue": false
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "condition_segments": 1,
+          "flags": [
+            {
+              "line": 4,
+              "has_full": false,
+              "has_partial": false,
+              "has_hour_cue": false,
+              "has_end_cue": false
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "condition_segments": 1,
+          "flags": [
+            {
+              "line": 9,
+              "has_full": false,
+              "has_partial": false,
+              "has_hour_cue": false,
+              "has_end_cue": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GENSEC_2526_145",
+      "original_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+      "http": 200,
+      "pdf_sha256": "36b740c5ae79725d3cfa2fb30a037214047d855cdb63bb01bc9a0c50fa069573",
+      "is_pdf": true,
+      "pages": 2,
+      "has_code": true,
+      "has_profile_specialty": true,
+      "full_jornada_literal": false,
+      "partial_jornada_literal": false,
+      "workload_class": "not_resolved",
+      "weekly_hours_candidates": [],
+      "dates_near_conditions": [
+        "03/12/2025"
+      ],
+      "page_condition_flags": [
+        {
+          "page": 1,
+          "condition_segments": 2,
+          "flags": [
+            {
+              "line": 12,
+              "has_full": false,
+              "has_partial": false,
+              "has_hour_cue": false,
+              "has_end_cue": false
+            },
+            {
+              "line": 25,
+              "has_full": false,
+              "has_partial": false,
+              "has_hour_cue": false,
+              "has_end_cue": false
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "condition_segments": 1,
+          "flags": [
+            {
+              "line": 37,
+              "has_full": false,
+              "has_partial": false,
+              "has_hour_cue": false,
+              "has_end_cue": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GENSEC2526_167",
+      "original_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+      "http": 200,
+      "pdf_sha256": "75e4daa41bb335b5c69bab2bf1a8f7721d090a03552678f03f112b53d17e82af",
+      "is_pdf": true,
+      "pages": 3,
+      "has_code": true,
+      "has_profile_specialty": true,
+      "full_jornada_literal": false,
+      "partial_jornada_literal": false,
+      "workload_class": "not_resolved",
+      "weekly_hours_candidates": [],
+      "dates_near_conditions": [],
+      "page_condition_flags": [
+        {
+          "page": 1,
+          "condition_segments": 1,
+          "flags": [
+            {
+              "line": 12,
+              "has_full": false,
+              "has_partial": false,
+              "has_hour_cue": false,
+              "has_end_cue": false
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "condition_segments": 0,
+          "flags": []
+        },
+        {
+          "page": 3,
+          "condition_segments": 0,
+          "flags": []
+        }
+      ]
+    },
+    {
+      "code": "GENSEC_147",
+      "original_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+      "http": 200,
+      "pdf_sha256": "8a9c68a960446d7cbe84332b293a29452e6b915124a79ee17425f52e5495abb3",
+      "is_pdf": true,
+      "pages": 3,
+      "has_code": true,
+      "has_profile_specialty": true,
+      "full_jornada_literal": false,
+      "partial_jornada_literal": false,
+      "workload_class": "not_resolved",
+      "weekly_hours_candidates": [],
+      "dates_near_conditions": [
+        "30/06/2026"
+      ],
+      "page_condition_flags": [
+        {
+          "page": 1,
+          "condition_segments": 1,
+          "flags": [
+            {
+              "line": 12,
+              "has_full": false,
+              "has_partial": false,
+              "has_hour_cue": false,
+              "has_end_cue": false
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "condition_segments": 0,
+          "flags": []
+        },
+        {
+          "page": 3,
+          "condition_segments": 0,
+          "flags": []
+        }
+      ]
+    }
+  ],
+  "cautions": [
+    "A full/part-time mention anywhere in PDF is insufficient to prove the advertised actual post's jornada if it is a generic instruction.",
+    "Dates nearby a condition keyword may be application deadlines, not assignment end dates.",
+    "The original PDF and public historic JSON establish the offer, not automatic course duration.",
+    "No PDF texts or personal names published; specific details need manual verification."
+  ]
+}
