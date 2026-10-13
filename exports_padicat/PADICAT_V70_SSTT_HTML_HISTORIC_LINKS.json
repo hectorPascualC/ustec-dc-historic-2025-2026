@@ -1,0 +1,148 @@
+{
+  "checked_utc": "2026-10-13T18:24:20.378982+00:00",
+  "scope": "11 official territorial secondary-level HTML listings + EDUBCN listing and API control",
+  "capture_time_range": "2025-11-01 to 2026-10-13",
+  "urls_checked": 13,
+  "http_200": 13,
+  "captured_records": 0,
+  "replayed_html": 0,
+  "archived_generic_pdf_urls": [],
+  "checks": [
+    {
+      "area": "Alt Pirineu i Aran",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Baix Llobregat",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/baix-llobregat/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Barcelonès",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Catalunya Central",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Girona",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Lleida",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Maresme–Vallès Oriental",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/maresme-valles-oriental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Penedès",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/penedes/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Tarragona",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Terres de l'Ebre",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/terres-ebre/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "Vallès Occidental",
+      "original_listing_url": "https://educacio.gencat.cat/ca/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "EDUBCN",
+      "original_listing_url": "https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    },
+    {
+      "area": "EDUBCN API (control known archived)",
+      "original_listing_url": "https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "index": {
+        "http": 200,
+        "captures": [],
+        "error": null
+      },
+      "archived_pages": []
+    }
+  ],
+  "warnings": [
+    "Archive time is not original publishing date.",
+    "A PDF hyperlink surviving in HTML is not a proof of historic PDF bytes.",
+    "Empty exact URL does not mean no archival snapshots of other URL variants.",
+    "No applicant names or personally identifying application information stored."
+  ]
+}
