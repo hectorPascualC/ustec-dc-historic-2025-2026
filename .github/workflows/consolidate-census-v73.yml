@@ -1,0 +1,37 @@
+name: V73 consolidate proven EDUBCN publication dates
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/consolidate_census_v73_publication_dates.py
+      - .github/workflows/consolidate-census-v73.yml
+permissions:
+  contents: write
+jobs:
+  integrate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile safe CSV integration
+        run: python -m py_compile src/consolidate_census_v73_publication_dates.py
+      - name: Reconcile original archived UI, API and PDF evidence
+        run: |
+          python src/consolidate_census_v73_publication_dates.py \
+            --output-csv cens/HISTORIC_DC_507_627_F57_F87_NOV2025_FEB2026_V73_36IDS.csv \
+            --output-json exports_padicat/EDUBCN_V73_PUBLICATION_PROOF_AND_CENSUS_QA.json
+      - name: Commit versioned consolidated census and audit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cens/HISTORIC_DC_507_627_F57_F87_NOV2025_FEB2026_V73_36IDS.csv
+          git add exports_padicat/EDUBCN_V73_PUBLICATION_PROOF_AND_CENSUS_QA.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: V73 certify four EDUBCN portal publication dates and PDF corrections'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
