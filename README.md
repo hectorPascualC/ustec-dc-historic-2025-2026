@@ -29,3 +29,6 @@ Si el workflow surt en vermell, revisa `exports/AUDITORIA_EXTRACCIO.json` i les 
 
 - [**Auditoria V55 — 248/248 PDF arxivats del directori EDUBCN (29/01/2026)**](AUDITORIA_V55_TANCAMENT_CORPUS_PADICAT_EDUBCN_248PDF.md). Cobertura completa **només d'aquesta fotografia**, no de tot el període ni de Catalunya.
 - [**Verificació V56**](exports_padicat/EDUBCN_V56_FULL_PAGES.json): 87 PDF rellegits íntegrament, 320 pàgines, 9 fitxers de més de set pàgines, 0 candidats nous. El tancament V55 incorpora aquesta comprovació.
+- [Auditoria V57 — PDF sobreescrits: text antic indexat vs fitxer actual](AUDITORIA_V57_PROTOCOL_PDF_SOBREESCRITS.md). Reconstrucció de proves amb criteris de no duplicació.
+- [V58 — cerca de captures PADICAT posteriors al febrer 2026](exports_padicat/PADICAT_V58_POSTWINDOW_OVERWRITTEN_PDFS.json): sis PDF oficials, índex HTTP 200 i 0 captures recuperades per les URL provades.
+- [V59 — versions antigues a Arquivo.pt, tots els PDF dels SSTT inventariats](exports_official/ARQUIVO_PT_V59_ALL_SSTT_PDF_VERSION_HISTORY.json): execució condicionada a finalització satisfactòria del workflow V59; no s'ha de donar per complet fins que existeixi el JSON.
