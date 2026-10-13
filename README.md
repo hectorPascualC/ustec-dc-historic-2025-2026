@@ -35,3 +35,5 @@ Si el workflow surt en vermell, revisa `exports/AUDITORIA_EXTRACCIO.json` i les 
 - [**Auditoria V60 — PDF sobreescrits (protocol original), 32/32 URL Arquivo.pt verificades**](AUDITORIA_V60_TANCAMENT_RECUPERACIO_PDF_SOBREESCRITS.md); [reintents documentats](exports_official/ARQUIVO_PT_V60_REINTENTS_16_URLS.json). Cap nova convocatòria acreditada; 0/48 controls exhaustius.
 - [**V61 — Persistència documental al Barcelonès**](AUDITORIA_V61_BCO_PERSISTENCIA_11_LOTS_17_IDS.md): 11 lots datats, 60 aparicions, 17 identificadors únics (tots ja al cens). No confondre aparicions amb places noves.
 - [V62 — proves Common Crawl dels 11 PDF datats](exports_commoncrawl/COMMONCRAWL_V62_BCO_DATED_PDFS.json): consultar la sortida després de l'execució corregida del workflow; el primer intent fou invàlid per una capçalera HTTP incorrecta.
+
+- [**Auditoria V65 — PDF sobreescrits, Common Crawl V63 i Arquivo.pt V64**](AUDITORIA_V65_REINTENTS_I_MIRALLS_PDF_2026-10-13.md): 3/4 errors V62 resolts, 11/11 PDF datats de Barcelonès comprovats a Arquivo.pt, 1 bloqueig CC pendent, cens 36 no exhaustiu.
