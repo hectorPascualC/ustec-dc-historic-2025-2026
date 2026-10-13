@@ -1,0 +1,32 @@
+name: PADICAT — arxiu URL PDFs EDUBCN 2025-26 V44
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/padicat_edubcn_offer_pdf_directory_v44.py','.github/workflows/padicat-edubcn-directory-v44.yml']
+permissions:
+  contents: write
+jobs:
+  inventory:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'requests>=2.31,<3'
+      - name: Search real PADICAT archived original offer PDF URL directory
+        run: python src/padicat_edubcn_offer_pdf_directory_v44.py --output exports_padicat/PADICAT_EDUBCN_V44_PDF_DIRECTORY.json
+      - name: Publish vacancy PDF URL metadata
+        if: always()
+        run: |
+          if [ ! -s exports_padicat/PADICAT_EDUBCN_V44_PDF_DIRECTORY.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/PADICAT_EDUBCN_V44_PDF_DIRECTORY.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: indexed historical official EDUBCN PDFs captured by PADICAT'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
