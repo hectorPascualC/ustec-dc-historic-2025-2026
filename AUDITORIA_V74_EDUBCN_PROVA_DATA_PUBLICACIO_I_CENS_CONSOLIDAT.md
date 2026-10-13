@@ -59,3 +59,18 @@ En el corpus de **48 combinacions territori × mes** de V69, **cap mes ni territ
 **Privacitat:** no s'han publicat noms, dades de barem, identitats ni dades de contacte de docents o aspirants.
 
 **Veredicte:** **PASS** en prova arxivística de significat de DATA, cadena JS+HTML+API, CSV integrat i correccions V52; **PENDENT** trobar dates de primer anunci/possibles republicacions i completar els SSTT; **NO ASSOLIT** cens català exhaustiu.
+
+## 5. V75 — forense de creació PDF abans de la publicació del portal
+
+L'auditoria [V75](exports_padicat/EDUBCN_V75_PDF_ORIGINAL_CREATION_DATES.json) ha fet un control independent sobre els quatre PDF de la captura de gener.
+
+- **4/4** PDF originals descarregats correctament i **SHA256 idèntic** als hash originals V41.
+- **4/4** URL exactes dels PDF tenen captura pròpia a PADICAT del **29/01/2026, aproximadament a les 23:22 UTC**, amb un PDF de reproducció HTTP 200 i SHA256 concordant.
+- El PDF `GENSEC_2526_145` (507 ITB) conté `creationDate = D:20251201141851+01'00'`, data del fitxer **01/12/2025**, i termini inicial **03/12/2025**. El portal arxivat mostra publicació **22/01/2026**.
+- El PDF `GENSEC_2526_149` (627 ITB) conté `creationDate = D:20251210150325+01'00'`, data del fitxer **10/12/2025**, i termini inicial **12/12/2025**. El portal arxivat mostra publicació **22/01/2026**.
+- `GENSEC_147` (627 Escola del Treball): creació PDF **05/12/2025**, publicació portal **05/12/2025**.
+- `GENSEC2526_167` (507 Pedralbes): creació PDF **21/01/2026**, publicació portal **21/01/2026**.
+
+**Conclusió forense limitada:** dos documents PDF de l'ITB **porten dates internes de desembre**, concordants amb els terminis interns de desembre, però l'API els presentava amb data de publicació **22/01/2026**. Això justifica **prioritzar la cerca de les primeres convocatòries o republicacions de desembre de 2025** per aquests dos codis. No podem atribuir una data inicial pública exacta a partir de les metadades: `creationDate` pot no coincidir amb el primer moment de difusió, i cap arxiu anterior dels mateixos PDF ha estat recuperat en aquesta comprovació.
+
+**Auditoria final de la ronda:** quatre dates del portal acreditades, quatre PDFs històrics SHA256 verificats i quatre metadades temporals contrastades, **0 identificadors nous**, cens provisional **36**, **0/48** blocs territori-mes exhaustius.
