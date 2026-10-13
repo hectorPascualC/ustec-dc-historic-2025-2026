@@ -45,3 +45,4 @@ Si el workflow surt en vermell, revisa `exports/AUDITORIA_EXTRACCIO.json` i les 
 - [**Cens consolidat V73 — 36 ID, 4 dates certificades de portal i correccions de jornada**](cens/HISTORIC_DC_507_627_F57_F87_NOV2025_FEB2026_V73_36IDS.csv); [control JSON](exports_padicat/EDUBCN_V73_PUBLICATION_PROOF_AND_CENSUS_QA.json). Supera el recompte de `0/36 dates` dels informes V68/V69.
 - [V70 — 13 URL HTML/REST oficials PADICAT](exports_padicat/PADICAT_V70_SSTT_HTML_HISTORIC_LINKS.json): 3 captures HTML i 2 JSON EDUBCN; 11 URL HTML territorials sense captura en consulta exacta.
 - [V71–V72 — fitxers JS arxivats i la relació de `Data de publicació` amb `DATA`](exports_padicat/EDUBCN_V72_ARCHIVED_JS_PUBLIC_API_ROUTES.json).
+- [**V75 — originals PDF EDUBCN de gener: 4/4 SHA256 verificats, dues creacions internes de desembre 2025**](exports_padicat/EDUBCN_V75_PDF_ORIGINAL_CREATION_DATES.json). No equivalen a dues dates de primera publicació demostrades.
