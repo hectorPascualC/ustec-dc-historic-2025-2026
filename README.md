@@ -46,3 +46,8 @@ Si el workflow surt en vermell, revisa `exports/AUDITORIA_EXTRACCIO.json` i les 
 - [V70 — 13 URL HTML/REST oficials PADICAT](exports_padicat/PADICAT_V70_SSTT_HTML_HISTORIC_LINKS.json): 3 captures HTML i 2 JSON EDUBCN; 11 URL HTML territorials sense captura en consulta exacta.
 - [V71–V72 — fitxers JS arxivats i la relació de `Data de publicació` amb `DATA`](exports_padicat/EDUBCN_V72_ARCHIVED_JS_PUBLIC_API_ROUTES.json).
 - [**V75 — originals PDF EDUBCN de gener: 4/4 SHA256 verificats, dues creacions internes de desembre 2025**](exports_padicat/EDUBCN_V75_PDF_ORIGINAL_CREATION_DATES.json). No equivalen a dues dates de primera publicació demostrades.
+- [**V80 — auditories V76–V79: buit de febrer, setmanes datades i resultats EDUBCN**](AUDITORIA_V80_BARCELONES_BUITS_I_EDUBCN_BILINGUE_RESULTATS.md): sense nova plaça; 36 IDs, 4 dates portal, 0/48 controls exhaustius.
+- [V76 — dues respostes PADICAT gener/octubre EDUBCN](exports_padicat/EDUBCN_V76_JAN_OCT_2026_TARGET_DIFF.json): 49 vs 145 files, cap nova oferta de novembre–febrer.
+- [V77 — sis divendres sense PDF datat al Barcelonès](exports_official/BCO_V77_GAPS_PDF_FILENAME_PROBES.json): 18 URL hipotètiques testades, 18 HTTP 404 actuals; no prova absència en 2025–26.
+- [V78 — 4 API arxivades EDUBCN, català/castellà](exports_padicat/EDUBCN_V78_BILINGUAL_API_HISTORIC_DIFF.json): mateix conjunt de codis en els dos idiomes, quatre ofertes objectiu.
+- [V79 — dates de creació de dos PDFs de resultats EDUBCN](exports_padicat/EDUBCN_V79_RESULT_PDF_DATES.json): 2/2 hash coincideixen amb arxiu V54, no primeres dates d'oferta.
