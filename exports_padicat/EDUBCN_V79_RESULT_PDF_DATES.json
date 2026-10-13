@@ -1,0 +1,52 @@
+{
+  "timestamp_utc": "2026-10-13T18:55:20.976388+00:00",
+  "sources": "V41 PADICAT Jan 2026 API, only existing official result PDF URL links",
+  "result_pdf_urls": 2,
+  "valid_pdfs": 2,
+  "tests": [
+    {
+      "code": "GENSEC_2526_145",
+      "portal_date": "2026-01-22",
+      "current_result_pdf": {
+        "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+        "http": 200,
+        "pdf": true,
+        "bytes": 224572,
+        "sha256": "c0c01a84a8a212169d03bf26e527ccc8df820448ac0a5d6bd352ba28bf8de80b",
+        "pages": 1,
+        "creation_date": "D:20260128125751+01'00'",
+        "mod_date": "D:20260128125752+01'00'",
+        "date_tokens": [],
+        "status_indicators": [
+          "Alta titular"
+        ],
+        "errors": null
+      }
+    },
+    {
+      "code": "GENSEC_147",
+      "portal_date": "2025-12-05",
+      "current_result_pdf": {
+        "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf",
+        "http": 200,
+        "pdf": true,
+        "bytes": 140289,
+        "sha256": "83cd099a75e2698c38e7fbe79b58140f56041542d20d4652b6b5c77736ab4c67",
+        "pages": 1,
+        "creation_date": "D:20260122162934+01'00'",
+        "mod_date": "D:20260122162936+01'00'",
+        "date_tokens": [
+          "30/06/2026"
+        ],
+        "status_indicators": [],
+        "errors": null
+      }
+    }
+  ],
+  "warnings": [
+    "Result PDFs are checked as currently served and may be updated since January. Do not claim immutable archival provenance without confirming PADICAT snapshot.",
+    "Document creation date is not posting date, decision date, or date when titular returned.",
+    "Only date tokens and categorical status phrases from public PDF are retained, never names or scores.",
+    "A matching or older decision date does not by itself certify first-ever publication of the vacancy."
+  ]
+}
