@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-10-13T16:48:21.587563+00:00",
+  "source": "PADICAT authentic 2026-01-29 PDF archive, GENSEC/GESEC results",
+  "total_index_records": 252,
+  "result_pdf_count": 15,
+  "valid_pdf": 15,
+  "text_extracted": 15,
+  "total_pages": 15,
+  "contextual_specialty_result_candidates": [
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf",
+      "capture_time": "20260129232203",
+      "sha256": "c0c01a84a8a212169d03bf26e527ccc8df820448ac0a5d6bd352ba28bf8de80b",
+      "codes": [
+        "507"
+      ],
+      "pages_read": 1
+    },
+    {
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf",
+      "capture_time": "20260129232206",
+      "sha256": "83cd099a75e2698c38e7fbe79b58140f56041542d20d4652b6b5c77736ab4c67",
+      "codes": [
+        "627"
+      ],
+      "pages_read": 1
+    }
+  ],
+  "new_offers_authenticated": 0,
+  "limits": [
+    "Result documents cannot independently certify original publication date or additional unique offer.",
+    "Manual comparison with the four known EDUBCN offer IDs required for any target candidate.",
+    "Only extractable text, no OCR, all pages checked.",
+    "No names, DNI, phone numbers, emails or applicant data saved."
+  ]
+}
