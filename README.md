@@ -26,3 +26,5 @@ Si el workflow surt en vermell, revisa `exports/AUDITORIA_EXTRACCIO.json` i les 
 - [Auditoria territorial i documental V51](AUDITORIA_V51_PADICAT_120PDFS_CENS36.md): 120 PDF històrics analitzats, quatre originals EDUBCN contrastats amb PADICAT.
 - [**Auditoria V52**: resultats i correcció de jornada 627 de l'ITB](AUDITORIA_V52_EDUBCN_RESULTATS_JORNADES_2026-10-13.md).
 - [**Correccions V52** dels quatre casos EDUBCN](cens/EDUBCN_4_CASOS_V52_CORRECCIONS.csv). **Aquestes correccions prevalen sobre les jornades i estats indeterminats de V49**; els 36 ID continuen sense duplicats.
+
+- [**Auditoria V55 — 248/248 PDF arxivats del directori EDUBCN (29/01/2026)**](AUDITORIA_V55_TANCAMENT_CORPUS_PADICAT_EDUBCN_248PDF.md). Cobertura completa **només d'aquesta fotografia**, no de tot el període ni de Catalunya.
