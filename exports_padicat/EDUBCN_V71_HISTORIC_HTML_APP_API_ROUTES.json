@@ -1,0 +1,177 @@
+{
+  "utc_checked": "2026-10-13T18:27:52.717376+00:00",
+  "historic_html_capture_at": "2026-01-29T22:46:29Z",
+  "historic_html_url": "https://wayback.padicat.cat/20260129224629id_/https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+  "html": {
+    "requested_url": "https://wayback.padicat.cat/20260129224629id_/https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+    "http": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 117758,
+    "sha256": "7238f2109786ba37bcb16c6adb57fa1f79e54f18f5a7a07910c43922b485c4e7",
+    "error": null
+  },
+  "html_embedded_api_paths": [
+    "/js/ang/1.8.3/animate.min.js",
+    "/js/ang/1.8.3/locale_ca.min.js",
+    "/js/ang/1.8.3/main.min.js",
+    "/js/ang/1.8.3/resource.min.js",
+    "/js/app.bundle-v05.js",
+    "/js/cookieconsent_init.min.js",
+    "/js/front.min.js",
+    "/js/jPages.min.js",
+    "/js/jquery.min.js",
+    "/js/jquery.tablesorter-metadata.min.js",
+    "/js/jquery.tablesorter.min.js",
+    "/js/main.bundle-v05.css"
+  ],
+  "official_js_script_count": 12,
+  "scripts": [
+    {
+      "url": "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
+      "skipped": "third_party"
+    },
+    {
+      "url": "https://www.edubcn.cat/js/ang/1.8.3/animate.min.js",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/ang/1.8.3/animate.min.js",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 26614,
+        "sha256": "13ce88b5889c24a708b055833c3d32def374fcb3a53afe904490c2a84af6dcaa",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/js/ang/1.8.3/locale_ca.min.js",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/ang/1.8.3/locale_ca.min.js",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 1743,
+        "sha256": "1fd5154079b738cb136befbfc1eec883364f530915213e4d452676e1f3053073",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/js/ang/1.8.3/main.min.js",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/ang/1.8.3/main.min.js",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 176775,
+        "sha256": "255f7a3e0338abca10acd8c3f5eb87336dba6c9dbd02fc8cb5e420e8f5e39e6b",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/js/ang/1.8.3/resource.min.js",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/ang/1.8.3/resource.min.js",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 4411,
+        "sha256": "43611785131ecf11d52a3dd0aba24443e1418f8d4dc253a8065a7439a8263cd6",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/js/cookieconsent_init.min.js?1683138555730",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/cookieconsent_init.min.js?1683138555730",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 8511,
+        "sha256": "d488b71ef5fa23951fb07af2349fc0f85e6b4d85a0947a1520db241802ac2244",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/js/front.min.js?20230523",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/front.min.js?20230523",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 47425,
+        "sha256": "9eccc52df8993684d10d72bb1d6bcd2e8f87313dfff32d550f0a006bac438083",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/js/jPages.min.js",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/jPages.min.js",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 13371,
+        "sha256": "2e2e05f9af24562df40d247339fd37adbb4019ec80f0b493c51b9995b22a7630",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/js/jquery.min.js",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/jquery.min.js",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 87361,
+        "sha256": "b876736931f4451009a178426ced41af8e2a7afcf5ac615e4fd74ec9f643ad52",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/js/jquery.tablesorter-metadata.min.js",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/jquery.tablesorter-metadata.min.js",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 878,
+        "sha256": "6fd484cb3d4db92ba40c9460718c8cfa09cc5abe32336050b555e85079f1cf74",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/js/jquery.tablesorter.min.js",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/js/jquery.tablesorter.min.js",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 33925,
+        "sha256": "072131d02ec7d1fbb4e25cbf8f132c88b4ffad29fbf9834f938402e3c1ebffc0",
+        "error": null
+      },
+      "url_path_patterns": []
+    },
+    {
+      "url": "https://www.edubcn.cat/pdc/js/app.bundle-v05.js",
+      "stats": {
+        "requested_url": "https://www.edubcn.cat/pdc/js/app.bundle-v05.js",
+        "http": 200,
+        "content_type": "application/javascript; charset=UTF-8",
+        "bytes": 470923,
+        "sha256": "fa77ac43fb54db7da675c90c70fa980af5dcea34ed90b8f7a08d412458d28e9f",
+        "error": null
+      },
+      "url_path_patterns": []
+    }
+  ],
+  "stylesheet_urls": [
+    "https://www.edubcn.cat/css/main.min.css?20251013",
+    "https://www.edubcn.cat/pdc/js/main.bundle-v05.css"
+  ],
+  "capture_api_known": "https://wayback.padicat.cat/20260129224630id_/https://www.edubcn.cat/pdc_rest/convocatories/ca",
+  "source_note": "Script URLs requested on current live server are not necessarily versioned; any content from live JS is not 2026-01-29 evidence.",
+  "warnings": [
+    "No script bodies, HTML text, names, contact fields or candidate information stored.",
+    "A URL path in JS does not establish that the endpoint preserved previous vacancy records.",
+    "Original HTML capture proof does not automatically prove dates of older individual offers."
+  ]
+}
