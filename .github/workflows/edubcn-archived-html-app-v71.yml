@@ -1,0 +1,35 @@
+name: V71 EDUBCN Jan 2026 archived HTML app
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/edubcn_archived_html_app_v71.py
+      - .github/workflows/edubcn-archived-html-app-v71.yml
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install public HTML parser
+        run: python -m pip install 'requests>=2.31,<3' 'beautifulsoup4>=4.12,<5'
+      - name: Check syntax
+        run: python -m py_compile src/edubcn_archived_html_app_v71.py
+      - name: Inspect historic HTML and public app assets
+        run: python src/edubcn_archived_html_app_v71.py --output exports_padicat/EDUBCN_V71_HISTORIC_HTML_APP_API_ROUTES.json
+      - name: Commit anonymized public API path metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/EDUBCN_V71_HISTORIC_HTML_APP_API_ROUTES.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: V71 archive HTML application and API route metadata'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
