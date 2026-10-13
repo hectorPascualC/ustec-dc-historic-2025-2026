@@ -19,7 +19,7 @@ PREFIXES=[
  ("alt_2526","https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526"),
 ]
 FIRST="20251101";LAST="20260305"
-PAT=re.compile(r"(?<!\w)(?:GENSEC|GESEC)[_-]?(?:2526)?[_-]?\d{1,4}(?!\w)",re.I)
+PAT=re.compile(r"(?:GENSEC|GESEC)[_-]?(?:2526)?[_-]?\d{1,4}(?=[_.-]|$)",re.I)
 TERM=re.compile(r"(?<!\d)(?:507|627|F57|F87)(?!\d)|inform[aà]tica|sistemes|ciberseguretat|PFI",re.I)
 def query(name,url):
  record={"name":name,"target_url":url,"http":None,"rows":[],"truncated":False}
