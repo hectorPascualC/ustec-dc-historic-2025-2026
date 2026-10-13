@@ -1,0 +1,125 @@
+{
+  "checked_utc": "2026-10-13T13:54:38.649501+00:00",
+  "queries": [
+    {
+      "host": "educacio",
+      "filter": "control_any",
+      "expression": "url:.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "educacio",
+      "filter": "dificil",
+      "expression": "url:.*dificil.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "educacio",
+      "filter": "nomenaments",
+      "expression": "url:.*nomenaments.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "educacio",
+      "filter": "vacants",
+      "expression": "url:.*vacants.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "ensenyament",
+      "filter": "control_any",
+      "expression": "url:.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "ensenyament",
+      "filter": "dificil",
+      "expression": "url:.*dificil.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "ensenyament",
+      "filter": "nomenaments",
+      "expression": "url:.*nomenaments.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "ensenyament",
+      "filter": "vacants",
+      "expression": "url:.*vacants.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "documents_espai",
+      "filter": "control_any",
+      "expression": "url:.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "documents_espai",
+      "filter": "dificil",
+      "expression": "url:.*dificil.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "documents_espai",
+      "filter": "nomenaments",
+      "expression": "url:.*nomenaments.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    },
+    {
+      "host": "documents_espai",
+      "filter": "vacants",
+      "expression": "url:.*vacants.*",
+      "http": 200,
+      "rows": [],
+      "count": 0,
+      "truncated": false
+    }
+  ],
+  "backend_filter_control_positive": {
+    "educacio": false,
+    "ensenyament": false,
+    "documents_espai": false
+  },
+  "new_exact_dc_capture_count": 0,
+  "warnings": [
+    "A positive control helps validate the filter backend but no results is still an archive-limited outcome.",
+    "Date of snapshot is not date the original offer was posted.",
+    "A truncated result needs pagination and is not exhaustive.",
+    "No personal data stored, only public source URL metadata."
+  ]
+}
