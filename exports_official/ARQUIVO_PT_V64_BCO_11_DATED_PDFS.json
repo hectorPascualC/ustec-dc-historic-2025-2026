@@ -1,0 +1,117 @@
+{
+  "at_utc": "2026-10-13",
+  "scope": "11 officially indexed date-named Barcelones 2025-11 to 2026-02 PDF URLs not present in V59 32-URL mutable PDF inventory",
+  "provider": "Arquivo.pt documented versionHistory API",
+  "source": "cens/INDEX_PDFS_BCO_V22_11_LOTS.csv",
+  "url_checks": 11,
+  "api_responses": 11,
+  "technical_blocks": 0,
+  "captures": 0,
+  "limits": [
+    "Archive API exact-URL lookup does not certify lack of alternate URL, capture from other providers, or original vacancy publication",
+    "No PDF byte body received on empty version history",
+    "Archive timestamps never equal original publication dates",
+    "Source codes and file names already known, do not add new vacancies without independent evidence"
+  ],
+  "checks": [
+    {
+      "nom": "Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "data_nominal": "2025-11-07",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "Barcelones-SEC-dificil-cobertura-oferta-vacants_14112025.pdf",
+      "data_nominal": "2025-11-14",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_14112025.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "Barcelones-SEC-dificil-cobertura-oferta-vacants_28112025.pdf",
+      "data_nominal": "2025-11-28",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_28112025.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "Barcelones-SEC-dificil-cobertura-oferta-vacants_05122025.pdf",
+      "data_nominal": "2025-12-05",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_05122025.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "Barcelones-SEC-dificil-cobertura-oferta-vacants_16012026.pdf",
+      "data_nominal": "2026-01-16",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_16012026.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "BCO-SEC-dificil-cobertura-oferta-vacants23012026.pdf",
+      "data_nominal": "2026-01-23",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants23012026.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "BCO-SEC-dificil-cobertura-oferta-vacants30012026.pdf",
+      "data_nominal": "2026-01-30",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants30012026.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "BCO-SEC-dificil-cobertura-oferta-vacants06022026.pdf",
+      "data_nominal": "2026-02-06",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants06022026.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "BCO-SEC-dificil-cobertura-oferta-vacants13022026.pdf",
+      "data_nominal": "2026-02-13",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants13022026.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "BCO-SEC-dificil-cobertura-oferta-vacants20022026.pdf",
+      "data_nominal": "2026-02-20",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants20022026.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    },
+    {
+      "nom": "BCO-SEC-dificil-cobertura-oferta-vacants_27022026.pdf",
+      "data_nominal": "2026-02-27",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants_27022026.pdf",
+      "result_status": "API_RESPONSE",
+      "estimated_total": 0,
+      "captures": [],
+      "error": null
+    }
+  ]
+}
