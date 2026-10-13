@@ -1,0 +1,72 @@
+{
+  "at": "2026-10-13T13:36:44.618121+00:00",
+  "interval": "2025-11-01..2026-03-05",
+  "prefix_queries": [
+    {
+      "name": "root_https",
+      "target_url": "https://www.edubcn.cat/rcs_gene/seleccio/",
+      "http": 200,
+      "truncated": false,
+      "response_bytes": 177081,
+      "returned_total": 252
+    },
+    {
+      "name": "root_http",
+      "target_url": "http://www.edubcn.cat/rcs_gene/seleccio/",
+      "http": 200,
+      "truncated": false,
+      "response_bytes": 177081,
+      "returned_total": 252
+    },
+    {
+      "name": "no_www",
+      "target_url": "https://edubcn.cat/rcs_gene/seleccio/",
+      "http": 200,
+      "truncated": false,
+      "response_bytes": 177081,
+      "returned_total": 252
+    },
+    {
+      "name": "GESEC",
+      "target_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC",
+      "http": 200,
+      "truncated": false,
+      "response_bytes": 8470,
+      "returned_total": 11
+    },
+    {
+      "name": "GENSEC",
+      "target_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC",
+      "http": 200,
+      "truncated": false,
+      "response_bytes": 25865,
+      "returned_total": 37
+    },
+    {
+      "name": "2526",
+      "target_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526",
+      "http": 200,
+      "truncated": false,
+      "response_bytes": 25865,
+      "returned_total": 37
+    },
+    {
+      "name": "alt_2526",
+      "target_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526",
+      "http": 200,
+      "truncated": false,
+      "response_bytes": 8470,
+      "returned_total": 11
+    }
+  ],
+  "unique_archived_candidate_offers": 0,
+  "urls_with_specialty_in_filename": 0,
+  "archived_offer_urls": [],
+  "truncated": false,
+  "limits": [
+    "A PDF URL without 507/627 in the filename can still be relevant.",
+    "Public archive URL indexed does not imply full PDF bytes preserved.",
+    "Snapshot date is not date of posting.",
+    "Only official public recruitment PDF URLs, not personnel or application details, are stored."
+  ]
+}
