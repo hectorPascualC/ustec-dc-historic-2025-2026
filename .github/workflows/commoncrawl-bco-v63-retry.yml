@@ -1,0 +1,35 @@
+name: V63 BCO archived PDF bounded 5xx retry
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/commoncrawl_retry_bco_5xx_v63.py
+      - .github/workflows/commoncrawl-bco-v63-retry.yml
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install requests
+        run: python -m pip install 'requests>=2.31,<3'
+      - name: Verify syntax
+        run: python -m py_compile src/commoncrawl_retry_bco_5xx_v63.py
+      - name: Recheck only actual 502/504 historical URL queries from V62
+        run: python src/commoncrawl_retry_bco_5xx_v63.py --output exports_commoncrawl/COMMONCRAWL_V63_BCO_RETRY_5XX.json
+      - name: Publish archive metadata without personal details
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_commoncrawl/COMMONCRAWL_V63_BCO_RETRY_5XX.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: V63 reconcile four Common Crawl BCO 5xx lookups'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
