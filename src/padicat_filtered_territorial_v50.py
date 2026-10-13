@@ -11,8 +11,8 @@ API="https://wayback.padicat.cat/cdx"
 SOURCES=[("educacio","https://educacio.gencat.cat/"),
          ("ensenyament","https://ensenyament.gencat.cat/"),
          ("documents_espai","https://documents.espai.educacio.gencat.cat/")]
-FILTERS=[("control_any","url:.*"),("dificil","url:.*dificil.*"),
-         ("nomenaments","url:.*nomenaments.*"),("vacants","url:.*vacants.*")]
+FILTERS=[("control_any","~url:.*"),("dificil","~url:.*dificil.*"),
+         ("nomenaments","~url:.*nomenaments.*"),("vacants","~url:.*vacants.*")]
 def find(name,url,filtername,expression):
  out={"host":name,"filter":filtername,"expression":expression,"http":None,"rows":[],"count":0,"truncated":False}
  try:
