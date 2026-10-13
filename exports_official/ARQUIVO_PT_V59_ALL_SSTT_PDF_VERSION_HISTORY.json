@@ -1,0 +1,486 @@
+{
+  "checked_utc": "2026-10-13T17:12:03.086534+00:00",
+  "archive": "Arquivo.pt documented versionHistory public API",
+  "method": "exact confirmed official PDF URLs from V24, never inferred locations",
+  "control_homepage": {
+    "http": 200,
+    "version_count": 13,
+    "captures": [
+      {
+        "timestamp": "20260518013041",
+        "status": "301"
+      },
+      {
+        "timestamp": "20251223024711",
+        "status": "301"
+      },
+      {
+        "timestamp": "20250917195958",
+        "status": "301"
+      },
+      {
+        "timestamp": "20241015024338",
+        "status": "301"
+      },
+      {
+        "timestamp": "20240810151755",
+        "status": "301"
+      },
+      {
+        "timestamp": "20240613152110",
+        "status": "301"
+      },
+      {
+        "timestamp": "20231119232217",
+        "status": "301"
+      },
+      {
+        "timestamp": "20231001174439",
+        "status": "301"
+      }
+    ]
+  },
+  "checked_urls": 32,
+  "territories": [
+    "Alt Pirineu i Aran",
+    "Baix Llobregat",
+    "Barcelonès",
+    "Catalunya Central",
+    "Consorci d'Educacio de Barcelona",
+    "Girona",
+    "Lleida",
+    "Maresme–Vallès Oriental",
+    "Penedès",
+    "Tarragona",
+    "Terres de l'Ebre",
+    "Vallès Occidental"
+  ],
+  "archive_versions_found": 0,
+  "pdf_binaries_recovered": 0,
+  "historical_pdfs_flagged": 0,
+  "checks": [
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/oferta-moduls-pfi-ife/20250701_Resultats_PFI.pdf",
+      "territory": "Alt Pirineu i Aran",
+      "kind": "pfi_discover",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/oferta-moduls-pfi-ife/APA-oferta-modul-pfi-ife.pdf",
+      "territory": "Alt Pirineu i Aran",
+      "kind": "pfi_discover",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/APA-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Alt Pirineu i Aran",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/APA-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Alt Pirineu i Aran",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/baix-llobregat/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/PENDENTS_BLL-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Baix Llobregat",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/baix-llobregat/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/RESULTAT_BLL-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Baix Llobregat",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/primaria/Adjudicacions-dificil-cobertura_resultats17102025-1.pdf",
+      "territory": "Barcelonès",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/primaria/DC-ESPECIALISTES-27082026.pdf",
+      "territory": "Barcelonès",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/primaria/DCSE_0910.pdf",
+      "territory": "Barcelonès",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/DC_SEC_091026.pdf",
+      "territory": "Barcelonès",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/CCE-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Catalunya Central",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/CCE-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Catalunya Central",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/GIR-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Girona",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/GIR-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Girona",
+      "kind": "secundaria",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/oferta-moduls-pfi-ptt/LLE-PFI-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Lleida",
+      "kind": "pfi_discover",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/oferta-moduls-pfi-ptt/LLE-dificil-cobertura-oferta-PFI.pdf",
+      "territory": "Lleida",
+      "kind": "pfi_discover",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Lleida",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Lleida",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/maresme-valles-oriental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/MVO-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Maresme–Vallès Oriental",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/maresme-valles-oriental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/MVO-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Maresme–Vallès Oriental",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/penedes/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/PEN-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Penedès",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/penedes/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/PEN-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Penedès",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-oferta-vacants-pe.pdf",
+      "territory": "Tarragona",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Tarragona",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-vacants-cobertes-pe.pdf",
+      "territory": "Tarragona",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Tarragona",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/terres-ebre/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TEB-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Terres de l'Ebre",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/terres-ebre/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TEB-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Terres de l'Ebre",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ConnectionError: HTTPSConnectionPool(host='arquivo.pt', port=443): Max retries exceeded with url: /textsearch?versionHistory=https%3A%2F%2Feducacio.gencat.cat%2Fweb%2F",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "territory": "Vallès Occidental",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='arquivo.pt', port=443): Read timed out. (read timeout=12)",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "territory": "Vallès Occidental",
+      "kind": "secundaria",
+      "history": {
+        "api_http": null,
+        "estimated_total": null,
+        "returned": 0,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='arquivo.pt', port=443): Read timed out. (read timeout=12)",
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+      "territory": "Consorci d'Educacio de Barcelona",
+      "kind": "historical_control",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+      "territory": "Consorci d'Educacio de Barcelona",
+      "kind": "historical_control",
+      "history": {
+        "api_http": 200,
+        "estimated_total": 0,
+        "returned": 0,
+        "error": null,
+        "captures": []
+      },
+      "pdf_inspections": []
+    }
+  ],
+  "warnings": [
+    "A working archive control does not establish complete territorial capture coverage.",
+    "2025-26 result PDF is not original vacancy posting, nor does a PDF timestamp establish publication date.",
+    "Inputs came only from verified existing official PDF links in repo; current PDF versions are overwritten.",
+    "Public output excludes original PDF contents, names, addresses, ID document numbers and private data.",
+    "If estimated_total > returned, pagination is pending and this check is not exhaustive."
+  ]
+}
