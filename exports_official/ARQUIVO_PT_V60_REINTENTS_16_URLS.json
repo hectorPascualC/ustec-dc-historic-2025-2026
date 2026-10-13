@@ -1,0 +1,181 @@
+{
+  "date_checked": "2026-10-13",
+  "protocol": "REFERENCIA_RECUPERACIO_HISTORICA_PDF_DC_507_627_F57_F87.md (Biblioteca), version 1.0",
+  "parent_report": "exports_official/ARQUIVO_PT_V59_ALL_SSTT_PDF_VERSION_HISTORY.json",
+  "api_endpoint": "https://arquivo.pt/textsearch?versionHistory=...",
+  "github_runner_failed_checks": 16,
+  "independent_retry_resolved": 16,
+  "independent_retry_unresolved": 0,
+  "archive_captures_recovered": 0,
+  "total_unique_official_pdf_urls_in_v59": 32,
+  "previously_successful_github_queries": 16,
+  "combined_resolved_urls": 32,
+  "notes": [
+    "Unfit for territory-month exhaustiveness: these are only 32 known official URL PDF endpoints, most mutable.",
+    "A zero record in Arquivo.pt exact URL index is not proof that no old vacancy offer existed, nor that no other archive has one.",
+    "No personal names, candidate data, private contact details or original PDF contents stored.",
+    "Arquivo.pt versionHistory is an archival lookup, not a current PDF validation."
+  ],
+  "checks": [
+    {
+      "territory": "Lleida",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/oferta-moduls-pfi-ptt/LLE-PFI-dificil-cobertura-vacants-cobertes.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Lleida",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/oferta-moduls-pfi-ptt/LLE-dificil-cobertura-oferta-PFI.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Lleida",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Lleida",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Maresme–Vallès Oriental",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/maresme-valles-oriental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/MVO-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Maresme–Vallès Oriental",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/maresme-valles-oriental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/MVO-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Penedès",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/penedes/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/PEN-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Penedès",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/penedes/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/PEN-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Tarragona",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-oferta-vacants-pe.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Tarragona",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Tarragona",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-vacants-cobertes-pe.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Tarragona",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Terres de l'Ebre",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/terres-ebre/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TEB-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Terres de l'Ebre",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/terres-ebre/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TEB-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Vallès Occidental",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    },
+    {
+      "territory": "Vallès Occidental",
+      "original_pdf_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "method": "Arquivo.pt versionHistory via TinyFish independent fetch",
+      "status": "api_json_received",
+      "estimated_nr_results": 0,
+      "returned_items": 0,
+      "archive_captures": [],
+      "error": null
+    }
+  ]
+}
