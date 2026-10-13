@@ -1,0 +1,198 @@
+{
+  "at_utc": "2026-10-13T18:53:53.294956+00:00",
+  "method": "Four genuine PADICAT captures, ca/es snapshots at 2026-01-29 and 2026-10-04",
+  "verified_all_four": true,
+  "stats": {
+    "jan_ca": {
+      "capture": "jan_ca",
+      "archived_at": "20260129224630",
+      "url": "https://wayback.padicat.cat/20260129224630id_/https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "http": 200,
+      "response_bytes": 27123,
+      "sha256": "683930ffad9024801119443a92dd6d05e5e3cae7e54ac0d2887f6f54c2d8c148",
+      "parse_ok": true,
+      "records": 49,
+      "error": null
+    },
+    "jan_es": {
+      "capture": "jan_es",
+      "archived_at": "20260129230101",
+      "url": "https://wayback.padicat.cat/20260129230101id_/https://www.edubcn.cat/pdc_rest/convocatories/es",
+      "http": 200,
+      "response_bytes": 27016,
+      "sha256": "32037fb420861f9339a2c7afba2527edaebbb45e1f4cd8d06f38bf75d8590eb0",
+      "parse_ok": true,
+      "records": 49,
+      "error": null
+    },
+    "oct_ca": {
+      "capture": "oct_ca",
+      "archived_at": "20261004093514",
+      "url": "https://wayback.padicat.cat/20261004093514id_/https://www.edubcn.cat/pdc_rest/convocatories/ca",
+      "http": 200,
+      "response_bytes": 80131,
+      "sha256": "3462fdb3721494a5ebcfffee561b3fd55f5510febf5ae4617298aa90cb9b48a1",
+      "parse_ok": true,
+      "records": 145,
+      "error": null
+    },
+    "oct_es": {
+      "capture": "oct_es",
+      "archived_at": "20261004094857",
+      "url": "https://wayback.padicat.cat/20261004094857id_/https://www.edubcn.cat/pdc_rest/convocatories/es",
+      "http": 200,
+      "response_bytes": 79725,
+      "sha256": "8dd807b77f20967dafbbb1b2807917057ca904fa9f1fbdbebb97fe1b869fffb1",
+      "parse_ok": true,
+      "records": 145,
+      "error": null
+    }
+  },
+  "monthly_posting_date_histograms": {
+    "jan_ca": {
+      "2025-08": 2,
+      "2025-09": 5,
+      "2025-10": 5,
+      "2025-11": 5,
+      "2025-12": 7,
+      "2026-01": 25
+    },
+    "jan_es": {
+      "2025-08": 2,
+      "2025-09": 5,
+      "2025-10": 5,
+      "2025-11": 5,
+      "2025-12": 7,
+      "2026-01": 25
+    },
+    "oct_ca": {
+      "2024-10": 1,
+      "2026-07": 31,
+      "2026-08": 19,
+      "2026-09": 90,
+      "2026-10": 4
+    },
+    "oct_es": {
+      "2024-10": 1,
+      "2026-07": 31,
+      "2026-08": 19,
+      "2026-09": 90,
+      "2026-10": 4
+    }
+  },
+  "language_ID_differences": {
+    "jan": {
+      "ca_ids": 49,
+      "es_ids": 49,
+      "only_in_ca": [],
+      "only_in_es": []
+    },
+    "oct": {
+      "ca_ids": 143,
+      "es_ids": 143,
+      "only_in_ca": [],
+      "only_in_es": []
+    }
+  },
+  "target_in_window_unique_codes": 4,
+  "target_in_window_rows": [
+    {
+      "id": "GENSEC2526_167",
+      "versions": [
+        {
+          "snapshot": "jan_ca",
+          "id": "GENSEC2526_167",
+          "date": "2026-01-21",
+          "centre": "Institut Pedralbes",
+          "specialty": "507- Informàtica",
+          "offer_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+          "result_pdf": ""
+        },
+        {
+          "snapshot": "jan_es",
+          "id": "GENSEC2526_167",
+          "date": "2026-01-21",
+          "centre": "Institut Pedralbes",
+          "specialty": "507- Informática",
+          "offer_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+          "result_pdf": ""
+        }
+      ]
+    },
+    {
+      "id": "GENSEC_147",
+      "versions": [
+        {
+          "snapshot": "jan_ca",
+          "id": "GENSEC_147",
+          "date": "2025-12-05",
+          "centre": "Institut Escola del Treball",
+          "specialty": "Sistemes i Aplicacions Informàtiques (627)",
+          "offer_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+          "result_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf"
+        },
+        {
+          "snapshot": "jan_es",
+          "id": "GENSEC_147",
+          "date": "2025-12-05",
+          "centre": "Institut Escola del Treball",
+          "specialty": "Sistemas y Aplicaciones Informáticas (627)",
+          "offer_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+          "result_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627_RESULTAT.pdf"
+        }
+      ]
+    },
+    {
+      "id": "GENSEC_2526_145",
+      "versions": [
+        {
+          "snapshot": "jan_ca",
+          "id": "GENSEC_2526_145",
+          "date": "2026-01-22",
+          "centre": "Institut Tecnològic de Barcelona",
+          "specialty": "507 - Informàtica (ciberseguretat)",
+          "offer_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+          "result_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf"
+        },
+        {
+          "snapshot": "jan_es",
+          "id": "GENSEC_2526_145",
+          "date": "2026-01-22",
+          "centre": "Institut Tecnològic de Barcelona",
+          "specialty": "507 - Informática (ciberseguridad)",
+          "offer_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+          "result_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507_RESULTAT.pdf"
+        }
+      ]
+    },
+    {
+      "id": "GENSEC_2526_149",
+      "versions": [
+        {
+          "snapshot": "jan_ca",
+          "id": "GENSEC_2526_149",
+          "date": "2026-01-22",
+          "centre": "Institut Tecnològic de Barcelona",
+          "specialty": "627 - Sistemes i aplicacions informàtiques",
+          "offer_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+          "result_pdf": ""
+        },
+        {
+          "snapshot": "jan_es",
+          "id": "GENSEC_2526_149",
+          "date": "2026-01-22",
+          "centre": "Institut Tecnològic de Barcelona",
+          "specialty": "627 - Sistemas y aplicaciones informáticas",
+          "offer_pdf": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+          "result_pdf": ""
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "ca and es lists can be taken minutes apart, possible small genuine time change.",
+    "Data is the portal's publication date, not first-ever posting if republished.",
+    "A month not present in an Oct year-switched archive doesn't establish no historical postings in that month.",
+    "No applicant or adjudicatari names, emails, phone numbers or raw API body stored."
+  ]
+}
