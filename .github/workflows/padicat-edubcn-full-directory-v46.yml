@@ -1,0 +1,32 @@
+name: PADICAT EDUBCN — index tota carpeta PDF V46
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/padicat_edubcn_full_directory_v46.py','.github/workflows/padicat-edubcn-full-directory-v46.yml']
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'requests>=2.31,<3'
+      - name: Inventory every public archived source PDF and distinguish offer from results
+        run: python src/padicat_edubcn_full_directory_v46.py --output exports_padicat/EDUBCN_PADICAT_V46_FULL_DIRECTORY.json
+      - name: Publish historical vacancy directory findings
+        if: always()
+        run: |
+          if [ ! -s exports_padicat/EDUBCN_PADICAT_V46_FULL_DIRECTORY.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/EDUBCN_PADICAT_V46_FULL_DIRECTORY.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: classify all PADICAT public EDUBCN PDFs beyond GENSEC code filter'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
