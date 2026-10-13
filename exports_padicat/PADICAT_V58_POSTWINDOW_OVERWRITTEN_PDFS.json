@@ -1,0 +1,90 @@
+{
+  "checked_utc": "2026-10-13T17:05:10.964042+00:00",
+  "protocol": "REFERENCIA_RECUPERACIO_HISTORICA_PDF_DC_507_627_F57_F87.md v1.0",
+  "archive_provider": "PADICAT public CDX with actual replay",
+  "capture_window": "2026-03-01..2026-10-13",
+  "original_official_urls_checked": 6,
+  "indexed_snapshots": 0,
+  "recovered_pdf_binaries": 0,
+  "recovered_course_2025_26_pdfs": 0,
+  "results": [
+    {
+      "territory": "Lleida",
+      "document_type": "resultats",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "index": {
+        "http_status": 200,
+        "index_records": 0,
+        "captures": [],
+        "index_error": null
+      },
+      "retrieved_pdf_captures": []
+    },
+    {
+      "territory": "Lleida",
+      "document_type": "ofertes",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "index": {
+        "http_status": 200,
+        "index_records": 0,
+        "captures": [],
+        "index_error": null
+      },
+      "retrieved_pdf_captures": []
+    },
+    {
+      "territory": "Girona",
+      "document_type": "resultats",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/GIR-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "index": {
+        "http_status": 200,
+        "index_records": 0,
+        "captures": [],
+        "index_error": null
+      },
+      "retrieved_pdf_captures": []
+    },
+    {
+      "territory": "Girona",
+      "document_type": "ofertes",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/GIR-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "index": {
+        "http_status": 200,
+        "index_records": 0,
+        "captures": [],
+        "index_error": null
+      },
+      "retrieved_pdf_captures": []
+    },
+    {
+      "territory": "Maresme-Valles Oriental",
+      "document_type": "resultats",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/maresme-valles-oriental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/MVO-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "index": {
+        "http_status": 200,
+        "index_records": 0,
+        "captures": [],
+        "index_error": null
+      },
+      "retrieved_pdf_captures": []
+    },
+    {
+      "territory": "Barcelones",
+      "document_type": "ofertes_datades",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants_27022026.pdf",
+      "index": {
+        "http_status": 200,
+        "index_records": 0,
+        "captures": [],
+        "index_error": null
+      },
+      "retrieved_pdf_captures": []
+    }
+  ],
+  "warnings": [
+    "A zero in an archive is not absence of an offer or of captures elsewhere.",
+    "Capture dates are not publication dates. Search date may be after the original PDF was replaced.",
+    "Do not add any vacancy to census automatically. Distinguish offer/result and read original proof.",
+    "No original PDF body or any teacher/applicant names stored in public output."
+  ]
+}
