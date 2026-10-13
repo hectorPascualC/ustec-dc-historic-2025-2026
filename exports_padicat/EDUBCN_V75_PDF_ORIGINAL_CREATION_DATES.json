@@ -1,0 +1,225 @@
+{
+  "checked_utc": "2026-10-13T18:34:51.656283+00:00",
+  "source": "EDUBCN four 2025-26 original PDFs already authenticated at V41, V52 and V73",
+  "documents": 4,
+  "pdfs_valid": 4,
+  "sha_matches_V41": 4,
+  "jan2026_pdf_capture_records": 4,
+  "jan2026_pdf_versions_replayed": 4,
+  "results": [
+    {
+      "id": "GENSEC_2526_149",
+      "specialty": "627",
+      "portal_pubdate": "2026-01-22",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+      "expected_original_sha_from_V41": "476f51b8091ccc4390699813badb467e267dc805d26f685b657a99b2ec59a325",
+      "live": {
+        "http": 200,
+        "size_bytes": 166020,
+        "sha256": "476f51b8091ccc4390699813badb467e267dc805d26f685b657a99b2ec59a325",
+        "is_pdf": true,
+        "error": null
+      },
+      "live_sha_matches_V41": true,
+      "live_metadata": {
+        "valid": true,
+        "pages": 3,
+        "creationDate": "D:20251210150325+01'00'",
+        "modDate": "D:20251210150325+01'00'"
+      },
+      "archive_index": {
+        "http": 200,
+        "captures": [
+          {
+            "timestamp": "20260129232203",
+            "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_149_Inst_Tecnologic_627.pdf",
+            "status": "200",
+            "digest": "SHA256476F5BCCC4363BADB467E267DC5D26F65B657AB2EC5A324AAA",
+            "mime": "application/pdf"
+          }
+        ],
+        "error": null
+      },
+      "replayed_historical_versions": [
+        {
+          "stamp": "20260129232203",
+          "archive_request": {
+            "http": 200,
+            "size_bytes": 166020,
+            "sha256": "476f51b8091ccc4390699813badb467e267dc805d26f685b657a99b2ec59a325",
+            "is_pdf": true,
+            "error": null
+          },
+          "metadata": {
+            "valid": true,
+            "pages": 3,
+            "creationDate": "D:20251210150325+01'00'",
+            "modDate": "D:20251210150325+01'00'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "GENSEC_2526_145",
+      "specialty": "507",
+      "portal_pubdate": "2026-01-22",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+      "expected_original_sha_from_V41": "36b740c5ae79725d3cfa2fb30a037214047d855cdb63bb01bc9a0c50fa069573",
+      "live": {
+        "http": 200,
+        "size_bytes": 162839,
+        "sha256": "36b740c5ae79725d3cfa2fb30a037214047d855cdb63bb01bc9a0c50fa069573",
+        "is_pdf": true,
+        "error": null
+      },
+      "live_sha_matches_V41": true,
+      "live_metadata": {
+        "valid": true,
+        "pages": 2,
+        "creationDate": "D:20251201141851+01'00'",
+        "modDate": "D:20251201141851+01'00'"
+      },
+      "archive_index": {
+        "http": 200,
+        "captures": [
+          {
+            "timestamp": "20260129232203",
+            "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2526_145_Inst_Tecnologic_507.pdf",
+            "status": "200",
+            "digest": "SHA25636B74C5AE7725D3CFA2FB3A372447D55CDB63BBBCAC5FA6573",
+            "mime": "application/pdf"
+          }
+        ],
+        "error": null
+      },
+      "replayed_historical_versions": [
+        {
+          "stamp": "20260129232203",
+          "archive_request": {
+            "http": 200,
+            "size_bytes": 162839,
+            "sha256": "36b740c5ae79725d3cfa2fb30a037214047d855cdb63bb01bc9a0c50fa069573",
+            "is_pdf": true,
+            "error": null
+          },
+          "metadata": {
+            "valid": true,
+            "pages": 2,
+            "creationDate": "D:20251201141851+01'00'",
+            "modDate": "D:20251201141851+01'00'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "GENSEC2526_167",
+      "specialty": "507-",
+      "portal_pubdate": "2026-01-21",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+      "expected_original_sha_from_V41": "75e4daa41bb335b5c69bab2bf1a8f7721d090a03552678f03f112b53d17e82af",
+      "live": {
+        "http": 200,
+        "size_bytes": 165673,
+        "sha256": "75e4daa41bb335b5c69bab2bf1a8f7721d090a03552678f03f112b53d17e82af",
+        "is_pdf": true,
+        "error": null
+      },
+      "live_sha_matches_V41": true,
+      "live_metadata": {
+        "valid": true,
+        "pages": 3,
+        "creationDate": "D:20260121102536+01'00'",
+        "modDate": "D:20260121102542+01'00'"
+      },
+      "archive_index": {
+        "http": 200,
+        "captures": [
+          {
+            "timestamp": "20260129232205",
+            "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
+            "status": "200",
+            "digest": "SHA25675E4DAA4BB335B5C6BAB2BFAF772DA355267F3F2B53D7E2AAA",
+            "mime": "application/pdf"
+          }
+        ],
+        "error": null
+      },
+      "replayed_historical_versions": [
+        {
+          "stamp": "20260129232205",
+          "archive_request": {
+            "http": 200,
+            "size_bytes": 165673,
+            "sha256": "75e4daa41bb335b5c69bab2bf1a8f7721d090a03552678f03f112b53d17e82af",
+            "is_pdf": true,
+            "error": null
+          },
+          "metadata": {
+            "valid": true,
+            "pages": 3,
+            "creationDate": "D:20260121102536+01'00'",
+            "modDate": "D:20260121102542+01'00'"
+          }
+        }
+      ]
+    },
+    {
+      "id": "GENSEC_147",
+      "specialty": "Sistemes",
+      "portal_pubdate": "2025-12-05",
+      "original_url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+      "expected_original_sha_from_V41": "8a9c68a960446d7cbe84332b293a29452e6b915124a79ee17425f52e5495abb3",
+      "live": {
+        "http": 200,
+        "size_bytes": 177330,
+        "sha256": "8a9c68a960446d7cbe84332b293a29452e6b915124a79ee17425f52e5495abb3",
+        "is_pdf": true,
+        "error": null
+      },
+      "live_sha_matches_V41": true,
+      "live_metadata": {
+        "valid": true,
+        "pages": 3,
+        "creationDate": "D:20251205145913+01'00'",
+        "modDate": "D:20251205145913+01'00'"
+      },
+      "archive_index": {
+        "http": 200,
+        "captures": [
+          {
+            "timestamp": "20260129232206",
+            "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
+            "status": "200",
+            "digest": "SHA256AC6A6446D7CBE4332B23A2452E6B524A7EE7425F52E545ABB3",
+            "mime": "application/pdf"
+          }
+        ],
+        "error": null
+      },
+      "replayed_historical_versions": [
+        {
+          "stamp": "20260129232206",
+          "archive_request": {
+            "http": 200,
+            "size_bytes": 177330,
+            "sha256": "8a9c68a960446d7cbe84332b293a29452e6b915124a79ee17425f52e5495abb3",
+            "is_pdf": true,
+            "error": null
+          },
+          "metadata": {
+            "valid": true,
+            "pages": 3,
+            "creationDate": "D:20251205145913+01'00'",
+            "modDate": "D:20251205145913+01'00'"
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Metadata creationDate/modDate may be blank, forged, stale or rewritten and is not public posting date.",
+    "Historical PDF snapshot timestamps are capture dates, not original announcement dates.",
+    "A PDF deadline in December 2025 and an API listing date in Jan 2026 may signal old publication, republication or inconsistent metadata.",
+    "No PDF text, author field, staff names, applications or identifying data persisted."
+  ]
+}
