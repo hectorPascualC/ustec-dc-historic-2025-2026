@@ -1,5 +1,5 @@
 {
-  "audited_at": "2026-10-13T13:42:14.308999+00:00",
+  "audited_at": "2026-10-13T13:49:51.615702+00:00",
   "originals_scanned": 33,
   "archived_replay_pdf_ok": 33,
   "current_live_fallback_pdf_ok": 0,
@@ -11,30 +11,7 @@
     "GESEC2526_147",
     "GESEC2526_167"
   ],
-  "possible_new_codes": [
-    {
-      "code": "GESEC2526_147",
-      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_147_INS_ESCOLA_DEL_TREBALL_627.pdf",
-      "pdf_sha256": "8a9c68a960446d7cbe84332b293a29452e6b915124a79ee17425f52e5495abb3",
-      "source": "PADICAT_replay",
-      "specialty": [
-        "627"
-      ],
-      "dates": [
-        "30/06/2026"
-      ]
-    },
-    {
-      "code": "GESEC2526_167",
-      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GESEC2526_167_INS_PEDRALBES_507_INFORMATICA.pdf",
-      "pdf_sha256": "75e4daa41bb335b5c69bab2bf1a8f7721d090a03552678f03f112b53d17e82af",
-      "source": "PADICAT_replay",
-      "specialty": [
-        "507"
-      ],
-      "dates": []
-    }
-  ],
+  "possible_new_codes": [],
   "results": [
     {
       "code_fragment": "GENSEC_2526_052",
