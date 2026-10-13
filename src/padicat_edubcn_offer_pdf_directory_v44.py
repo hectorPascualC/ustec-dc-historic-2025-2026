@@ -38,6 +38,12 @@ def query(name,url):
     if isinstance(o,dict):data.append(o)
    except ValueError:pass
   record["returned_total"]=len(data)
+  record["first_public_record_field_keys"]=list(data[0].keys()) if data else []
+  record["public_code_url_samples"]=[{"url":str(x.get("url") or x.get("original") or "")[:250],
+          "mime":str(x.get("mime") or x.get("mimetype") or "")[:60],
+          "status":str(x.get("status") or "")[:10],
+          "timestamp":str(x.get("timestamp") or "")[:20]} for x in data if
+          re.search(r"(?:GENSEC|GESEC)",str(x.get("url") or x.get("original") or ""),re.I)][:12]
   record["truncated"]=len(data)>=500
   for x in data:
    u=str(x.get("url") or x.get("original") or "")
