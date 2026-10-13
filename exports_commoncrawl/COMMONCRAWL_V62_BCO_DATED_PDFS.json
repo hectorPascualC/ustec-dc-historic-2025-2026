@@ -1,13 +1,13 @@
 {
-  "checked_utc": "2026-10-13T17:21:58.824546+00:00",
+  "checked_utc": "2026-10-13T17:24:02.100381+00:00",
   "source_file": "cens/INDEX_PDFS_BCO_V22_11_LOTS.csv",
   "known_dated_pdf_urls": 11,
   "planned_queries": 13,
   "executed_queries": 13,
   "stopped_due_to_server_backoff": false,
   "successful_index_queries": 0,
-  "explicit_no_captures_404": 0,
-  "blocked_index_queries": 13,
+  "explicit_no_captures_404": 9,
+  "blocked_index_queries": 4,
   "index_records": 0,
   "unique_warc_records": 0,
   "warc_downloads_tested": 0,
@@ -18,117 +18,117 @@
       "filename": "Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_07112025.pdf",
       "collection": "CC-MAIN-2025-47",
-      "status": null,
+      "status": 404,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "no_capture_returned": ""
     },
     {
       "date_nominal": "2025-11-14",
       "filename": "Barcelones-SEC-dificil-cobertura-oferta-vacants_14112025.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_14112025.pdf",
       "collection": "CC-MAIN-2025-47",
-      "status": null,
+      "status": 502,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "error": "http_502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.31.6</"
     },
     {
       "date_nominal": "2025-11-28",
       "filename": "Barcelones-SEC-dificil-cobertura-oferta-vacants_28112025.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_28112025.pdf",
       "collection": "CC-MAIN-2025-51",
-      "status": null,
+      "status": 404,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "no_capture_returned": ""
     },
     {
       "date_nominal": "2025-12-05",
       "filename": "Barcelones-SEC-dificil-cobertura-oferta-vacants_05122025.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_05122025.pdf",
       "collection": "CC-MAIN-2025-51",
-      "status": null,
+      "status": 502,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "error": "http_502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.31.6</"
     },
     {
       "date_nominal": "2026-01-16",
       "filename": "Barcelones-SEC-dificil-cobertura-oferta-vacants_16012026.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_16012026.pdf",
       "collection": "CC-MAIN-2026-04",
-      "status": null,
+      "status": 404,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "no_capture_returned": ""
     },
     {
       "date_nominal": "2026-01-23",
       "filename": "BCO-SEC-dificil-cobertura-oferta-vacants23012026.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants23012026.pdf",
       "collection": "CC-MAIN-2026-04",
-      "status": null,
+      "status": 504,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "error": "http_504 <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>ngin"
     },
     {
       "date_nominal": "2026-01-30",
       "filename": "BCO-SEC-dificil-cobertura-oferta-vacants30012026.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants30012026.pdf",
       "collection": "CC-MAIN-2026-04",
-      "status": null,
+      "status": 404,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "no_capture_returned": ""
     },
     {
       "date_nominal": "2026-02-06",
       "filename": "BCO-SEC-dificil-cobertura-oferta-vacants06022026.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants06022026.pdf",
       "collection": "CC-MAIN-2026-08",
-      "status": null,
+      "status": 404,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "no_capture_returned": ""
     },
     {
       "date_nominal": "2026-02-13",
       "filename": "BCO-SEC-dificil-cobertura-oferta-vacants13022026.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants13022026.pdf",
       "collection": "CC-MAIN-2026-08",
-      "status": null,
+      "status": 404,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "no_capture_returned": ""
     },
     {
       "date_nominal": "2026-02-20",
       "filename": "BCO-SEC-dificil-cobertura-oferta-vacants20022026.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants20022026.pdf",
       "collection": "CC-MAIN-2026-12",
-      "status": null,
+      "status": 404,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "no_capture_returned": ""
     },
     {
       "date_nominal": "2026-02-27",
       "filename": "BCO-SEC-dificil-cobertura-oferta-vacants_27022026.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants_27022026.pdf",
       "collection": "CC-MAIN-2026-12",
-      "status": null,
+      "status": 504,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "error": "http_504 <html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>ngin"
     },
     {
       "date_nominal": "2026-02-06",
       "filename": "BCO-SEC-dificil-cobertura-oferta-vacants06022026.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants06022026.pdf",
       "collection": "CC-MAIN-2026-12",
-      "status": null,
+      "status": 404,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "no_capture_returned": ""
     },
     {
       "date_nominal": "2026-02-13",
       "filename": "BCO-SEC-dificil-cobertura-oferta-vacants13022026.pdf",
       "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants13022026.pdf",
       "collection": "CC-MAIN-2026-12",
-      "status": null,
+      "status": 404,
       "records": [],
-      "error": "InvalidHeader: Header part ({'User-Agent': 'Mozilla/5.0 (public historical educational PDF research; noncommercial; low rate)'}) from ('User-Agent', {'User-Agent': 'Mozilla/5."
+      "no_capture_returned": ""
     }
   ],
   "warc_checks": [],
