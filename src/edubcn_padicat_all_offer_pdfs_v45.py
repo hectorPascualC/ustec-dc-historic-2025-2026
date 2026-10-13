@@ -80,7 +80,12 @@ def main(output):
         "target",r["specialty_label_values"],flush=True)
  targets=[x for x in result if x["probable_target"]]
  unique_target_codes=sorted(set(x["code_fragment"] for x in targets))
- new=[x for x in targets if all(x["code_fragment"].replace("_","") not in y.replace("_","") for y in old)]
+ # Filename aliases like GESEC2526_147 vs the API's GENSEC_147 are
+ # NOT new vacancies when the original-PDF SHA256 is identical.
+ evidence=json.loads(Path("exports_padicat/EDUBCN_20260129_V41_TARGET_OFFERS.json").read_text(encoding="utf-8"))
+ already_hashes={v["pdf_sha256"] for v in evidence["original_pdf_checks"] if v.get("is_pdf")}
+ new=[x for x in targets if x["actual_pdf_sha256"] not in already_hashes and
+      all(x["code_fragment"].replace("_","").replace("GESEC","GENSEC") not in y.replace("_","") for y in old)]
  summary={"audited_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),
   "originals_scanned":len(items),"archived_replay_pdf_ok":sum(x["source"]=="PADICAT_replay" for x in result),
   "current_live_fallback_pdf_ok":sum(x["source"]=="live_pdf_fallback" for x in result),
