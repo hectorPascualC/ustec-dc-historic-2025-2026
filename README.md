@@ -37,3 +37,6 @@ Si el workflow surt en vermell, revisa `exports/AUDITORIA_EXTRACCIO.json` i les 
 - [V62 — proves Common Crawl dels 11 PDF datats](exports_commoncrawl/COMMONCRAWL_V62_BCO_DATED_PDFS.json): consultar la sortida després de l'execució corregida del workflow; el primer intent fou invàlid per una capçalera HTTP incorrecta.
 
 - [**Auditoria V65 — PDF sobreescrits, Common Crawl V63 i Arquivo.pt V64**](AUDITORIA_V65_REINTENTS_I_MIRALLS_PDF_2026-10-13.md): 3/4 errors V62 resolts, 11/11 PDF datats de Barcelonès comprovats a Arquivo.pt, 1 bloqueig CC pendent, cens 36 no exhaustiu.
+- [**Auditoria V68 — comprovació de qualitat dels 36 identificadors**](AUDITORIA_V68_CONTROL_QUALITAT_PUBLICACIO_36IDS_I_CDX_SSTT.md): 22 ofertes indexades, 1 oferta i resultat, 9 resultats només, 4 originals EDUBCN; **0/36 dates de publicació certificades** al cens V49.
+- [V66 — Common Crawl per directoris territorials](exports_commoncrawl/COMMONCRAWL_V66_TERRITORIAL_PREFIXES.json): 3 de 30 consultes executades, 3 errors 502/504, aturada segura.
+- [V67 — Common Crawl per nom exacte/prefix PDF](exports_commoncrawl/COMMONCRAWL_V67_SSTT_PRECISE_PDF_PREFIXES.json): 7 de 12 consultes executades, 6 errors 5xx, 1 resultat 404 restringit a un índex; no es poden certificar absències.
