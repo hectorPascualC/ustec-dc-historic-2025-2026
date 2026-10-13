@@ -1,0 +1,5 @@
+id_canonic,especialitat,jornada_verificada,tipus_document_original,fi_prevista_pdf,estat_resultat_pdf,termini_inicial_pdf,alerta_auditoria
+GENSEC_147,627,Sencera,Substitució,Alta mèdica o 30/06/2026,Adjudicació documentada,09/12/2025 13:00,No prova contractació fora de borsa
+GENSEC2526_167,507,Sencera,Substitució no marcada,Alta mèdica o 30/06/2026,Resultat no localitzat a captura 29/01,23/01/2026 11:00,No afirma absència universal de resultat
+GENSEC_2526_145,507,Sencera,Substitució,Alta titular sense data,Resultat Alta titular,03/12/2025 14:00,No classificar com a deserta
+GENSEC_2526_149,627,"0,25",Vacant,DATA FI 31/08/2025 contradictòria,Resultat no localitzat a captura 29/01,12/12/2025 14:00,Fi cronològicament incoherent amb DATA API 22/01/2026
