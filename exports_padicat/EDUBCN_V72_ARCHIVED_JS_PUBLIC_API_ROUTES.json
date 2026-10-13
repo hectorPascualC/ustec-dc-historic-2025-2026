@@ -1,0 +1,144 @@
+{
+  "checked_utc": "2026-10-13T18:29:36.790367+00:00",
+  "historical_html_source": "https://wayback.padicat.cat/20260129224629id_/https://www.edubcn.cat/ca/professorat_i_pas/seleccio_rrhh/dificil_cobertura",
+  "known_js_bundle": "https://www.edubcn.cat/pdc/js/app.bundle-v05.js",
+  "padicat_index_request": {
+    "url": "https://wayback.padicat.cat/cdx?url=https%3A%2F%2Fwww.edubcn.cat%2Fpdc%2Fjs%2Fapp.bundle-v05.js&matchType=exact&output=json&from=20251201&to=20260301&limit=80",
+    "status": 200,
+    "len": 596,
+    "sha256": "5fb2d51952c1d096b8d5b9bbcb96186149340f2f1ef6d66f8e9007e2d750f55a",
+    "error": null
+  },
+  "padicat_js_captures": [
+    {
+      "url": "https://www.edubcn.cat/pdc/js/app.bundle-v05.js",
+      "timestamp": "20260129224629",
+      "mime": "application/javascript",
+      "status": "200",
+      "digest": "SHA256FA77AC43FB54DB7DA675CC7FAAF5DCEA34EDBF7AD4245D2EAA",
+      "length": "154538"
+    }
+  ],
+  "versions": [
+    {
+      "type": "LIVE_JAVASCRIPT_NOT_HISTORICAL",
+      "download": {
+        "url": "https://www.edubcn.cat/pdc/js/app.bundle-v05.js",
+        "status": 200,
+        "len": 470923,
+        "sha256": "fa77ac43fb54db7da675c90c70fa980af5dcea34ed90b8f7a08d412458d28e9f",
+        "error": null
+      },
+      "keyword_counts": {
+        "pdc_rest": 1,
+        "convocatories": 14,
+        "convocat": 58,
+        "curs": 48,
+        "filter": 152,
+        "resultat": 8,
+        "ofert": 0,
+        "api/": 4,
+        "http": 47,
+        "rest/": 0,
+        "pag": 17
+      },
+      "public_route_string_candidates": [
+        " translate>Convocatòria</a>\\n        </p>\\n\\n        <p ng-if=",
+        " translate>Formulari amb resultats dinàmics a mesura que s’emplenen camps</p>\\n\\n    <div class=",
+        " translate>Resultat</a>\\n        </p>\\n    </div>\\n    <p class=",
+        "),x(t.properties,(function(t){t.computed?(a=f.nextId(),f.recurse(t.key,a)):a=t.key.type===Tr.Identifier?t.key.name:",
+        ")},recurse:function(t,e,n,r,i,o){var a,s,u,c,l,f=this;if(r=r||I,!o&&F(t.watchId))return e=e||this.nextId(),void this.if_(",
+        ",function(t,e){return{convocatories:[],filters:{query:",
+        ",this.assign(e,c),r(c);break;case Tr.BinaryExpression:this.recurse(t.left,void 0,void 0,(function(t){a=t})),this.recurse(t.right,v",
+        ",this.assign(e,c),r(c);break;case Tr.LogicalExpression:e=e||this.nextId(),f.recurse(t.left,e),f.if_(",
+        ",this.recurse(t);var a=",
+        ",titularitat:[]},getList:function(n,r){var i=this;return i.convocatories=e.query({what:",
+        ",{template:n(67816),bindings:{convocatoria:",
+        "/pdc_rest",
+        ";var i=this.nextId();this.recurse(n,i),this.return_(i),r=",
+        "><span translate>Centre:</span> <b>{{ctrl.convocatoria.CENTRE}} {{ctrl.convocatoria.CENTRE_ALTRES}}</b></p>\\n\\n    <div class=",
+        "><span translate>Codi:</span> <b>{{ctrl.convocatoria.CODI}}</b></p>\\n    <p class=",
+        "><span translate>Especialitat / perfil:</span> <b>{{ctrl.convocatoria.PERFIL}}</b></p>\\n    <p class=",
+        "><span translate>Incorporació:</span> {{ctrl.convocatoria.INCORPORACIO}}</p>\\n\\n</div>\\n",
+        ">\\n        <p><span translate>Data de publicació:</span> {{ctrl.convocatoria.DATA | date: \\",
+        "Convocatoria",
+        "Convocatoria:",
+        "Convocatòria",
+        "Formulari amb resultats dinàmics a mesura que s’emplenen camps",
+        "Looking up elements via selectors is not supported by jqLite! See: http://docs.angularjs.org/api/angular.element",
+        "Resultat",
+        "convocatoria",
+        "convocatoria in ctrl.convocatories | searchBy:ctrl.ENSENYAMENT_PRIMARIA:ctrl.filters.query:ctrl.filters.titularitat as itemsPrimar",
+        "convocatoria in ctrl.convocatories | searchBy:ctrl.ENSENYAMENT_SECUNDARIA:ctrl.filters.query:ctrl.filters.titularitat as itemsSecu",
+        "convocatorias",
+        "convocatories",
+        "convocatoriesModel",
+        "id{{convocatoria.ID}}",
+        "}}</p>\\n        <p><span translate>Termini:</span> {{ctrl.convocatoria.INFO_TERMINI}}</p>\\n    </div>\\n\\n\\n    <div class="
+      ]
+    },
+    {
+      "type": "PADICAT_ARCHIVED_20260129224629",
+      "download": {
+        "url": "https://wayback.padicat.cat/20260129224629id_/https://www.edubcn.cat/pdc/js/app.bundle-v05.js",
+        "status": 200,
+        "len": 470923,
+        "sha256": "fa77ac43fb54db7da675c90c70fa980af5dcea34ed90b8f7a08d412458d28e9f",
+        "error": null
+      },
+      "keyword_counts": {
+        "pdc_rest": 1,
+        "convocatories": 14,
+        "convocat": 58,
+        "curs": 48,
+        "filter": 152,
+        "resultat": 8,
+        "ofert": 0,
+        "api/": 4,
+        "http": 47,
+        "rest/": 0,
+        "pag": 17
+      },
+      "public_route_string_candidates": [
+        " translate>Convocatòria</a>\\n        </p>\\n\\n        <p ng-if=",
+        " translate>Formulari amb resultats dinàmics a mesura que s’emplenen camps</p>\\n\\n    <div class=",
+        " translate>Resultat</a>\\n        </p>\\n    </div>\\n    <p class=",
+        "),x(t.properties,(function(t){t.computed?(a=f.nextId(),f.recurse(t.key,a)):a=t.key.type===Tr.Identifier?t.key.name:",
+        ")},recurse:function(t,e,n,r,i,o){var a,s,u,c,l,f=this;if(r=r||I,!o&&F(t.watchId))return e=e||this.nextId(),void this.if_(",
+        ",function(t,e){return{convocatories:[],filters:{query:",
+        ",this.assign(e,c),r(c);break;case Tr.BinaryExpression:this.recurse(t.left,void 0,void 0,(function(t){a=t})),this.recurse(t.right,v",
+        ",this.assign(e,c),r(c);break;case Tr.LogicalExpression:e=e||this.nextId(),f.recurse(t.left,e),f.if_(",
+        ",this.recurse(t);var a=",
+        ",titularitat:[]},getList:function(n,r){var i=this;return i.convocatories=e.query({what:",
+        ",{template:n(67816),bindings:{convocatoria:",
+        "/pdc_rest",
+        ";var i=this.nextId();this.recurse(n,i),this.return_(i),r=",
+        "><span translate>Centre:</span> <b>{{ctrl.convocatoria.CENTRE}} {{ctrl.convocatoria.CENTRE_ALTRES}}</b></p>\\n\\n    <div class=",
+        "><span translate>Codi:</span> <b>{{ctrl.convocatoria.CODI}}</b></p>\\n    <p class=",
+        "><span translate>Especialitat / perfil:</span> <b>{{ctrl.convocatoria.PERFIL}}</b></p>\\n    <p class=",
+        "><span translate>Incorporació:</span> {{ctrl.convocatoria.INCORPORACIO}}</p>\\n\\n</div>\\n",
+        ">\\n        <p><span translate>Data de publicació:</span> {{ctrl.convocatoria.DATA | date: \\",
+        "Convocatoria",
+        "Convocatoria:",
+        "Convocatòria",
+        "Formulari amb resultats dinàmics a mesura que s’emplenen camps",
+        "Looking up elements via selectors is not supported by jqLite! See: http://docs.angularjs.org/api/angular.element",
+        "Resultat",
+        "convocatoria",
+        "convocatoria in ctrl.convocatories | searchBy:ctrl.ENSENYAMENT_PRIMARIA:ctrl.filters.query:ctrl.filters.titularitat as itemsPrimar",
+        "convocatoria in ctrl.convocatories | searchBy:ctrl.ENSENYAMENT_SECUNDARIA:ctrl.filters.query:ctrl.filters.titularitat as itemsSecu",
+        "convocatorias",
+        "convocatories",
+        "convocatoriesModel",
+        "id{{convocatoria.ID}}",
+        "}}</p>\\n        <p><span translate>Termini:</span> {{ctrl.convocatoria.INFO_TERMINI}}</p>\\n    </div>\\n\\n\\n    <div class="
+      ]
+    }
+  ],
+  "warnings": [
+    "Live JS is current and must not be called a January 2026 bundle.",
+    "Potential strings are public JS metadata only, not proof of API data retained or historic offers.",
+    "Never store credentials, names, staff data, script bodies, or applicant details.",
+    "Capture date is not publication date."
+  ]
+}
