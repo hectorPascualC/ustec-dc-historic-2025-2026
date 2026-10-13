@@ -1,0 +1,85 @@
+{
+  "checked_utc": "2026-10-13T17:35:51.477052+00:00",
+  "scope": "Four exact URL Common Crawl 502/504 errors recorded by V62",
+  "requested_v62_failures": 4,
+  "resolved": 3,
+  "unresolved": 1,
+  "new_index_records": 0,
+  "verified_pdf_bodies": 0,
+  "trials": [
+    {
+      "collection": "CC-MAIN-2025-47",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_14112025.pdf",
+      "date_nominal": "2025-11-14",
+      "filename": "Barcelones-SEC-dificil-cobertura-oferta-vacants_14112025.pdf",
+      "v62_http": 502,
+      "attempts": [
+        {
+          "attempt": 1,
+          "http": 404,
+          "records": [],
+          "error": null,
+          "no_captures_in_this_index": true
+        }
+      ],
+      "resolution": "NO_CAPTURE_THIS_INDEX"
+    },
+    {
+      "collection": "CC-MAIN-2025-51",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/Barcelones-SEC-dificil-cobertura-oferta-vacants_05122025.pdf",
+      "date_nominal": "2025-12-05",
+      "filename": "Barcelones-SEC-dificil-cobertura-oferta-vacants_05122025.pdf",
+      "v62_http": 502,
+      "attempts": [
+        {
+          "attempt": 1,
+          "http": 404,
+          "records": [],
+          "error": null,
+          "no_captures_in_this_index": true
+        }
+      ],
+      "resolution": "NO_CAPTURE_THIS_INDEX"
+    },
+    {
+      "collection": "CC-MAIN-2026-04",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants23012026.pdf",
+      "date_nominal": "2026-01-23",
+      "filename": "BCO-SEC-dificil-cobertura-oferta-vacants23012026.pdf",
+      "v62_http": 504,
+      "attempts": [
+        {
+          "attempt": 1,
+          "http": 404,
+          "records": [],
+          "error": null,
+          "no_captures_in_this_index": true
+        }
+      ],
+      "resolution": "NO_CAPTURE_THIS_INDEX"
+    },
+    {
+      "collection": "CC-MAIN-2026-12",
+      "original_url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/barcelones/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/BCO-SEC-dificil-cobertura-oferta-vacants_27022026.pdf",
+      "date_nominal": "2026-02-27",
+      "filename": "BCO-SEC-dificil-cobertura-oferta-vacants_27022026.pdf",
+      "v62_http": 504,
+      "attempts": [
+        {
+          "attempt": 1,
+          "http": 502,
+          "records": [],
+          "error": "index_http_502"
+        },
+        {
+          "attempt": 2,
+          "http": 504,
+          "records": [],
+          "error": "index_http_504"
+        }
+      ],
+      "resolution": "BLOCKED_TECHNICALLY"
+    }
+  ],
+  "caveat": "An index hit must be followed by a real WARC HTTP Range + PDF signature/hash validation; 404 cannot certify 0 historical offers; capture date is not publication date."
+}
