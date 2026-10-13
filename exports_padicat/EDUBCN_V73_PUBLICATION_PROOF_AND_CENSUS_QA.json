@@ -1,0 +1,65 @@
+{
+  "generated_utc": "2026-10-13T18:31:48.788742+00:00",
+  "source_census": "cens/HISTORIC_DC_507_627_F57_F87_NOV2025_FEB2026_V49_36IDS.csv",
+  "source_pdf_corrections": "cens/EDUBCN_4_CASOS_V52_CORRECCIONS.csv",
+  "source_archived_api": "exports_padicat/EDUBCN_20260129_V41_TARGET_OFFERS.json",
+  "source_archived_js": "exports_padicat/EDUBCN_V72_ARCHIVED_JS_PUBLIC_API_ROUTES.json",
+  "archived_api_original_url": "https://wayback.padicat.cat/20260129224630id_/https://www.edubcn.cat/pdc_rest/convocatories/ca",
+  "archived_publication_template_js": "https://wayback.padicat.cat/20260129224629id_/https://www.edubcn.cat/pdc/js/app.bundle-v05.js",
+  "jan2026_archive_js_sha256": "fa77ac43fb54db7da675c90c70fa980af5dcea34ed90b8f7a08d412458d28e9f",
+  "evidence": "Jan29 captured Angular template Data de publicació: {{ctrl.convocatoria.DATA | date: ...}}",
+  "unique_offers": 36,
+  "by_specialty": {
+    "507": 21,
+    "627": 14,
+    "F57-507": 1
+  },
+  "documented_portal_publication_dates": 4,
+  "first_ever_publishing_proven": 0,
+  "portal_dates": [
+    {
+      "id": "GENSEC_2526_149",
+      "specialty": "627",
+      "date": "2026-01-22",
+      "fte": "0,25",
+      "initial_pdf_deadline": "12/12/2025 14:00",
+      "result": "Resultat no localitzat a captura 29/01",
+      "notice": "Fi cronològicament incoherent amb DATA API 22/01/2026"
+    },
+    {
+      "id": "GENSEC_2526_145",
+      "specialty": "507",
+      "date": "2026-01-22",
+      "fte": "Sencera",
+      "initial_pdf_deadline": "03/12/2025 14:00",
+      "result": "Resultat Alta titular",
+      "notice": "No classificar com a deserta"
+    },
+    {
+      "id": "GENSEC2526_167",
+      "specialty": "507",
+      "date": "2026-01-21",
+      "fte": "Sencera",
+      "initial_pdf_deadline": "23/01/2026 11:00",
+      "result": "Resultat no localitzat a captura 29/01",
+      "notice": "No afirma absència universal de resultat"
+    },
+    {
+      "id": "GENSEC_147",
+      "specialty": "627",
+      "date": "2025-12-05",
+      "fte": "Sencera",
+      "initial_pdf_deadline": "09/12/2025 13:00",
+      "result": "Adjudicació documentada",
+      "notice": "No prova contractació fora de borsa"
+    }
+  ],
+  "other_32_undated": 32,
+  "verified_exhaustive_territory_month_cells": 0,
+  "warnings": [
+    "The official archived UI labels API.DATA as date of publication, not as the first ever or only publication.",
+    "The 2025 PDF deadlines for some Jan 2026 portal records may indicate an old notice, republication, or portal update.",
+    "The PDF source for GENSEC_2526_149 has contradictory finish date 31/08/2025; not a reliable end date.",
+    "No candidate or winning teacher names, identity numbers, emails or phone numbers exported."
+  ]
+}
