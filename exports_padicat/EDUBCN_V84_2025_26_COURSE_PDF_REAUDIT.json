@@ -1,0 +1,335 @@
+{
+  "checked_utc": "2026-10-14T18:52:13.529779+00:00",
+  "source_file": "exports_padicat/EDUBCN_V82_FULL_OCT_DELTA_2025_26.json",
+  "candidate_2025_26_pdf_count": 15,
+  "checked_pdf_count": 15,
+  "valid_pdf": 15,
+  "hashes_equal_v82": 15,
+  "with_any_target_code_token": 0,
+  "with_specialty_context": 0,
+  "potential_official_2025_26_target": 0,
+  "positive_candidates": [],
+  "checks": [
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENPRI_2627_50_RESULTAT.pdf",
+      "stamp": "20261004100730",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "e620a32c1ee5b0084f640ad79d67a6012e4e345001c53834f433356d44fbc813",
+      "expected_sha_matches": true,
+      "pages": 1,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENPRI_2627_50.pdf",
+      "stamp": "20261004100730",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "2e7f0d4a6c9048e548983a24ac8b06c8988de2062624ab13b022577b1130674b",
+      "expected_sha_matches": true,
+      "pages": 3,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENPRI_2627_60.pdf",
+      "stamp": "20261004100730",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "088ca521609191fe792434aa2c011a47dd47599657b97efb6ebbcafd4f654a58",
+      "expected_sha_matches": true,
+      "pages": 2,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENPRI_2627_60_Resultat.pdf",
+      "stamp": "20261004100730",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "5fc6fda8f05ebc7f3d5ca9c741c9662cf4faef41f6cce01e0bc89bc580a0dfe5",
+      "expected_sha_matches": true,
+      "pages": 1,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_10_DIFICIL_COBERTURA.pdf",
+      "stamp": "20261004100737",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "e04357c9a6c91751fb42a5642ee92029cf8a371ffcdc0211a7e9b01c4b3ac32f",
+      "expected_sha_matches": true,
+      "pages": 3,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_113_PSI_URPIJ_VH_resultat.pdf",
+      "stamp": "20261004100737",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "8f7076c267490806ab349b5e86b5e96c35832d666970048bab2c2cd36545ea34",
+      "expected_sha_matches": true,
+      "pages": 1,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_114_.pdf",
+      "stamp": "20261004100737",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "26a88ad87df5337d36f58834117727def5394a702f8cab05e0349e000363e842",
+      "expected_sha_matches": true,
+      "pages": 2,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_115_PSI_URPIJ.pdf",
+      "stamp": "20261004100737",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "85f93c6325b8dbc89e45d6736edfd32cf5b30723feae6d2276b0cd31d83f68b8",
+      "expected_sha_matches": true,
+      "pages": 2,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_126_LC_AH_VallHebron_resultat.pdf",
+      "stamp": "20261004100736",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "bfbfec1dde511bd0b5b65ea1a96905f33e110d00ce9cb54b54a123038f2590ce",
+      "expected_sha_matches": true,
+      "pages": 1,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_126_LC_AH_Vall_Hebron_.pdf",
+      "stamp": "20261004100736",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "182daeabc6d4345402e5299dadc518c70a6c7fe916248c33cf9e36bbeec6236e",
+      "expected_sha_matches": true,
+      "pages": 2,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_148_SCO.pdf",
+      "stamp": "20261004100733",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "26f785ea899575ded8486a04da0a530efb5801fb288a7df165f0c63d8088fbde",
+      "expected_sha_matches": true,
+      "pages": 2,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/GENSEC_2627_170_Oriol_martorell_463.pdf",
+      "stamp": "20261004100731",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "c94d19c3487bfa21b09bb403e79237a81a903155bc8317c8465760251b7bd013",
+      "expected_sha_matches": true,
+      "pages": 2,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNPRI_2627_11_CFA_Francesc_Layret_PRI-resultat.pdf",
+      "stamp": "20261004100729",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "ce4e4b7d30fe4093aa9a3173465348ebf31bcabde35e47837c4390d542acfa53",
+      "expected_sha_matches": true,
+      "pages": 1,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2627_42_CFA_Francesc_Layret_SCO_AN_resultat.pdf",
+      "stamp": "20261004100732",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "0e8b7bd3ec44baf8439650572d759679868de07a7568d0e3338c1bcaf3b3bbda",
+      "expected_sha_matches": true,
+      "pages": 1,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    },
+    {
+      "url": "https://www.edubcn.cat/rcs_gene/seleccio/MUNSEC_2627_43_CFA_Francesc_Layret_SCO_AN_resultat.pdf",
+      "stamp": "20261004100732",
+      "status": 200,
+      "valid_pdf": true,
+      "sha256": "5fa71866b93e02f3b269284b73741ed9d18c4213b59fba3cd095ae1fae742d5a",
+      "expected_sha_matches": true,
+      "pages": 1,
+      "token_count": {
+        "507": 0,
+        "627": 0,
+        "F57": 0,
+        "F87": 0
+      },
+      "specialty_context_codes": [],
+      "possible_target": false,
+      "has_recruitment_wording": true,
+      "file_2025_26_name": false,
+      "pdf_2025_26_mention": true,
+      "error": null
+    }
+  ],
+  "warnings": [
+    "Course mention in an administrative PDF is not proof that the PDF is a difficult-coverage vacancy in that academic year.",
+    "Specialty code in any administrative document is not proof of a single open vacancy.",
+    "A positive hit requires reading dates and original public offer before census insertion.",
+    "No candidate names/contacts/text stored; no OCR for image-based PDF pages."
+  ]
+}
