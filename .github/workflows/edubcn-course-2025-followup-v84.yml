@@ -1,0 +1,35 @@
+name: V84 EDUBCN course 2025-26 PDF detailed QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/edubcn_course2025_26_followup_v84.py
+      - .github/workflows/edubcn-course-2025-followup-v84.yml
+permissions:
+  contents: write
+jobs:
+  qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF parser
+        run: python -m pip install 'requests>=2.31,<3' 'pymupdf>=1.24,<2'
+      - name: Verify syntax
+        run: python -m py_compile src/edubcn_course2025_26_followup_v84.py
+      - name: Reaudit all historical-course mentions from October delta
+        run: python src/edubcn_course2025_26_followup_v84.py --output exports_padicat/EDUBCN_V84_2025_26_COURSE_PDF_REAUDIT.json
+      - name: Commit anonymized QA evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_padicat/EDUBCN_V84_2025_26_COURSE_PDF_REAUDIT.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: V84 15 October PDF documents mentioning course 2025-26 checked'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
