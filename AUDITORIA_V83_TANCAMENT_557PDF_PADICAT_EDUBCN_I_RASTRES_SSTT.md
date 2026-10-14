@@ -52,3 +52,18 @@ Aquests testimonis corroboren l'existència de llistats 2025–26 **anteriors al
 - **PENDENT:** captures d'altres mesos —especialment febrer— i d'altres URL/dominis; anuncis oficials originals dels SSTT amb PDF sobrescrits.
 
 **Pròxima línia més productiva:** localitzar còpies datades o resultats de novembre-febrer fora d'EDUBCN (Girona, Tarragona i altres cinc SSTT sense IDs), evitant repetir els CDX/URL que han retornat errors o zeros en comprovacions acotades. Sense publicar dades personals de candidats.
+
+## 5. V84 — control correctiu dels 15 documents que esmenten el curs 2025-26
+
+A la V82, el patró d'extracció de codi especialitat podia produir valors buits per a alguns PDF **2026–27** en la branca de cerca d'especialitat. Aquesta anomalia **no** afecta per si sola els 15 PDF que contenien text «2025-2026», però calia descartar falsos negatius abans de tancar el corpus.
+
+[Script V84 corregit i independent](src/edubcn_course2025_26_followup_v84.py) · [Dades V84](exports_padicat/EDUBCN_V84_2025_26_COURSE_PDF_REAUDIT.json).
+
+- **15/15** PDF arxivats de l'octubre, amb referències textuals al curs 2025-26, descarregats novament.
+- **15/15** originals revalidats com a PDF i **15/15 SHA256 coincidents** amb la V82.
+- **0/15** PDF contenen codis literalment delimitats `507`, `627`, `F57` o `F87`, fins i tot sense exigir context d'especialitat.
+- **0/15** candidats oficials nous; les quinze URL pertanyen a fitxers de nomenclatura `_2627_`/curs 2026-27, amb mencions incidentals a 2025-26.
+
+**Control superat:** la correcció de l'extracció descarta que algun dels 15 PDF rellevants pel text del curs hagués estat ignorat perquè el parser V82 guardés una especialitat buida. Resta la limitació general d'imatges escanejades sense text OCR.
+
+**Veredicte final V83+V84:** corpus PADICAT de gener i octubre per a les rutes estudiades **reconciliat i sotmès a doble comprovació**, **36 ID provisionals, 0 incorporacions noves, 4 dates de portal acreditades, 0/48 exhaustius**.
