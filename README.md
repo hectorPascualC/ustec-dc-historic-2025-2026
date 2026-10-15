@@ -2,6 +2,13 @@
 
 Aquest repositori és **públic i sense dades personals**. Fa servir únicament el cercador històric públic d'USTEC, sense cookies, claus ni secrets. Els CSV publicats a `exports/` **anonimitzen `numero_adjudicat`**, per evitar publicar números individuals.
 
+## Auditoria del protocol de recuperació de PDF històrics (V89)
+
+**Rectificació de la V88 (15/10/2026):** s'han revisat territorialment els 11 SSTT i EDUBCN, però **NO** s'ha esgotat el protocol de Biblioteca per a la recuperació de les versions PDF antigues. Estan pendents proves Wayback/CDX efectives, Common Crawl bloquejades/no executades, Arquivo.pt per prefix/text, HTML/API dels SSTT i forense amb PDFResurrect de 13 documents canviats. Les 48 files V87 **no** acrediten 48 controls complets: **14 PARTIAL, 34 BLOCKED, 0 PASS**.
+
+- [**Auditoria V89 — comprovació punt per punt del manual i pla de recuperació pendent**](AUDITORIA_V89_COMPLIMENT_PROTOCOL_BIBLIOTECA_I_FEINA_PENDENT_2026-10-15.md).
+- [**Cens més recent V73**](cens/HISTORIC_DC_507_627_F57_F87_NOV2025_FEB2026_V73_36IDS.csv): 36 ID provisionals, dels quals 4 amb data que mostrava el portal EDUBCN arxivat i 32 sense data de publicació acreditada; **no equival a 36 ofertes amb primera publicació certificada**.
+
 ## Única execució / sense cost per minuts
 
 A **Actions → Recuperar DC USTEC 2025-2026 → Run workflow**, branca `main`. El primer commit del workflow a `main` en dispara una execució automàtica. No hi ha cap programació recurrent. El runner `ubuntu-24.04` és estàndard i gratuït en repositoris públics; es limita el job a 30 minuts. Els resultats queden desats a `exports/` en el mateix repositori; **no es creen artefactes facturables d'Actions**.
