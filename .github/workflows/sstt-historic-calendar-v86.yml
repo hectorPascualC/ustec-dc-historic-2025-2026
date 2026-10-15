@@ -1,0 +1,35 @@
+name: V86 eleven SSTT historical date PDF audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/sstt_scan_historic_dates_in_live_pdfs_v86.py
+      - .github/workflows/sstt-historic-calendar-v86.yml
+permissions:
+  contents: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real PDF analyzer
+        run: python -m pip install 'requests>=2.31,<3' 'pymupdf>=1.24,<2'
+      - name: Compile
+        run: python -m py_compile src/sstt_scan_historic_dates_in_live_pdfs_v86.py
+      - name: Scan all 30 original SSTT links and all PDF pages for historical date signatures
+        run: python src/sstt_scan_historic_dates_in_live_pdfs_v86.py --output exports_territorial/SSTT_V86_PDF_DATES_2025_11_TO_2026_02.json
+      - name: Publish anonymized evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add exports_territorial/SSTT_V86_PDF_DATES_2025_11_TO_2026_02.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'audit: V86 verify eleven SSTT thirty PDFs for overlooked DD/MM/YYYY historic date leads'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
