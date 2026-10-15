@@ -69,7 +69,7 @@ No es pot dir `OBJECTIU_ACONSEGUIT` ni `exhaustiu` mentre quedin vies prioritàr
 - [Common Crawl, 7/12 consultes V67](exports_commoncrawl/COMMONCRAWL_V67_SSTT_PRECISE_PDF_PREFIXES.json).
 - [PADICAT EDUBCN Jan/Oct i 557 documents](AUDITORIA_V83_TANCAMENT_557PDF_PADICAT_EDUBCN_I_RASTRES_SSTT.md).
 - [Arquivo.pt, 32 URL exactes i reintents](AUDITORIA_V60_TANCAMENT_RECUPERACIO_PDF_SOBREESCRITS.md).
-- [33+23+9, reconciliació parcial d'IDs al cens](AUDITORIA_V68_CONTROL_QUALITAT_PUBLICACIO_36IDS_I_CDX_SSTT.md).
+- [Evidència de 36 identificadors provisionals: ofertes indexades, resultats i originals EDUBCN](AUDITORIA_V68_CONTROL_QUALITAT_PUBLICACIO_36IDS_I_CDX_SSTT.md).
 - [Cens V73](cens/HISTORIC_DC_507_627_F57_F87_NOV2025_FEB2026_V73_36IDS.csv).
 
 **Veredicte global:** **PARTIAL / protocol NO COMPLET**. Passada geogràfica 12/12, control mensual etiquetat 48/48 però controls `PASS` 0/48. **36 IDs provisionals**, dels quals 4 amb data de publicació del portal; **32 sense data acreditada**. Aquest informe **no** executa les fases pendents; les identifica i marca per a una represa traçable. No publicar dades personals ni confidencials.
