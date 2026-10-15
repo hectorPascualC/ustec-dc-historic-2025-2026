@@ -1,5 +1,7 @@
 # AUDITORIA V88 — passada integral: 11 SSTT + EDUBCN
 
+> **RECTIFICACIÓ METODOLÒGICA (V89, 15/10/2026):** aquesta V88 documenta una passada pels 11 SSTT i EDUBCN, **no** l'execució exhaustiva del protocol de recuperació de PDF històrics de la Biblioteca. Wayback, Common Crawl, Arquivo.pt per prefix/text, inventaris d'oferta antiga, revisions PDF dels 13 fitxers canviats, XHR/CSV i els 48 controls mètode×territori×mes **encara tenen fases pendents**. Vegeu [Auditoria V89 de compliment estricte i feina pendent](AUDITORIA_V89_COMPLIMENT_PROTOCOL_BIBLIOTECA_I_FEINA_PENDENT_2026-10-15.md). **0/48 controls PASS, objectiu global PARCIAL.**
+
 **Tancament de la passada: 15/10/2026 (Europa/Madrid).**
 
 **Missió:** investigar, sense exclusions territorials, les ofertes docents de difícil cobertura de les especialitats 507, 627, F57, F87 i combinacions documentades **publicades** a Catalunya entre **01/11/2025 i 28/02/2026**. Diferenciar dates de publicació, termini de sol·licitud, incorporació, resultat, repetició de l'oferta i captura d'arxiu.
