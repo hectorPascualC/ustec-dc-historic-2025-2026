@@ -1,0 +1,283 @@
+{
+  "at_utc": "2026-10-15T20:40:43.346298+00:00",
+  "period": [
+    "2025-11-01",
+    "2026-02-28"
+  ],
+  "territorial_areas_total": 12,
+  "sstt_areas": 11,
+  "edubcn_areas": 1,
+  "months_total": 48,
+  "months_evidence_partial": 14,
+  "months_evidence_blocked": 34,
+  "months_certified_exhaustive": 0,
+  "sstt_official_pdf_urls": 30,
+  "sstt_current_binary_pdfs_verified": 30,
+  "sstt_pdf_url_same_but_sha_changed_since_v24": 13,
+  "sstt_pdf_historical_month_target_leads": 0,
+  "pdf_changed_source_links": [
+    {
+      "area": "Alt Pirineu i Aran",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/APA-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "old_sha256": "e2f95628e34e431616a5d81ef4f72be7570cd0635b4d0f1dc9599b191df33117",
+      "sha256_v86": "6cbeb6cf9d484b715142157d4554e211b420b9e1ed0223eeb789bf66f3f44829"
+    },
+    {
+      "area": "Alt Pirineu i Aran",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/alt-pirineu-aran/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/APA-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "old_sha256": "9e613eba4df21359bd775b469c83336f4c37c91b2c858d7e63f9a1710cb78e26",
+      "sha256_v86": "6a723bdba9428cc1ceb502fc882260040e574ca2981812c2fd852be480eafe2c"
+    },
+    {
+      "area": "Catalunya Central",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/catalunya-central/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/CCE-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "old_sha256": "d53ea54e6acb143f9edfa64891d27e0f59b28a790c2c9c6acc2ecf846b39bf8c",
+      "sha256_v86": "d7d698af3e74795b0560d48cada643fe52b5ae18515735a6217ba1574213e272"
+    },
+    {
+      "area": "Girona",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/girona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/GIR-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "old_sha256": "8921bf46edf74af7951cce00a483b66b5fb4df234b2c1b7a52c4fa8955117934",
+      "sha256_v86": "64af233aeaf79b1b62d679c061265b33cf23d1ad18e208b2127a7871f3de6f3a"
+    },
+    {
+      "area": "Lleida",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/oferta-moduls-pfi-ptt/LLE-dificil-cobertura-oferta-PFI.pdf",
+      "old_sha256": "3727c8a839c292dfeb6af220aa5b4789610d7e6d48e1655b870cc3bf2a2ea4e1",
+      "sha256_v86": "273894c04280220cf225020b9b3df580ede90cabf7c9ee9ec2a0d4dd98d93e6b"
+    },
+    {
+      "area": "Lleida",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "old_sha256": "b473d166bec26fa3e225c89acf77544ac9c26ed8a84c71cce7a58541f1e2d400",
+      "sha256_v86": "e0d720764e228e491ba52b791f8e92c430fc7d384879853294f1ebc9bbfb5d50"
+    },
+    {
+      "area": "Lleida",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/lleida/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/LLE-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "old_sha256": "b04ce64f112cbb4eb5d574124e73f27bb4a1703d46a70e057348e97dfd705911",
+      "sha256_v86": "4e81dc6443a42cf37ca146f548fbe5478d784b1388471344145cee6344509275"
+    },
+    {
+      "area": "Penedès",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/penedes/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/PEN-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "old_sha256": "4de5615571b1a32bc8fbc235fc2746f47df2a45e5e65d63c51fae99b3e6e9a1c",
+      "sha256_v86": "9649c15d941d5890855e185ad8dd07b7fc00dbe272431719d2fd51987c9908f1"
+    },
+    {
+      "area": "Tarragona",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-oferta-vacants-pe.pdf",
+      "old_sha256": "360625829b4a5a0a6478868b80754d68fff8a9c055cfe34109d03ba41e63e57d",
+      "sha256_v86": "21fc04f8d24ada513835ebfbca3ddf36aa9b1d5d9091ceb6af8ad5ba9cc40f87"
+    },
+    {
+      "area": "Tarragona",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/tarragona/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TAR-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "old_sha256": "275208ab8f9473c66f34d23658bf5b319921ffe05c13e49d15fb499a73799095",
+      "sha256_v86": "2c04c5b602b7e46ba906e8ddfbf3efc36d7912f59c8548052ffd7760e152fc3f"
+    },
+    {
+      "area": "Terres de l'Ebre",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/terres-ebre/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/TEB-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "old_sha256": "469de279619beeaa11a10c8ae757b9749f14a2c7c811c8d5d4f8a0f434bd6cae",
+      "sha256_v86": "62ab7d12be3a3a9b964446b66e62ac60f3cbe40c434b620fc6793275be501d8e"
+    },
+    {
+      "area": "Vallès Occidental",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-oferta-vacants.pdf",
+      "old_sha256": "043d5f1a69ad68f4774ddead67ace1c4ae540f470129713d66ece81a32aea205",
+      "sha256_v86": "7903fb2e8823345816be327d7c80fd0cb9a7e407fc6738b2186c69a6430158a9"
+    },
+    {
+      "area": "Vallès Occidental",
+      "url": "https://educacio.gencat.cat/web/.content/home/departament/serveis-territorials/valles-occidental/personal-docent/nomenaments-telematics/dificil-cobertura/secundaria/VOC-SEC-dificil-cobertura-vacants-cobertes.pdf",
+      "old_sha256": "bd12c852b1385549addd4ec5a6b5676131679757c962a2616df4e19b261a8f0d",
+      "sha256_v86": "6ce5c1b6f772a00ba1a1806ff5a5566b9cb56a1e28342ced7a0ae05f16d745a4"
+    }
+  ],
+  "provisional_identifiers": 36,
+  "identifiers_by_specialty": {
+    "507": 21,
+    "627": 14,
+    "F57-507": 1
+  },
+  "certified_portal_publishing_dates": 4,
+  "edubcn_unique_archived_pdf_urls": 557,
+  "territories": [
+    {
+      "territori": "Alt Pirineu i Aran",
+      "pdfs_inventariats_i_llegits_v86": 4,
+      "pdfs_valids_v86": 4,
+      "pdfs_sha_diferent_v24_v86": 2,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 0,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 0,
+      "controls_mensuals_bloquejats": 4,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Baix Llobregat",
+      "pdfs_inventariats_i_llegits_v86": 2,
+      "pdfs_valids_v86": 2,
+      "pdfs_sha_diferent_v24_v86": 0,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 9,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 4,
+      "controls_mensuals_bloquejats": 0,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Barcelonès",
+      "pdfs_inventariats_i_llegits_v86": 4,
+      "pdfs_valids_v86": 4,
+      "pdfs_sha_diferent_v24_v86": 0,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 17,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 4,
+      "controls_mensuals_bloquejats": 0,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Catalunya Central",
+      "pdfs_inventariats_i_llegits_v86": 2,
+      "pdfs_valids_v86": 2,
+      "pdfs_sha_diferent_v24_v86": 1,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 0,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 0,
+      "controls_mensuals_bloquejats": 4,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Consorci d'Educació de Barcelona",
+      "pdfs_inventariats_i_llegits_v86": 0,
+      "pdfs_valids_v86": 0,
+      "pdfs_sha_diferent_v24_v86": 0,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 4,
+      "dates_publicacio_portal_certificades_v73": 4,
+      "controls_mensuals_parcials": 2,
+      "controls_mensuals_bloquejats": 2,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Girona",
+      "pdfs_inventariats_i_llegits_v86": 2,
+      "pdfs_valids_v86": 2,
+      "pdfs_sha_diferent_v24_v86": 1,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 0,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 0,
+      "controls_mensuals_bloquejats": 4,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Lleida",
+      "pdfs_inventariats_i_llegits_v86": 4,
+      "pdfs_valids_v86": 4,
+      "pdfs_sha_diferent_v24_v86": 3,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 3,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 2,
+      "controls_mensuals_bloquejats": 2,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Maresme–Vallès Oriental",
+      "pdfs_inventariats_i_llegits_v86": 2,
+      "pdfs_valids_v86": 2,
+      "pdfs_sha_diferent_v24_v86": 0,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 0,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 0,
+      "controls_mensuals_bloquejats": 4,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Penedès",
+      "pdfs_inventariats_i_llegits_v86": 2,
+      "pdfs_valids_v86": 2,
+      "pdfs_sha_diferent_v24_v86": 1,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 1,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 1,
+      "controls_mensuals_bloquejats": 3,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Tarragona",
+      "pdfs_inventariats_i_llegits_v86": 4,
+      "pdfs_valids_v86": 4,
+      "pdfs_sha_diferent_v24_v86": 2,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 0,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 0,
+      "controls_mensuals_bloquejats": 4,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Terres de l'Ebre",
+      "pdfs_inventariats_i_llegits_v86": 2,
+      "pdfs_valids_v86": 2,
+      "pdfs_sha_diferent_v24_v86": 1,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 0,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 0,
+      "controls_mensuals_bloquejats": 4,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    },
+    {
+      "territori": "Vallès Occidental",
+      "pdfs_inventariats_i_llegits_v86": 2,
+      "pdfs_valids_v86": 2,
+      "pdfs_sha_diferent_v24_v86": 2,
+      "pdfs_actuals_amb_dates_nov25_feb26_i_codis": 0,
+      "ids_provisionals_v73": 2,
+      "dates_publicacio_portal_certificades_v73": 0,
+      "controls_mensuals_parcials": 1,
+      "controls_mensuals_bloquejats": 3,
+      "controls_mensuals_exhaustius": 0,
+      "font_principal": "V86 PDF actual / V73 cens / V69 matriu / V82 EDUBCN",
+      "advertiment": "Cap ID recollit implica absencia real; data de captura/inici no es data de publicacio."
+    }
+  ],
+  "warnings": [
+    "A changed SHA does not prove changed human-readable PDF text, only different bytes.",
+    "Current PDFs cannot close any historical month.",
+    "Zero IDs in a territory is not zero real offers.",
+    "4 portal dates in archived Jan 2026 do not prove initial posting or absence of prior reposting.",
+    "No personal candidate details stored."
+  ]
+}
