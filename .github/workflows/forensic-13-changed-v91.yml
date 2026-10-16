@@ -1,0 +1,32 @@
+name: V91 forensic scan of 13 changed SSTT public PDFs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/forensic_13_changed_v91.py
+      - .github/workflows/forensic-13-changed-v91.yml
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF dependencies
+        run: python -m pip install 'PyMuPDF>=1.24,<2' 'requests>=2.31,<3'
+      - name: Generate 13-URL subset from V87 evidence
+        run: python src/forensic_13_changed_v91.py
+      - name: Forensic scan
+        run: python src/forensic_pdf_incremental_v33.py --input exports_territorial/SSTT_V91_CHANGED_INPUT.csv --output exports_territorial/SSTT_V91_FORENSIC_13_CHANGED.json
+      - name: Upload anonymized evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: v91-anonymized-pdf-metadata
+          path: |
+            exports_territorial/SSTT_V91_CHANGED_INPUT.csv
+            exports_territorial/SSTT_V91_FORENSIC_13_CHANGED.json
