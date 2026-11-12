@@ -19,7 +19,7 @@ SOURCE = Path("exports_territorial/SSTT_V91_CHANGED_INPUT.csv")
 OUT = Path("exports_territorial/SSTT_V92_QPDF_PDFRESURRECT.json")
 MAX_BYTES = 14_000_000
 CODE_RE = re.compile(r"(?<![\w\d])(?:507|627|F57|F87)(?![\w\d])", re.I)
-DATE_RE = re.compile(r"(?<!\d)2025(?!\d)")
+DATE_RE = re.compile(r"(?<!\d)202[56](?!\d)")
 
 def command(args, cwd, timeout=30):
     try:
@@ -31,14 +31,14 @@ def command(args, cwd, timeout=30):
 def pdf_info(path):
     try:
         d = fitz.open(str(path))
-        texts = [d[i].get_text("text") for i in range(min(40, len(d)))]
+        texts = [d[i].get_text("text") for i in range(len(d))]
         s = "\n".join(texts)
         pages = len(d)
         repaired = bool(d.is_repaired)
         d.close()
         return {"valid": bool(pages and s.strip()), "pages": pages, "repaired": repaired,
                 "text_sha256": hashlib.sha256(s.encode()).hexdigest(),
-                "contains_2025": bool(DATE_RE.search(s)),
+                "contains_2025_or_2026": bool(DATE_RE.search(s)),
                 "specialty_codes": sorted(set(CODE_RE.findall(s.upper())))}
     except Exception as e:
         return {"valid": False, "error": type(e).__name__}
@@ -66,6 +66,10 @@ def check(row):
                 return o
             path.write_bytes(raw)
             o.update({"is_pdf": True, "bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()})
+            expected = {key: row[key].strip().lower() for key in ("old_sha256", "sha256_v86") if row.get(key, "").strip()}
+            o["expected_hashes"] = expected
+            o["hash_match"] = {key: (o["sha256"] == value) for key, value in expected.items()}
+            o["hash_comparison_status"] = ("MATCH" if any(o["hash_match"].values()) else "CHANGED") if expected else "NO_BASELINE"
             current = pdf_info(path)
             o["current_pdf"] = current
             o["qpdf_check"] = command(["qpdf", "--check", str(path)], folder)
@@ -86,7 +90,7 @@ def check(row):
             o["changed_text_count"] = sum(v.get("valid", False) and v.get("different_text", False) for v in versions)
             o["possible_2025_with_code"] = sum(
                 v.get("valid", False) and v.get("different_text", False)
-                and v.get("contains_2025", False) and bool(v.get("specialty_codes"))
+                and v.get("contains_2025_or_2026", False) and bool(v.get("specialty_codes"))
                 for v in versions)
         except Exception as e:
             o["error"] = type(e).__name__
