@@ -23,7 +23,7 @@ DATE_RE = re.compile(r"(?<!\d)202[56](?!\d)")
 
 def command(args, cwd, timeout=30):
     try:
-        p = subprocess.run(args, cwd=cwd, capture_output=True, text=True, timeout=timeout)
+        p = subprocess.run(args, cwd=cwd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=timeout)
         # Only a numeric status is retained: tool output may contain personal data.
         return {"returncode": p.returncode}
     except Exception as e:
