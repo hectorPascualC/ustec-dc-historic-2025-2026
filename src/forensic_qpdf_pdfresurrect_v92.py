@@ -18,6 +18,9 @@ import requests
 SOURCE = Path("exports_territorial/SSTT_V91_CHANGED_INPUT.csv")
 OUT = Path("exports_territorial/SSTT_V92_QPDF_PDFRESURRECT.json")
 MAX_BYTES = 14_000_000
+MAX_EXTRACTED_BYTES = 56_000_000
+MAX_EXTRACTED_FILES = 32
+HASH_RE = re.compile(r"^[a-f0-9]{64}$")
 CODE_RE = re.compile(r"(?<![\w\d])(?:507|627|F57|F87)(?![\w\d])", re.I)
 DATE_RE = re.compile(r"(?<!\d)202[56](?!\d)")
 
@@ -95,11 +98,23 @@ def check(row):
             o["pdfresurrect_query"] = command(["pdfresurrect", str(path), "-q"], folder)
             o["pdfresurrect_extract"] = command(["pdfresurrect", str(path), "-w"], folder, 40)
             versions = []
+            extracted_files = [p for p in base.rglob("*") if p.is_file() and p != path]
+            extracted_bytes = sum(p.stat().st_size for p in extracted_files)
+            if len(extracted_files) > MAX_EXTRACTED_FILES or extracted_bytes > MAX_EXTRACTED_BYTES:
+                o["status"] = "BLOCKED"
+                o["error"] = "EXTRACTION_QUOTA_EXCEEDED"
+                o["extracted_files"] = len(extracted_files)
+                o["extracted_bytes"] = extracted_bytes
+                return o
             for old in sorted(base.rglob("*.pdf")):
                 if old.resolve() == path.resolve():
                     continue
                 info = pdf_info(old)
-                info["sha256"] = hashlib.sha256(old.read_bytes()).hexdigest()
+                digest = hashlib.sha256()
+                with old.open("rb") as stream:
+                    for block in iter(lambda: stream.read(65536), b""):
+                        digest.update(block)
+                info["sha256"] = digest.hexdigest()
                 info["bytes"] = old.stat().st_size
                 info["different_text"] = (info.get("text_sha256") != current.get("text_sha256"))
                 versions.append(info)
@@ -123,6 +138,12 @@ def main():
         rows = list(csv.DictReader(f))
     if len(rows) != 13 or len(set(row["url"] for row in rows)) != 13:
         raise SystemExit("Expected 13 distinct public PDF URLs")
+    for row in rows:
+        for key in ("old_sha256", "sha256_v86"):
+            if not HASH_RE.fullmatch(row.get(key, "").strip().lower()):
+                raise SystemExit(f"Missing/invalid {key} for {row.get('territori', 'unknown')}")
+        if not row["url"].startswith("https://"):
+            raise SystemExit("Only HTTPS public PDF URLs are permitted")
     results = []
     for row in rows:
         v = check(row)
