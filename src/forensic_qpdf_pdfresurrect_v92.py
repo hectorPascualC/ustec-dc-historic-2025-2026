@@ -9,7 +9,10 @@ import hashlib
 import json
 import re
 import resource
+import os
+import signal
 import subprocess
+import time
 import tempfile
 from pathlib import Path
 
@@ -25,15 +28,31 @@ HASH_RE = re.compile(r"^[a-f0-9]{64}$")
 CODE_RE = re.compile(r"(?<![\w\d])(?:507|627|F57|F87)(?![\w\d])", re.I)
 DATE_RE = re.compile(r"(?<!\d)202[56](?!\d)")
 
-def command(args, cwd, timeout=30):
+def command(args, cwd, timeout=30, monitor_extraction=False):
     def limits():
-        # POSIX preventive per-process limits; aggregate directory quota is checked separately.
         resource.setrlimit(resource.RLIMIT_FSIZE, (MAX_EXTRACTED_BYTES, MAX_EXTRACTED_BYTES))
         resource.setrlimit(resource.RLIMIT_CPU, (min(timeout, 40), min(timeout, 40) + 1))
     try:
-        p = subprocess.run(args, cwd=cwd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=timeout, preexec_fn=limits)
-        # Only a numeric status is retained: tool output may contain personal data.
-        return {"returncode": p.returncode}
+        with subprocess.Popen(args, cwd=cwd, stdout=subprocess.DEVNULL,
+                              stderr=subprocess.DEVNULL, preexec_fn=limits,
+                              start_new_session=True) as p:
+            started = time.monotonic()
+            while p.poll() is None:
+                if monitor_extraction:
+                    files = [x for x in Path(cwd).rglob("*")
+                             if x.is_file() and x.name != "current.pdf"]
+                    if len(files) > MAX_EXTRACTED_FILES or sum(
+                        x.stat().st_size for x in files if x.exists()
+                    ) > MAX_EXTRACTED_BYTES:
+                        os.killpg(p.pid, signal.SIGKILL)
+                        p.wait()
+                        return {"error": "EXTRACTION_QUOTA_EXCEEDED"}
+                if time.monotonic() - started > timeout:
+                    os.killpg(p.pid, signal.SIGKILL)
+                    p.wait()
+                    return {"error": "TimeoutExpired"}
+                time.sleep(0.05)
+            return {"returncode": p.returncode}
     except Exception as e:
         return {"error": type(e).__name__}
 
@@ -101,7 +120,11 @@ def check(row):
             o["current_pdf"] = current
             o["qpdf_check"] = command(["qpdf", "--check", str(path)], folder)
             o["pdfresurrect_query"] = command(["pdfresurrect", str(path), "-q"], folder)
-            o["pdfresurrect_extract"] = command(["pdfresurrect", str(path), "-w"], folder, 40)
+            o["pdfresurrect_extract"] = command(["pdfresurrect", str(path), "-w"], folder, 40, monitor_extraction=True)
+            if o["pdfresurrect_extract"].get("error") == "EXTRACTION_QUOTA_EXCEEDED":
+                o["status"] = "BLOCKED"
+                o["error"] = "EXTRACTION_QUOTA_EXCEEDED"
+                return o
             versions = []
             extracted_files = [p for p in base.rglob("*") if p.is_file() and p != path]
             extracted_bytes = sum(p.stat().st_size for p in extracted_files)
