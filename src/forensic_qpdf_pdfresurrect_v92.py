@@ -31,16 +31,25 @@ def command(args, cwd, timeout=30):
 
 def pdf_info(path):
     try:
-        d = fitz.open(str(path))
-        texts = [d[i].get_text("text") for i in range(len(d))]
-        s = "\n".join(texts)
-        pages = len(d)
-        repaired = bool(d.is_repaired)
-        d.close()
-        return {"valid": bool(pages and s.strip()), "pages": pages, "repaired": repaired,
-                "text_sha256": hashlib.sha256(s.encode()).hexdigest(),
-                "contains_2025_or_2026": bool(DATE_RE.search(s)),
-                "specialty_codes": sorted(set(CODE_RE.findall(s.upper())))}
+        digest = hashlib.sha256()
+        codes = set()
+        has_date = False
+        with fitz.open(str(path)) as d:
+            pages = len(d)
+            repaired = bool(d.is_repaired)
+            has_text = False
+            for page in d:
+                s = page.get_text("text")
+                if s.strip():
+                    has_text = True
+                digest.update(s.encode("utf-8"))
+                digest.update(b"\\n")
+                has_date = has_date or bool(DATE_RE.search(s))
+                codes.update(CODE_RE.findall(s.upper()))
+        return {"valid": bool(pages and has_text), "pages": pages, "repaired": repaired,
+                "text_sha256": digest.hexdigest(),
+                "contains_2025_or_2026": has_date,
+                "specialty_codes": sorted(codes)}
     except Exception as e:
         return {"valid": False, "error": type(e).__name__}
 
@@ -89,7 +98,7 @@ def check(row):
             o["extracted_count"] = len(versions)
             o["valid_extracted_count"] = sum(v.get("valid", False) for v in versions)
             o["changed_text_count"] = sum(v.get("valid", False) and v.get("different_text", False) for v in versions)
-            o["possible_2025_with_code"] = sum(
+            o["possible_2025_2026_with_code"] = sum(
                 v.get("valid", False) and v.get("different_text", False)
                 and v.get("contains_2025_or_2026", False) and bool(v.get("specialty_codes"))
                 for v in versions)
@@ -117,7 +126,7 @@ def main():
         "extracted_versions": sum(x.get("extracted_count",0) for x in results),
         "valid_extracted": sum(x.get("valid_extracted_count",0) for x in results),
         "changed_text_versions": sum(x.get("changed_text_count",0) for x in results),
-        "possible_2025_with_code": sum(x.get("possible_2025_with_code",0) for x in results),
+        "possible_2025_2026_with_code": sum(x.get("possible_2025_2026_with_code",0) for x in results),
         "historical_publications_certified": 0,
         "warnings": [
             "Internal revisions are not proof of a 2025-2026 server publication.",
@@ -128,7 +137,7 @@ def main():
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({k: report[k] for k in ["total","downloaded","qpdf_clean","extracted_versions","valid_extracted","changed_text_versions","possible_2025_with_code"]}))
+    print(json.dumps({k: report[k] for k in ["total","downloaded","qpdf_clean","extracted_versions","valid_extracted","changed_text_versions","possible_2025_2026_with_code"]}))
 
 if __name__ == "__main__":
     main()
