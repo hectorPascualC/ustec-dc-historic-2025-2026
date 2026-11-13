@@ -43,7 +43,7 @@ def pdf_info(path):
                 if s.strip():
                     has_text = True
                 digest.update(s.encode("utf-8"))
-                digest.update(b"\\n")
+                digest.update(b"\n")
                 has_date = has_date or bool(DATE_RE.search(s))
                 codes.update(CODE_RE.findall(s.upper()))
         return {"valid": bool(pages and has_text), "pages": pages, "repaired": repaired,
