@@ -63,14 +63,23 @@ def check(row):
         try:
             r = requests.get(url, timeout=30, headers={"User-Agent": "DC historic audit V92"}, stream=True)
             o["http"] = r.status_code
+            if r.status_code >= 500:
+                o["status"] = "BLOCKED"
+                o["error"] = "HTTP_5XX"
+                r.close()
+                return o
             if r.status_code != 200:
+                o["status"] = "HTTP_NON_200"
+                r.close()
                 return o
             raw = bytearray()
             for chunk in r.iter_content(65536):
                 raw.extend(chunk)
                 if len(raw) > MAX_BYTES:
                     o["error"] = "MAX_BYTES_EXCEEDED"
+                    r.close()
                     return o
+            r.close()
             if not raw.startswith(b"%PDF-"):
                 o["error"] = "NOT_PDF"
                 return o
@@ -104,6 +113,9 @@ def check(row):
                 for v in versions)
         except Exception as e:
             o["error"] = type(e).__name__
+        finally:
+            if "r" in locals():
+                r.close()
     return o
 
 def main():
