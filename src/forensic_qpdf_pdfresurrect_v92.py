@@ -8,6 +8,7 @@ import datetime as dt
 import hashlib
 import json
 import re
+import resource
 import subprocess
 import tempfile
 from pathlib import Path
@@ -25,8 +26,12 @@ CODE_RE = re.compile(r"(?<![\w\d])(?:507|627|F57|F87)(?![\w\d])", re.I)
 DATE_RE = re.compile(r"(?<!\d)202[56](?!\d)")
 
 def command(args, cwd, timeout=30):
+    def limits():
+        # POSIX preventive per-process limits; aggregate directory quota is checked separately.
+        resource.setrlimit(resource.RLIMIT_FSIZE, (MAX_EXTRACTED_BYTES, MAX_EXTRACTED_BYTES))
+        resource.setrlimit(resource.RLIMIT_CPU, (min(timeout, 40), min(timeout, 40) + 1))
     try:
-        p = subprocess.run(args, cwd=cwd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=timeout)
+        p = subprocess.run(args, cwd=cwd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=timeout, preexec_fn=limits)
         # Only a numeric status is retained: tool output may contain personal data.
         return {"returncode": p.returncode}
     except Exception as e:
