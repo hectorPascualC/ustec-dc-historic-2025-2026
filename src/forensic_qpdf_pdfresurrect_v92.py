@@ -96,18 +96,21 @@ def check(row):
                 r.close()
                 return o
             if r.status_code != 200:
-                o["status"] = "HTTP_NON_200"
+                o["status"] = "BLOCKED"
+                o["error"] = "HTTP_NON_200"
                 r.close()
                 return o
             raw = bytearray()
             for chunk in r.iter_content(65536):
                 raw.extend(chunk)
                 if len(raw) > MAX_BYTES:
+                    o["status"] = "BLOCKED"
                     o["error"] = "MAX_BYTES_EXCEEDED"
                     r.close()
                     return o
             r.close()
             if not raw.startswith(b"%PDF-"):
+                o["status"] = "BLOCKED"
                 o["error"] = "NOT_PDF"
                 return o
             path.write_bytes(raw)
@@ -119,7 +122,15 @@ def check(row):
             current = pdf_info(path)
             o["current_pdf"] = current
             o["qpdf_check"] = command(["qpdf", "--check", str(path)], folder)
+            if o["qpdf_check"].get("error") or o["qpdf_check"].get("returncode") != 0:
+                o["status"] = "BLOCKED"
+                o["error"] = o["qpdf_check"].get("error") or "QPDF_NONZERO_EXIT"
+                return o
             o["pdfresurrect_query"] = command(["pdfresurrect", str(path), "-q"], folder)
+            if o["pdfresurrect_query"].get("error") or o["pdfresurrect_query"].get("returncode") != 0:
+                o["status"] = "BLOCKED"
+                o["error"] = o["pdfresurrect_query"].get("error") or "PDFRESURRECT_QUERY_NONZERO_EXIT"
+                return o
             o["pdfresurrect_extract"] = command(["pdfresurrect", str(path), "-w"], folder, 40, monitor_extraction=True)
             extraction = o["pdfresurrect_extract"]
             if extraction.get("error") or extraction.get("returncode") != 0:
@@ -148,6 +159,7 @@ def check(row):
                 info["bytes"] = old.stat().st_size
                 info["different_text"] = (info.get("text_sha256") != current.get("text_sha256"))
                 versions.append(info)
+            o["status"] = "PARTIAL"
             o["extracted_versions"] = versions
             o["extracted_count"] = len(versions)
             o["valid_extracted_count"] = sum(v.get("valid", False) for v in versions)
@@ -157,6 +169,7 @@ def check(row):
                 and v.get("contains_2025_or_2026", False) and bool(v.get("specialty_codes"))
                 for v in versions)
         except Exception as e:
+            o["status"] = "BLOCKED"
             o["error"] = type(e).__name__
         finally:
             if "r" in locals():
