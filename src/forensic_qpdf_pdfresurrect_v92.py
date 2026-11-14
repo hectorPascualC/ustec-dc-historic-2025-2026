@@ -121,9 +121,11 @@ def check(row):
             o["qpdf_check"] = command(["qpdf", "--check", str(path)], folder)
             o["pdfresurrect_query"] = command(["pdfresurrect", str(path), "-q"], folder)
             o["pdfresurrect_extract"] = command(["pdfresurrect", str(path), "-w"], folder, 40, monitor_extraction=True)
-            if o["pdfresurrect_extract"].get("error") == "EXTRACTION_QUOTA_EXCEEDED":
+            extraction = o["pdfresurrect_extract"]
+            if extraction.get("error") or extraction.get("returncode") != 0:
                 o["status"] = "BLOCKED"
-                o["error"] = "EXTRACTION_QUOTA_EXCEEDED"
+                o["error"] = extraction.get("error") or "PDFRESURRECT_NONZERO_EXIT"
+                o["pdfresurrect_returncode"] = extraction.get("returncode")
                 return o
             versions = []
             extracted_files = [p for p in base.rglob("*") if p.is_file() and p != path]
