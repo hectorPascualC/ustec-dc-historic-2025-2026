@@ -73,12 +73,12 @@ def pdf_info(path):
                 digest.update(b"\n")
                 has_date = has_date or bool(DATE_RE.search(s))
                 codes.update(CODE_RE.findall(s.upper()))
-        return {"valid": bool(pages and has_text), "pages": pages, "repaired": repaired,
+        return {"valid": bool(pages), "extraction_status": "TEXT_PRESENT" if has_text else "NO_TEXT", "has_text": has_text, "pages": pages, "repaired": repaired,
                 "text_sha256": digest.hexdigest(),
                 "contains_2025_or_2026": has_date,
                 "specialty_codes": sorted(codes)}
     except Exception as e:
-        return {"valid": False, "error": type(e).__name__}
+        return {"valid": False, "extraction_status": "ERROR", "error": type(e).__name__}
 
 def check(row):
     area = row["territori"]
@@ -121,6 +121,10 @@ def check(row):
             o["hash_comparison_status"] = ("MATCH" if any(o["hash_match"].values()) else "CHANGED") if expected else "NO_BASELINE"
             current = pdf_info(path)
             o["current_pdf"] = current
+            if not current.get("valid", False):
+                o["status"] = "BLOCKED"
+                o["error"] = "CURRENT_PDF_PARSE_FAILED"
+                return o
             o["qpdf_check"] = command(["qpdf", "--check", str(path)], folder)
             if o["qpdf_check"].get("error") or o["qpdf_check"].get("returncode") != 0:
                 o["status"] = "BLOCKED"
@@ -157,7 +161,7 @@ def check(row):
                         digest.update(block)
                 info["sha256"] = digest.hexdigest()
                 info["bytes"] = old.stat().st_size
-                info["different_text"] = (info.get("text_sha256") != current.get("text_sha256"))
+                info["different_text"] = (info.get("has_text", False) and current.get("has_text", False) and info.get("text_sha256") != current.get("text_sha256"))
                 versions.append(info)
             o["status"] = "PARTIAL"
             o["extracted_versions"] = versions
