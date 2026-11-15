@@ -163,10 +163,14 @@ def check(row):
                 info["bytes"] = old.stat().st_size
                 info["different_text"] = (info.get("has_text", False) and current.get("has_text", False) and info.get("text_sha256") != current.get("text_sha256"))
                 versions.append(info)
-            o["status"] = "PARTIAL"
             o["extracted_versions"] = versions
             o["extracted_count"] = len(versions)
             o["valid_extracted_count"] = sum(v.get("valid", False) for v in versions)
+            o["extraction_error_count"] = sum(v.get("extraction_status") == "ERROR" for v in versions)
+            o["no_text_extracted_count"] = sum(v.get("extraction_status") == "NO_TEXT" for v in versions)
+            o["status"] = "BLOCKED" if o["extraction_error_count"] else "PARTIAL"
+            if o["extraction_error_count"]:
+                o["error"] = "EXTRACTED_REVISION_PARSE_FAILED"
             o["changed_text_count"] = sum(v.get("valid", False) and v.get("different_text", False) for v in versions)
             o["possible_2025_2026_with_code"] = sum(
                 v.get("valid", False) and v.get("different_text", False)
@@ -205,6 +209,8 @@ def main():
         "qpdf_clean": sum(x.get("qpdf_check",{}).get("returncode")==0 for x in results),
         "extracted_versions": sum(x.get("extracted_count",0) for x in results),
         "valid_extracted": sum(x.get("valid_extracted_count",0) for x in results),
+        "extraction_errors": sum(x.get("extraction_error_count",0) for x in results),
+        "no_text_extracted": sum(x.get("no_text_extracted_count",0) for x in results),
         "changed_text_versions": sum(x.get("changed_text_count",0) for x in results),
         "possible_2025_2026_with_code": sum(x.get("possible_2025_2026_with_code",0) for x in results),
         "historical_publications_certified": 0,
