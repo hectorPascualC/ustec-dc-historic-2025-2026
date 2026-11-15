@@ -1,0 +1,36 @@
+name: V92 qpdf PDFResurrect 13 changed public PDFs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/forensic_qpdf_pdfresurrect_v92.py
+      - .github/workflows/forensic-qpdf-pdfresurrect-v92.yml
+permissions:
+  contents: read
+jobs:
+  forensic:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install forensic tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qpdf pdfresurrect
+          python -m pip install 'PyMuPDF>=1.24,<2' 'requests>=2.31,<3'
+      - name: Generate exact 13-URL input from V87
+        run: python src/forensic_13_changed_v91.py
+      - name: Run V92
+        run: python src/forensic_qpdf_pdfresurrect_v92.py
+      - name: Upload anonymized V92 metadata only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v92-anonymized-qpdf-pdfresurrect
+          path: exports_territorial/SSTT_V92_QPDF_PDFRESURRECT.json
+          if-no-files-found: warn
+          retention-days: 30
