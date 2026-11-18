@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12T18:10:59.256234+00:00",
+  "as_of": "2026-11-18T17:03:16.107197+00:00",
   "range": {
     "start": "2025-11-01",
     "end": "2026-02-28"
@@ -26,13 +26,15 @@
   ],
   "archive_queries": 49,
   "query_result_counts": {
-    "Arquivo.pt / error": 1,
-    "Arquivo.pt / ok": 12,
+    "Arquivo.pt / ok": 13,
     "Common Crawl / error": 12,
-    "Wayback / error": 24
+    "Wayback / error": 4,
+    "Wayback / ok": 20
   },
-  "archive_hits": 0,
-  "by_source": {},
+  "archive_hits": 10,
+  "by_source": {
+    "Wayback": 10
+  },
   "verified_pdf_copies": 0,
   "unique_pdf_sha256": 0,
   "candidate_offer_ids_from_verified_pdfs": 0,
