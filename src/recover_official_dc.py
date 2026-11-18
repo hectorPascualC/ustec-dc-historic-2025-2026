@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Historical archive verification rerun 2026-11-18: preserve publication-date evidence rules.
 """Reconstruct 2025-11..2026-02 DC *published offer evidence*, not personnel counts.
 
 Archive results may be incomplete. Failure to locate a capture is never a zero-offers claim.
