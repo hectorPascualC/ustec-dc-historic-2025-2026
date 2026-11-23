@@ -57,7 +57,7 @@ HDR = {'User-Agent':'DC-Catalunya-historical-research/1.0 (public education arch
        'Accept':'application/json,text/plain,*/*'}
 CAPS = {'max_archive_hits':180, 'max_pdf_downloads':35, 'max_pdf_bytes':12_000_000}
 YEAR_RE = re.compile(r'(?<!\d)(2025|2026)[\-/]?(0[1-9]|1[0-2])[\-/]?([0-3]\d)(?!\d)')
-ID_RE = re.compile(r'(?<!\d)(1\d{7}|2\d{7})(?!\d)')
+ID_RE = re.compile(r'(?<![\w/])(?:2025/SEC/(?:PFI/)?\d{3}|[12]\d{7})(?![\w/])', re.I)
 CODE_RE = re.compile(r'(?<!\w)(?:F57|F87|507|627)(?!\w)',re.I)
 PERSON_RE = re.compile(r'(?i)\b(?:resultat|cobertes|adjudicad[ao])\b')
 
@@ -294,6 +294,8 @@ def main(argv=None):
         assert parse_cdx_cc('{"url":"https://a/x.pdf","status":"200"}\n')==[{'url':'https://a/x.pdf','status':'200'}]
         assert parse_arquivo('com,example)/ 20251101120000 {"url":"https://example.com/x.pdf","timestamp":"20251101120000"}')[0]['timestamp']=='20251101120000'
         assert relevant_codes('507 Informàtica 627 Sistemes F57 PFI F87')==['507','627','F57','F87']
+        assert ID_RE.findall('2025/SEC/PFI/245 F57-507; 2025/SEC/266 627; 19262024 507')==['2025/SEC/PFI/245','2025/SEC/266','19262024']
+        assert ID_RE.findall('x2025/SEC/PFI/245x 2025/SEC/PFI/245/extra 192620240')==[]
         assert classify_document('https://x/oferta-vacants.pdf','')=='oferta'
         assert classify_document('https://x/vacants-cobertes.pdf','')=='resultat'
         assert classify_document('https://x/other.pdf','')=='indeterminat'
