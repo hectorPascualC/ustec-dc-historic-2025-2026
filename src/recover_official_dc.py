@@ -211,7 +211,22 @@ def download_capture(meta):
         n=int(meta['warc_length']); offset=int(meta['warc_offset'])
         if n>2_000_000: raise ValueError('WARC slice exceeds safe limit')
         link='https://data.commoncrawl.org/'+meta['warc_file']
-        raw=http(link,range_header=f'bytes={offset}-{offset+n-1}',timeout=35,raw=True)
+        # Validate byte-range semantics before parsing a WARC slice.
+        # A 200 response to Range is NOT proof of a valid archived record.
+        end=offset+n-1
+        response=requests.get(link,headers={**HDR,'Range':f'bytes={offset}-{end}'},
+                              timeout=35,stream=True,allow_redirects=True)
+        try:
+            if response.status_code!=206:
+                raise ValueError(f'WARC Range BLOCKED: expected HTTP 206, got {response.status_code}')
+            cr=response.headers.get('Content-Range','')
+            match=re.fullmatch(r'bytes\\s+(\\d+)-(\\d+)/(?:\\d+|\\*)',cr.strip(),re.I)
+            if not match or (int(match.group(1)),int(match.group(2)))!=(offset,end):
+                raise ValueError(f'WARC Range BLOCKED: unexpected Content-Range {cr!r}')
+            raw=b''.join(response.iter_content(16384))
+            if len(raw)!=n: raise ValueError(f'WARC Range BLOCKED: expected {n} bytes, got {len(raw)}')
+        finally:
+            response.close()
         from warcio.archiveiterator import ArchiveIterator
         warc=list(ArchiveIterator(io.BytesIO(raw)))
         if not warc: raise ValueError('WARC range not decoded')
@@ -299,7 +314,7 @@ def main(argv=None):
         assert classify_document('https://x/oferta-vacants.pdf','')=='oferta'
         assert classify_document('https://x/vacants-cobertes.pdf','')=='resultat'
         assert classify_document('https://x/other.pdf','')=='indeterminat'
-        print('8 local unit checks: PASS')
+        print('10 local unit checks: PASS')
         return 0
     out=Path(args.output);out.mkdir(parents=True,exist_ok=True)
     queries=list(archive_queries());rec=[];all_hits=[]
