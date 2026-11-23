@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-23T00:59:22.943824+00:00",
+  "as_of": "2026-11-23T09:05:58.294498+00:00",
   "range": {
     "start": "2025-11-01",
     "end": "2026-02-28"
@@ -26,8 +26,8 @@
   ],
   "archive_queries": 49,
   "query_result_counts": {
-    "Arquivo.pt / error": 8,
-    "Arquivo.pt / ok": 5,
+    "Arquivo.pt / error": 9,
+    "Arquivo.pt / ok": 4,
     "Common Crawl / error": 12,
     "Wayback / error": 4,
     "Wayback / ok": 20
