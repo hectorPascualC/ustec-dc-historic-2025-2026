@@ -109,7 +109,7 @@ def parse_arquivo(body):
     for line in body.splitlines():
         try:
             if line.startswith('{'): rows.append(json.loads(line))
-            elif ' {' in line: rows.append(json.loads(line.split(' {',1)[1].join(['{',''])))
+            elif ' {' in line: rows.append(json.loads('{' + line.split(' {',1)[1]))
         except ValueError: continue
     return rows
 
@@ -292,11 +292,12 @@ def main(argv=None):
         assert len(PREVIOUS_IDS)==28
         assert parse_cdx_wayback('[["timestamp","original","statuscode"],["20251101120000","https://site/x.pdf","200"]]')[0]['timestamp']=='20251101120000'
         assert parse_cdx_cc('{"url":"https://a/x.pdf","status":"200"}\n')==[{'url':'https://a/x.pdf','status':'200'}]
+        assert parse_arquivo('com,example)/ 20251101120000 {"url":"https://example.com/x.pdf","timestamp":"20251101120000"}')[0]['timestamp']=='20251101120000'
         assert relevant_codes('507 Informàtica 627 Sistemes F57 PFI F87')==['507','627','F57','F87']
         assert classify_document('https://x/oferta-vacants.pdf','')=='oferta'
         assert classify_document('https://x/vacants-cobertes.pdf','')=='resultat'
         assert classify_document('https://x/other.pdf','')=='indeterminat'
-        print('7 local unit checks: PASS')
+        print('8 local unit checks: PASS')
         return 0
     out=Path(args.output);out.mkdir(parents=True,exist_ok=True)
     queries=list(archive_queries());rec=[];all_hits=[]
