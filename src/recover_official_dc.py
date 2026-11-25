@@ -220,7 +220,7 @@ def download_capture(meta):
             if response.status_code!=206:
                 raise ValueError(f'WARC Range BLOCKED: expected HTTP 206, got {response.status_code}')
             cr=response.headers.get('Content-Range','')
-            match=re.fullmatch(r'bytes\\s+(\\d+)-(\\d+)/(?:\\d+|\\*)',cr.strip(),re.I)
+            match=re.fullmatch(r'bytes\s+(\d+)-(\d+)/(?:\d+|\*)',cr.strip(),re.I)
             if not match or (int(match.group(1)),int(match.group(2)))!=(offset,end):
                 raise ValueError(f'WARC Range BLOCKED: unexpected Content-Range {cr!r}')
             raw=b''.join(response.iter_content(16384))
